@@ -860,7 +860,7 @@ footer p.name {
 
 @media screen and (max-width:400px){
 footer p.name {
-font-size: 20px;
+font-size: 18px;
 	}
 }
 
@@ -880,6 +880,7 @@ font-weight: 100;
 @media screen and (max-width:400px){
 footer p.copyright {
 font-weight: 200;
+font-size: 17px;
 	}
 }
 
@@ -897,6 +898,7 @@ font-weight: 200;
 @media screen and (max-width:400px){
 .social-links {
 font-weight: 200;
+font-size: 17px;
 	}
 }
 
