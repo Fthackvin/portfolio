@@ -496,7 +496,7 @@ div#computer_layer_3 {
 
 .title {
   display: block;
-  font-family: 'Josefin Sans-Thin',sans-serif;
+  font-family: "Josefin Sans",sans-serif;
   font-size: 72px;
   color: #000000;
   padding-left: 50px;
@@ -506,7 +506,7 @@ font-weight:500;
 }
 
 .title-hello {
-   font-family: 'Josefin Sans',sans-serif;
+   font-family: "Josefin Sans",sans-serif;
    padding-left: 0px;
   font-size: 72px;
   color: #000000;
@@ -567,7 +567,7 @@ p.intro {
   position: relative;
   margin-left: 77px;
   margin-right: 38px;
-  font-family: "JosefinSans-Thin",sans-serif;
+  font-family: "Josefin Sans-Thin",sans-serif;
   font-size: 20px;
   padding-top: 20px;
   margin-bottom: 0px;
