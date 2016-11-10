@@ -569,12 +569,12 @@ p.intro {
   position: relative;
   margin-left: 77px;
   margin-right: 38px;
-  font-family: "Josefin Sans-Thin",sans-serif;
+  font-family: "Josefin Sans",sans-serif;
   font-size: 20px;
   padding-top: 20px;
   margin-bottom: 0px;
   max-width: 600px; 
-    font-weight: 100;
+   font-weight: 100;
 }
 
 @media screen and (max-width: 802px){
@@ -774,18 +774,19 @@ ________________________________________________________________________________
 #email {
   text-align: center;
   display: block;
-  font-family: "JosefinSans-Thin";
+  font-family: "Josefin Sans",sans-serif;
   font-size: 40px;
   color: white;
-
+font-weight: 100;
 }
 
 #contact-title  {
   display: block;
-  font-family: "JosefinSans-Thin";
+  font-family: "Josefin Sans",sans-serif;
   font-size: 40px;
   color: white;
   padding-top: 10px;
+font-weight: 100;
 }
 
 
@@ -865,18 +866,20 @@ footer p.copyright {
   padding-left: 40px;
   padding-right: 14px;
   padding-bottom: 20px;
-  font-family: "JosefinSans-Thin";
+  font-family: "Josefin Sans",sans-serif;
   font-size: 20px;
   color: white;
+font-weight: 100;
 }
 
 .social-links {
     display: inline-block;
     padding-right: 40px;
     padding-bottom: 20px;
-    font-family: "JosefinSans-Thin";
+    font-family: "Josefin Sans-Thin",sans-serif;
     font-size: 20px;
     color: white;
+   font-weight: 100;
 }
 
 
