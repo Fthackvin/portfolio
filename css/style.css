@@ -1,6 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans-Thin:500,400,100);
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:500,400,100);
+/* @import url(https://fonts.googleapis.com/css?family=Josefin+Sans-Thin:500,400,100);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:500,400,100); */
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100');
 
 * {
     box-sizing: border-box;
@@ -54,7 +55,7 @@ li {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 37px;
-  font-family: "JosefinSans-Thin",sans-serif;
+  font-family: "Josefin Sans",sans-serif;
   font-size: 20px;
   z-index: 0;
 }
@@ -495,7 +496,7 @@ div#computer_layer_3 {
 
 .title {
   display: block;
-  font-family: "JosefinSans-Thin",sans-serif;
+  font-family: 'Josefin Sans-Thin',sans-serif;
   font-size: 72px;
   color: #000000;
   padding-left: 50px;
@@ -505,7 +506,7 @@ font-weight:500;
 }
 
 .title-hello {
-   font-family: "JosefinSans-Thin",sans-serif;
+   font-family: 'Josefin Sans',sans-serif;
    padding-left: 0px;
   font-size: 72px;
   color: #000000;
