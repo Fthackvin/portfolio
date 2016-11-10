@@ -858,6 +858,12 @@ footer p.name {
  font-weight: 100;	
 }
 
+@media screen and (max-width:400px){
+footer p.name{
+	font-size: 18px;
+	}
+}
+
 
 
 footer p.copyright {
