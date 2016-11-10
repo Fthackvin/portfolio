@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="432px" height="226px" viewBox="0 0 432 226" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Drawing</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="40 100.03738 263.277112 -5.68434189e-14 447.336267 100.037382 215.134296 208.98117"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-7" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-438.000000, -180.000000)">
+            <g id="Drawing" transform="translate(402.000000, 181.000000)">
+                <g id="Group-2" transform="translate(268.639339, 157.924482) rotate(-1.000000) translate(-268.639339, -157.924482) translate(129.139339, 91.424482)" stroke-linecap="square" stroke="#5E5D64" fill-opacity="0.611526268" fill="#FFFFFF">
+                    <polygon id="Line" points="152.93093 0.991590416 279 55.5245945 119.956096 132.368471 1.42108547e-13 71.9591123"></polygon>
+                </g>
+                <polygon id="Line" stroke="#5E5D64" stroke-width="0.5" stroke-linecap="square" fill-opacity="0.475062274" fill="#D8D8D8" points="382.598372 59 468 109.219407 360.260581 162.513919 279 109.982539"></polygon>
+                <g id="Line">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#5E5D64" stroke-width="1" stroke-linecap="square" fill="#E5D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

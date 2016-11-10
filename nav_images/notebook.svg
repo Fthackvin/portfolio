@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="185px" height="110px" viewBox="0 0 185 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
+    <title>Notebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="72.5098194 5.52322449 127.411361 37.8373868 58.1496817 80.8625901 5.91026583 45.2131438"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="97.2344572 0.45095847 177.389973 46.4308956 76.2688483 106.485784 -4.3627324e-12 55.8282652"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1---Intro" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-545.000000, -610.000000)">
+            <g id="Notebook" transform="translate(638.273506, 662.763994) rotate(9.000000) translate(-638.273506, -662.763994) translate(549.273506, 609.263994)">
+                <g id="Path">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#5E5D64" stroke-width="1" stroke-linecap="square" fill-opacity="0.615092844" fill="#CF5555" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Line">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use stroke="#5E5D64" stroke-width="1" stroke-linecap="square" fill-opacity="0.753057065" fill="#FFFAB5" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <polygon id="Line" stroke="#5E5D64" stroke-linecap="square" fill="#F8E81C" points="97.5995536 10 152.501095 42.3141623 83.2394159 85.3393656 31 49.6899193"></polygon>
+                <polygon id="Line" stroke="#5E5D64" stroke-linecap="square" fill="#F8E81C" points="151.219292 38.1996511 81.5233231 75.4934387 29.4256243 44.6362647 97.5995536 10"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

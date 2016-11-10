@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="941px" height="437px" viewBox="0 0 941 437" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
+    <title>Screen</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="-5.68434189e-14 209.500515 515.59375 0.578125 940.625 209.500519 404.421875 437.023438"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="940.625" height="436.445312" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1---Intro" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-250.000000, -395.000000)">
+            <g id="Screen" transform="translate(250.000000, 395.000000)">
+                <path d="M62,244.502183 L576.5,31.5" id="Line" stroke-opacity="0.809074955" stroke="#FFFFFF" stroke-linecap="square"></path>
+                <ellipse id="Oval-1" stroke-opacity="0.439396513" stroke="#D0011B" fill="#D8D8D8" transform="translate(58.038323, 208.244141) rotate(-1.000000) translate(-58.038323, -208.244141) " cx="58.0383235" cy="208.244141" rx="9.76879223" ry="6.72851563"></ellipse>
+                <ellipse id="Oval-1" stroke-opacity="0.766219429" stroke="#68DD72" fill="#D8D8D8" transform="translate(110.789802, 188.576172) rotate(-1.000000) translate(-110.789802, -188.576172) " cx="110.789802" cy="188.576172" rx="9.76879223" ry="6.72851563"></ellipse>
+                <ellipse id="Oval-1" stroke-opacity="0.649343297" stroke="#F6A623" fill="#D8D8D8" transform="translate(85.390942, 197.892578) rotate(-1.000000) translate(-85.390942, -197.892578) " cx="85.3909417" cy="197.892578" rx="9.76879223" ry="6.72851563"></ellipse>
+                <use id="Rectangle-2" stroke-opacity="0.809074955" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="758px" height="357px" viewBox="0 0 758 357" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 170.827738 415.433808 0.471405935 757.89791 170.827741 325.858332 356.351035"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="757.89791" height="355.879629" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-2---development" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-342.000000, -339.000000)">
+            <g id="Group-2" transform="translate(342.000000, 339.000000)">
+                <g id="Group">
+                    <path d="M49.9557958,199.368269 L464.508327,25.6852531" id="Line" stroke="#BD0FE1" stroke-linecap="square"></path>
+                    <ellipse id="Oval-1" stroke="#BD0FE1" fill="#D8D8D8" transform="translate(46.763720, 169.803284) rotate(-1.000000) translate(-46.763720, -169.803284) " cx="46.7637199" cy="169.803284" rx="7.87109338" ry="5.48646434"></ellipse>
+                    <ellipse id="Oval-1" stroke="#BD0FE1" fill="#D8D8D8" transform="translate(89.267624, 153.765927) rotate(-1.000000) translate(-89.267624, -153.765927) " cx="89.2676242" cy="153.765927" rx="7.87109338" ry="5.48646434"></ellipse>
+                    <ellipse id="Oval-1" stroke="#BD0FE1" fill="#D8D8D8" transform="translate(68.802781, 161.362570) rotate(-1.000000) translate(-68.802781, -161.362570) " cx="68.8027814" cy="161.36257" rx="7.87109338" ry="5.48646434"></ellipse>
+                    <use id="Rectangle-2" stroke="#BD0FE1" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                    <g id="HBmenu" transform="translate(388.543294, 13.503445)">
+                        <path d="M33.1473106,10.719515 C32.5418792,4.89688025 25.2453321,0.17670215 16.8500164,0.17670215 C8.45470082,0.17670215 1.15815368,4.89688025 0.552722266,10.719515 C-0.0527091445,16.5421498 7.243838,21.2623279 16.8500164,21.2623279 C26.4561949,21.2623279 33.752742,16.5421498 33.1473106,10.719515 Z" id="Oval-1" stroke="#BD15E0" fill="#D8D8D8"></path>
+                        <path d="M8.27505747,11.1250078 L19.383527,5.32646074" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                        <path d="M13.7318495,14.3689503 L25.2690671,8.28655821" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

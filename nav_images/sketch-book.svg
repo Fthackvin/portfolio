@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="419px" height="221px" viewBox="0 0 419 221" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Drawing</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="-1.58934199e-10 100.03738 223.277112 -3.9221959e-12 407.336267 100.037382 175.134296 208.98117"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1---Intro" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-654.000000, -455.000000)">
+            <g id="Drawing" transform="translate(660.000000, 458.000000)">
+                <g id="Line">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#5E5D64" stroke-width="1" stroke-linecap="square" fill-opacity="0.710994112" fill="#9E9E9E" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M318.907622,126.775862 C318.907622,124.138226 316.24201,122 312.953811,122 C309.665612,122 307,124.138226 307,126.775862 C307,129.413498 309.665612,131.551724 312.953811,131.551724 C316.24201,131.551724 318.907622,129.413498 318.907622,126.775862 Z" id="Oval" stroke="#5C6C7F" stroke-width="2" fill="#1E3B5E"></path>
+                <path d="M269.907622,147.775862 C269.907622,145.138226 267.24201,143 263.953811,143 C260.665612,143 258,145.138226 258,147.775862 C258,150.413498 260.665612,152.551724 263.953811,152.551724 C267.24201,152.551724 269.907622,150.413498 269.907622,147.775862 Z" id="Oval" stroke="#5C6C7F" stroke-width="2" fill="#1E3B5E"></path>
+                <polygon id="Line" stroke="#5E5D64" stroke-linecap="square" fill-opacity="0.611526268" fill="#FFFFFF" points="46 74.9591123 198.93093 13 325 74.9591134 165.956096 142.434495"></polygon>
+                <polygon id="Line" stroke="#5E5D64" stroke-linecap="square" fill-opacity="0.611526268" fill="#FFFFFF" points="191.485511 45.9144029 264.193867 81.5546509 175.351504 126.775862 106 87.587645"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
