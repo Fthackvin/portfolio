@@ -860,7 +860,7 @@ footer p.name {
 
 @media screen and (max-width:400px){
 footer p.name {
-font-size: 18px;
+font-size: 20px;
 	}
 }
 
@@ -877,6 +877,13 @@ footer p.copyright {
 font-weight: 100;
 }
 
+@media screen and (max-width:400px){
+footer p.copyright {
+font-weight: 200;
+	}
+}
+
+
 .social-links {
     display: inline-block;
     padding-right: 40px;
@@ -887,7 +894,11 @@ font-weight: 100;
    font-weight: 100;
 }
 
-
+@media screen and (max-width:400px){
+.social-links {
+font-weight: 200;
+	}
+}
 
 div.clearfix:after {
 	visibility: hidden;
