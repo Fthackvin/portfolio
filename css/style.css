@@ -54,7 +54,7 @@ li {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 37px;
-  font-family: "JosefinSans-Thin";
+  font-family: "JosefinSans-Thin",sans-serif;
   font-size: 20px;
   z-index: 0;
 }
@@ -123,7 +123,7 @@ ____________________________________________________*/
 
 
 label[for="nav-trigger_2"]{
-    top: 51px;
+top: 51px;
 z-index: 3;
 width: 96px;
 height: 97px;
@@ -149,7 +149,6 @@ position: absolute;
 
 
 .nav-trigger-2.down{
-   top: 40px;
     -ms-transform:rotate(90deg);
     -moz-transform:rotate(90deg);
     -webkit-transform:rotate(90deg);
@@ -168,7 +167,7 @@ position: absolute;
 
 label[for="nav-trigger_2"]{
 width:72px;
-top:45px;
+top:40px;
   }
 }
 
@@ -496,16 +495,17 @@ div#computer_layer_3 {
 
 .title {
   display: block;
-  font-family: "JosefinSans-Thin";
+  font-family: "JosefinSans-Thin",sans-serif;
   font-size: 72px;
   color: #000000;
   padding-left: 50px;
   padding-top: 36px;
   z-index: 4;
+font-weight:500;
 }
 
 .title-hello {
-   font-family: "JosefinSans-Thin";
+   font-family: "JosefinSans-Thin",sans-serif;
    padding-left: 0px;
   font-size: 72px;
   color: #000000;
@@ -566,7 +566,7 @@ p.intro {
   position: relative;
   margin-left: 77px;
   margin-right: 38px;
-  font-family: "JosefinSans-Thin";
+  font-family: "JosefinSans-Thin",sans-serif;
   font-size: 20px;
   padding-top: 20px;
   margin-bottom: 0px;
