@@ -136,6 +136,11 @@ border-style: none;
 position: absolute;
 }
 
+@media screen and (max-width: 400px){
+label[for="nav-trigger_2"]{
+height:  69px;
+}
+
 .nav-trigger-2:active {
   top: 40px;
  display: inline-block;
