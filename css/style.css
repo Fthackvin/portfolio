@@ -116,7 +116,6 @@ ____________________________________________________*/
 
 .nav-trigger {
   position: absolute;
-  display: none;
   clip: rect(0, 0, 0, 0);
   top: 50px;
   z-index: -1;
