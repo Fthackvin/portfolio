@@ -1527,27 +1527,27 @@ ________________________________________________________________________________
 
 
 @media screen and (min-width:1200px){
-#ux_title{
+h1#ux_title{
 margin-top: 0px;
 padding-top: 0px;
   }
 }
 
 @media screen and (min-width:400px){
-#ux_title{
+h1#ux_title{
     padding-bottom: 5px;
   }
 }
 
 @media screen and (min-width:400px){
-#fun_title{
+h1#fun_title{
     padding-bottom: 0px;
     margin-bottom: 0px;
   }
 }
 
 @media screen and (min-width:400px){
-#developer_title{
+h1#developer_title{
     padding-bottom: 0px;
     margin-bottom: 0px;
   }
