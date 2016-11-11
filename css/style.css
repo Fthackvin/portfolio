@@ -119,8 +119,8 @@ ____________________________________________________*/
   clip: rect(0, 0, 0, 0);
   top: 50px;
   z-index: 10;
-  width:100px;
-  height: 100px;
+/*  width:100px;
+  height: 100px;*/
 }
 
 
@@ -182,7 +182,7 @@ position: absolute;
 
 @media screen and (max-width: 802px) {
 
-label[for="#nav-trigger_2"]{
+label[for="nav-trigger_2"]{
 width:72px;
 top:40px;
 height: 69px;
