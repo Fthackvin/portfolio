@@ -354,7 +354,7 @@ li div.developer_icon{
 }
 }
 
-@media screen and (max-width: 400px){
+/*@media screen and (max-width: 400px){
 li div.developer_icon{
     display: none;
 }
@@ -364,7 +364,7 @@ li div.developer_icon{
 #code-word{
     display: none;
 }
-}
+}*/
 
 
 
@@ -1624,7 +1624,6 @@ ________________________________________________________________________________
 
 
 
-
 @media screen and (max-width:991px){
 .keyboard-position{
     margin-left: 0px!important;
@@ -1783,6 +1782,6 @@ ________________________________________________________________________________
   }
 
 
-    .ScrollSceneIndicators { z-index: 99999 !important; }
+   /* .ScrollSceneIndicators { z-index: 99999 !important; }*/
 
 
