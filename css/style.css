@@ -607,6 +607,12 @@ font-weight: 100;
 }
 
 
+@media screen and (max-width: 768px){
+#text-align-hello-text {
+  text-align: center;
+}
+}
+
 @media screen and (max-width: 600px) {
   .hello_text {
     font-size: 16.5px;
