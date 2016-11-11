@@ -1765,3 +1765,39 @@ ________________________________________________________________________________
     .ScrollSceneIndicators { z-index: 99999 !important; }
 
 
+#moleskine {
+    background: #84c3c9;
+}
+@media (min-width: 960px){
+.entry {
+    float: left;
+    width: 50%;
+}
+.entry {
+    text-align: center;
+    min-height: 400px;
+    position: relative
+  }
+
+  #moleskine div:before {
+    width: 170px;
+    height: 257px;
+    background-image: linear-gradient(to right, transparent 130px, #333 130px, #333 140px, transparent 140px), linear-gradient(to bottom, transparent 33%, #ff8613 33%, #ff8613 68%, transparent 68%), linear-gradient(to right, #444 3px, rgba(255,255,255,0.1) 4px, rgba(255,255,255,0) 8px);
+}
+
+#moleskine div:after {
+    width: 60px;
+    height: 40px;
+    left: 13px;
+    top: 105px;
+    background: white;
+    background-image: linear-gradient(to right, transparent 29px, #777 29px, #777 31px, transparent 31px);
+    border: 2px solid #777;
+    box-shadow: -20px 125px 0 -21px #777;
+}
+
+.entry div:before, .entry div:after {
+    display: block;
+    content: '';
+    position: absolute;
+
