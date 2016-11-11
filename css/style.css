@@ -812,7 +812,7 @@ footer {
 
 
 .plane_icon {
-background-image: url('../nav_images/paperplane.svg');
+background-image: url('./nav_images/paperplane.svg');
 background-repeat: no-repeat;
 border-style: none;
 width: 70px;
