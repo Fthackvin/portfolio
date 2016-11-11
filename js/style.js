@@ -23,10 +23,10 @@ $(document).ready(function(){
 		// reverse: false
 	})
 	.setClassToggle('#computer_layer_1', 'fade-in') // add class to Developer
-	.addIndicators({
-		colorTrigger:'pink',
-		indent: 100,
-		colorStart:'red',
+	// .addIndicators({
+	// 	colorTrigger:'pink',
+	// 	indent: 100,
+	// 	colorStart:'red',
 
 	})
 	// .setTween ("#computer_layer_1,", 0.5, {opacity: 1, y: 10,})
