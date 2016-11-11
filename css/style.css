@@ -151,14 +151,6 @@ position: absolute;
   transform: rotate(90deg);
 }
 
-/*.nav-trigger-2:click {
-   -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-}*/
-
 
 .nav-trigger-2:focus {
   top: 40px;
@@ -173,7 +165,7 @@ position: absolute;
 }
 
 
-.nav-trigger-2.down:after {
+.nav-trigger-2.down{
     -ms-transform:rotate(90deg);
     -moz-transform:rotate(90deg);
     -webkit-transform:rotate(90deg);
@@ -379,18 +371,6 @@ li div.developer_icon{
     bottom: -15px;
 }
 }
-
-/*@media screen and (max-width: 400px){
-li div.developer_icon{
-    display: none;
-}
-}
-
-@media screen and (max-width: 400px){
-#code-word{
-    display: none;
-}
-}*/
 
 
 
@@ -736,56 +716,6 @@ ________________________________________________________________________________
 }
 
 
-  #rectangle{
-    background-color: #49b293;
-    width: 360px;
-    height: 360px;
-    margin: 100px auto 0 auto;
-    transform: rotateX(60deg) rotateY(0deg) rotateZ(-45deg);
-}
-
-  #rectangle2 {
-    z-index: 999;
-    background-color: #465758;
-    opacity: 0.7;
-    width: 360px;
-    height: 360px;
-    margin: -379px auto 10px auto;
-    transform: rotateX(60deg) rotateY(0deg) rotateZ(-45deg);
-  }
-
-   #rectangle3 {
-    z-index: 999;
-    background-color: #476322;
-    opacity: 0.6;
-    width: 300px;
-    height: 300px;
-    margin: -394px auto 10px auto;
-    transform: rotateX(60deg) rotateY(0deg) rotateZ(-45deg);
-  }
-
-   #rectangle4 {
-    z-index: 999;
-    background-color: yellow;
-    opacity: 0.6;
-    width: 260px;
-    height: 260px;
-    margin: -395px auto 10px auto;
-    transform: rotateX(60deg) rotateY(0deg) rotateZ(-45deg);
-  }
-
-
- #rectangle5 {
-    z-index: 999;
-    background-color: red;
-    opacity: 0.6;
-    width: 60px;
-    height: 60px;
-    margin: -170px auto 10px auto;
-    transform: rotateX(60deg) rotateY(0deg) rotateZ(-45deg);
- }
-
-
 
 
 /* -CONTACT- 
@@ -900,13 +830,13 @@ footer p.name {
   font-family: "Josefin Sans",sans-serif;
   font-size: 20px;
   color: white;
- font-weight: 100;	
+ font-weight: 100;  
 }
 
 @media screen and (max-width:400px){
 footer p.name {
 font-size: 18px;
-	}
+  }
 }
 
 
@@ -926,7 +856,7 @@ font-weight: 100;
 footer p.copyright {
 font-weight: 200;
 font-size: 17px;
-	}
+  }
 }
 
 
@@ -944,17 +874,17 @@ font-size: 17px;
 .social-links {
 font-weight: 200;
 font-size: 17px;
-	}
+  }
 }
 
 div.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-	}
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  }
 
 
 
