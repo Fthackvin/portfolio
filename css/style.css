@@ -1527,11 +1527,26 @@ ________________________________________________________________________________
 
 
 @media screen and (min-width:1200px){
-#developer_title{
+#ux_title{
 margin-top: 0px;
 padding-top: 0px;
   }
 }
+
+@media screen and (min-width:400px){
+#ux_title{
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (min-width:400px){
+#developr_title{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+
 
 /* MEDIA QUERIES - HELLO SECTION - 
 ______________________________________________________________________________________________________
