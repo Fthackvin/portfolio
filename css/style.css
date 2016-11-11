@@ -122,11 +122,12 @@ ____________________________________________________*/
 }
 
 
+
 label[for="nav-trigger_2"]{
 top: 51px;
 z-index: 3;
 width: 96px;
-height:  69px;
+height:  91px;
 cursor: pointer;
 background-image: url("../nav_images/hamburger_icon.png");
 background-size: contain;
@@ -145,6 +146,7 @@ position: absolute;
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
+  height:  69px;
 }
 
 
@@ -158,6 +160,7 @@ position: absolute;
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
+   height:  69px;
 }
 
 
