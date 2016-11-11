@@ -210,6 +210,11 @@ ________________________________________________________________________________
   height: 91rem;
 }
 
+@media screen and (min-width: 1200px) {
+div.panels  {
+  height: 93rem;
+  }
+}
 
 @media screen and (min-width: 709px) and (max-width: 800px) {
 div.panels {
@@ -606,8 +611,19 @@ p.intro {
     margin-left: 15px;
     font-size: 17px;
     margin-right: 15px;
+
 }
 }
+
+
+@media screen and (max-width: 480px){
+#intro-one {
+height: 190px;
+
+}
+}
+
+
 
 .hello_text {
   font-family: "Josefin Sans",sans-serif;
@@ -724,12 +740,20 @@ ________________________________________________________________________________
   z-index: 3;
   height: auto;
   width: 100%;
-  height: 75rem;
+  height: 62rem;
 }
 
+@media screen and (min-width: 1200px){
+#fun {
+    height: 59rem;
+  }
+}
 
-
-
+@media screen and (min-width: 767px){
+#fun {
+    height: 69rem;
+  }
+}
 /* -CONTACT- 
 ______________________________________________________________________________________________________
 ______________________________________________________________________________________________________
@@ -926,7 +950,7 @@ ________________________________________________________________________________
 
 
 .ux-layer img {
-  margin-left: 91px; 
+  margin-left: 85px;
   margin-top: 43px;
   padding-right: 60px;
 }
@@ -1539,20 +1563,20 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________*/
 
 
-@media screen and (min-width:1200px){
+/*@media screen and (max-width:1200px){
 h1#ux_title{
 margin-top: 0px!important;
 padding-top: 0px!important;
   }
 }
 
-@media screen and (min-width:400px){
+@media screen and (max-width:400px){
 h1#ux_title{
     padding-bottom: 5px!important;
   }
 }
 
-@media screen and (min-width:400px){
+@media screen and (max-width:400px){
 h1#fun_title{
     padding-bottom: 0px!important;
     margin-bottom: 0px!important;
@@ -1564,8 +1588,14 @@ h1#developer_title{
     padding-bottom: 0px!important;
     margin-bottom: 0px!important;
   }
-}
+}*/
 
+
+@media screen and (min-width:1199px){
+h1#developer_title{
+    padding-top: 0px!important;
+  }
+}
 
 /* MEDIA QUERIES - HELLO SECTION - 
 ______________________________________________________________________________________________________
@@ -1748,19 +1778,24 @@ ________________________________________________________________________________
   height: 75rem;
 }
 
+@media screen and (min-width: 1200px){
+.about {
+    height: 59rem;
+  }
+}
 
 
   @media screen and (max-width:991px){
 .about{
   line-height: 25px;
-   height: 79rem;
+   height: 81rem;
 }
   }
 
 
   @media screen and (max-width:679px){
 .about{
-   height: 78rem;
+   height: 79rem;
 }
   }
 
@@ -1773,17 +1808,22 @@ ________________________________________________________________________________
 
  @media screen and (max-width:577px){
 .about{
-   height: 83rem;
+   height: 84rem;
 }
   }
 
    @media screen and (max-width:473px){
 .about{
-   height: 91rem;
+   height: 92rem;
 }
   }
 
-
+@media screen and (max-width: 402px){
+#last-sentence {
+      margin-top: 5px!important;
+    margin-left: 1px!important;
+}
+}
    /* .ScrollSceneIndicators { z-index: 99999 !important; }*/
 
 
