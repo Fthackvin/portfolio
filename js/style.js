@@ -28,7 +28,6 @@ $(document).ready(function(){
 	// 	indent: 100,
 	// 	colorStart:'red',
 
-	})
 	// .setTween ("#computer_layer_1,", 0.5, {opacity: 1, y: 10,})
 
 	.addTo(controller);
