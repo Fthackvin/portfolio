@@ -114,18 +114,20 @@ ____________________________________________________
 ____________________________________________________
 ____________________________________________________*/
 
-.nav-trigger {
+#nav-trigger_2 {
   position: absolute;
   clip: rect(0, 0, 0, 0);
   top: 50px;
-  z-index: -1;
+  z-index: 10;
+  width:100px;
+  height: 100px;
 }
 
 
 
 label[for="nav-trigger_2"]{
 top: 51px;
-z-index: 3;
+z-index: 10;
 width: 96px;
 height:  91px;
 cursor: pointer;
@@ -136,22 +138,26 @@ border-style: none;
 position: absolute;
 }
 
-input[type=my_checkbox] {
-  float: right;
-}
 
 .nav-trigger-2:active {
-  top: 40px;
+  top: 48px;
  display: inline-block;
  vertical-align: middle;
-  transition: 0.2s ease;
+  transition: 0.3s ease;
  -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
-  height:  69px;
 }
+
+/*.nav-trigger-2:click {
+   -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}*/
 
 
 .nav-trigger-2:focus {
@@ -164,18 +170,17 @@ input[type=my_checkbox] {
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
-   height:  69px;
 }
 
 
-.nav-trigger-2.down{
+.nav-trigger-2.down:after {
     -ms-transform:rotate(90deg);
     -moz-transform:rotate(90deg);
     -webkit-transform:rotate(90deg);
     transform:rotate(90deg);
 }
 
-.nav-trigger-2.up{
+.nav-trigger-2.up {
     -ms-transform:rotate(-90deg);
     -moz-transform:rotate(-90deg);
     -webkit-transform:rotate(-90deg);
@@ -185,7 +190,7 @@ input[type=my_checkbox] {
 
 @media screen and (max-width: 802px) {
 
-label[for="nav-trigger_2"]{
+label[for="#nav-trigger_2"]{
 width:72px;
 top:40px;
 height: 69px;
@@ -621,6 +626,19 @@ p.intro {
 font-weight: 100;
 }
 
+@media screen and (min-width: 1119px) and (max-width: 1500px){
+  .hello_text {
+    margin-left: 119px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1118px){
+  .hello_text {
+       margin-left: 51px;
+  }
+}
+
+
 @media screen and (max-width: 802px) {
   .hello_text {
     font-size: 18px;
@@ -628,7 +646,7 @@ font-weight: 100;
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 #text-align-hello-text {
   text-align: center;
 }

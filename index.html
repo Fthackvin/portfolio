@@ -9,8 +9,11 @@
     <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
     <!-- With thanks to Mert Güler, artworkbean, yenjinland, iconsphere, Andrey Krylov for the icons, you can find them all on the Noun Project -->
     <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-
-  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Fred Vincent UX professional" />
+  <meta property="og:type" content="video.movie" />
+  <meta property="og:url" content="http://www.fredvincent.io/" />
+  <meta property="og:image" content="./nav_images/sketch-book.svg" />
+  <meta name="theme-color" content="#4695F2">
     <!-- >>>>>>> 7880cee3be4187623be5ac2543fa215055b6665f -->
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,100' rel='stylesheet' type='text/css'>
@@ -38,20 +41,11 @@
     <div class="container-fluid">
       <div class="row-content-body">
         <div style="padding-right: 30px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <input type="my_checkbox" id="nav-trigger_2" class="nav-trigger"/>
-          <label class="nav-trigger-2" for="nav-trigger_2"></label>
-        </div>
+            <div id="nav-trigger-2" class="nav-trigger-2"/> </div>
+           <label class="nav-trigger-2" for="nav-trigger_2"></label>  
       </div>
     </div>
-
-<script>
-
-$("input").focus(function(){
-    var _this = this;
-    setTimeout(function(){_this.blur();},1);
-});
- </script>
-
+    </div>
   <!-- Menu icons -->
     <div id="more-wrap">
       <div style="text-align:center; position: absolute;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -93,12 +87,11 @@ $(document).ready(function(){
 });
 </script>
 
-
 <!-- Menu bar -script- -->
    <script> 
     $(function () {
     var gomenu = "open"
-    $('#nav-trigger_2').click(function () {
+    $('.nav-trigger-2').click(function () {
         if (gomenu == "open") {
             $('#site-wrap').animate({
                 top: $(this).position().top + 120
@@ -112,39 +105,11 @@ $(document).ready(function(){
         }
     });
     });
-    
-    function animUp() {
-    $(".arrow").animate({
-        top: "600"
-    }, "slow", "swing", animDown);
-    }
-    
-    function animDown() {
-
-    $(".arrow").animate({
-
-        top: "610px"
-
-    }, "slow", "swing", animUp);
-    
-    }
-    
-    $(document).ready(function() {
-
-    animUp();
-    
-    });
-    
-    $( window ).ready(function() {
-
-    var wHeight = $(window).height();
-    
-      });
    </script>  
 
   <!-- Section 1 -->
     <!-- Introduction -->
-  <div id="site-wrap" style="overflow: hidden;">
+ <div id="site-wrap" style="overflow: hidden;">
     <div class="container-fluid" style="padding:0px;">
          <div class="introduction">
             <div class="row-content-body">
@@ -291,10 +256,9 @@ $(document).ready(function(){
                 <p style="padding: 0; margin:0;"  class="hello_text">Always looking for project that tells a good story.</p>
                 <p style="padding-top: 47px;" class="hello_text">
             </div>
-         </div>
+          </div>
         </div>
       </div>
-
     <!-- Section 6 -->
       <!-- Contact -->
         <div id="contact-link" class="contact">
@@ -306,13 +270,14 @@ $(document).ready(function(){
               </div>
             </div>
           </div>
-      </div>
+        </div>
   <!-- footer -->
     <footer style="background-color:black; text-align: center;">
       <p class="name">This site was designed and built by Fred.</p>
       <p class="copyright">Copyright 2016.</p>
-      <p style="color: white" class="social-links"><a style="color:#C1B9CF;" href="https://twitter.com/fthackvin">Twitter</a><a style="color:#C1B9CF; margin-left: 3px;" href="https://www.linkedin.com/in/frederick-thackeray-vincent-28410a77">Linkedin</a></p>
-    </footer>
+      <p style="color: white" class="social-links"><a style="color:#C1B9CF;" href="https://twitter.com/fthackvin">Twitter</a><a style="color:#C1B9CF; margin-left: 3px;" href="https://www.linkedin.com/in/frederick-thackeray-vincent-28410a77">Linkedin</a>
+      </p>
+    </footer> 
 </body>
     <!--   <div id="notepad" class="notpad" style=" margin-left: 56px; margin-top: 18px; z-index:3; ">
                   <img style="width:100px; height: auto;" src="./nav_images/notebook.svg"/>
