@@ -1540,12 +1540,18 @@ padding-top: 0px;
 }
 
 @media screen and (min-width:400px){
-#developer_title{
+#fun_title{
     padding-bottom: 0px;
     margin-bottom: 0px;
   }
 }
 
+@media screen and (min-width:400px){
+#developer_title{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+}
 
 
 /* MEDIA QUERIES - HELLO SECTION - 
