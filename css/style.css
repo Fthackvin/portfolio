@@ -136,9 +136,8 @@ border-style: none;
 position: absolute;
 }
 
-@media screen and (max-width: 400px){
-label[for="nav-trigger_2"]{
-height:  69px;
+input[type=my_checkbox] {
+  float: right;
 }
 
 .nav-trigger-2:active {
@@ -189,6 +188,7 @@ height:  69px;
 label[for="nav-trigger_2"]{
 width:72px;
 top:40px;
+height: 69px;
   }
 }
 
