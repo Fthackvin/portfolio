@@ -172,7 +172,7 @@ position: absolute;
     transform:rotate(90deg);
 }
 
-.nav-trigger-2.up {
+.nav-trigger_2.up {
     -ms-transform:rotate(-90deg);
     -moz-transform:rotate(-90deg);
     -webkit-transform:rotate(-90deg);
@@ -595,7 +595,7 @@ p.intro {
   padding-top: 20px;
   margin-bottom: 0px;
   max-width: 600px; 
-   font-weight: 100;
+   font-weight: 350;
 }
 
 @media screen and (max-width: 802px){
@@ -624,14 +624,21 @@ height: 190px;
 }
 
 
+li.hello_text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  display: inline-block;
+font-weight: 400!important;
+float: left;
+}
 
 .hello_text {
-  font-family: "Josefin Sans",sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   display: inline-block;
   margin-right: 10px;
   margin-left:20px;
-font-weight: 100;
+font-weight: 350;
 }
 
 @media screen and (min-width: 1119px) and (max-width: 1500px){
