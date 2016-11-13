@@ -378,8 +378,6 @@ li div.developer_icon{
 
 
 
-
-
 li div.plane_icon_1 {
 background-image: url('../nav_images/paperplane.svg');
 background-repeat: no-repeat;
@@ -408,6 +406,19 @@ li div.plane_icon_1{
 }
 @media screen and (max-width: 583px){
 #contact-word {
+    display: none;
+}
+}
+
+
+@media screen and (max-width: 360px){
+#fun-word {
+    display: none;
+}
+}
+
+@media screen and (max-width: 360px){
+li div.fun_icon {
     display: none;
 }
 }
@@ -1643,7 +1654,7 @@ ________________________________________________________________________________
 
 @media screen and (max-width:450px){
 .blue-computer-position{
-    margin-left: 93px;
+    margin-left: 93px!important;
   }
 }
 
@@ -1688,26 +1699,22 @@ ________________________________________________________________________________
 @media screen and (max-width:991px){
 #skills{
     margin-top: 115px;
-    text-align: left;
-    padding-left: 226px;
-  }
-}
-
-@media screen and (max-width: 830px){
-#skills {
-    padding-left: 210px;
+    text-align: center;
+    padding-left: 140px;
+    padding-right: 140px;
   }
 }
 
 
 @media screen and (max-width: 780px){
 #skills {
-    padding-left: 190px;
+    padding-left: 60px;
+     padding-right: 60px;
   }
 }
 
 
-@media screen and (max-width: 725px){
+/*@media screen and (max-width: 725px){
 #skills {
     padding-left: 170px;
   }
@@ -1725,8 +1732,8 @@ ________________________________________________________________________________
 #skills {
     padding-left: 115px;
   }
-}
-
+}*/
+/*
 @media screen and (max-width: 600px){
 #skills {
     padding-left: 90px;
@@ -1737,12 +1744,12 @@ ________________________________________________________________________________
 #skills {
     padding-left: 60px;
   }
-}
+}*/
 
 @media screen and (max-width: 480px){
 #skills {
-    padding-left: 30px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -1809,7 +1816,7 @@ ________________________________________________________________________________
 
   @media screen and (max-width:624px){
 .about{
-   height: 84rem;
+   height: 82rem;
 }
   }
 
@@ -1822,6 +1829,12 @@ ________________________________________________________________________________
    @media screen and (max-width:473px){
 .about{
    height: 92rem;
+}
+  }
+
+    @media screen and (max-width:400px){
+.about{
+   height: 94rem;
 }
   }
 
