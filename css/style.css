@@ -1700,8 +1700,8 @@ ________________________________________________________________________________
 
 @media screen and (max-width: 780px){
 #skills {
-    padding-left: 60px!important;
-     padding-right: 60px!important;
+    padding-left: 60px;
+     padding-right: 60px;
   }
 }
 
