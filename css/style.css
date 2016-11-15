@@ -457,61 +457,6 @@ ________________________________________________________________________________
 }
 
 
-.computer_layer img {
-  position: absolute; 
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-}
-
-@media screen and (max-width: 900px){
-  .computer_layer img{
-    max-width: 80%;
-  }
-} 
-
-
-@media screen and (max-width: 690px) {
-div#computer_layer_1 {
- margin-top: 67px!important;
-}
-}
-
-
-@media screen and (max-width: 690px) {
-div#computer_layer_2 {
- margin-top: 45px!important;
-}
-}
-
-@media screen and (max-width: 690px) {
-div#computer_layer_3 {
- margin-top: 23px!important;
-}
-}
-
-
-
-@media screen and (max-width: 560px) {
-div#computer_layer_1 {
- margin-top: 59px!important;
-}
-}
-
-
-@media screen and (max-width: 690px) {
-div#computer_layer_2 {
- margin-top: 39px!important;
-}
-}
-
-@media screen and (max-width: 690px) {
-div#computer_layer_3 {
- margin-top: 20px!important;
-}
-}
-
 
 
 .title {
@@ -570,7 +515,18 @@ div.title-1 {
  @media screen and (max-width: 400px){
 .title {
     padding-bottom: 3px!important;
-    padding-left: 28px;
+    padding-left: 15px;
+    font-size: 49px;
+    padding-top: 27px;
+    margin-bottom: 0px;
+    }
+  }
+
+
+ @media screen and (max-width: 400px){
+#title {
+    padding-bottom: 3px!important;
+    padding-left: 19px;
     font-size: 49px;
     padding-top: 27px;
     margin-bottom: 0px;
@@ -580,19 +536,6 @@ div.title-1 {
    
 
 
-
-
-#subtitle {
-font-family: "Roboto-Medium";
-font-size: 72px;
-color: rgba(0,0,0,1);
-position: absolute;
-top: -41px;
-padding-left: 50px;
-z-index: 2;
--webkit-animation-duration: 6s;
--webkit-animation-delay: 0s;
-}
 
 
 
@@ -684,6 +627,178 @@ font-weight: 350;
   }
 }
 
+
+
+
+/* -DEVELOPER IMAGES- 
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________*/
+
+
+.computer_layer img {
+  position: absolute; 
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.computer-layer-1 {
+   position: absolute; 
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+opacity: 0;
+transform: translateY(50px);
+transition: all 1.4s ease-out;
+}
+
+.computer-layer-1.fade-in {
+position: absolute; 
+margin-left: auto;
+ margin-right: auto;
+left: 0;
+right: 0;
+opacity: 0;
+opacity: 1;
+transform: translateY(-15px);
+}
+
+.computer-layer-2 {
+   position: absolute; 
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+opacity: 0;
+transform: translateY(50px);
+transition: all 1.4s ease-out;
+}
+
+.computer-layer-2.fade-in {
+position: absolute; 
+margin-left: auto;
+ margin-right: auto;
+left: 0;
+right: 0;
+opacity: 0;
+opacity: 1;
+transform: translateY(-12px);
+}
+
+.computer-layer-3 {
+   position: absolute; 
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+opacity: 0;
+transform: translateY(50px);
+transition: all 1.4s ease-out;
+}
+
+.computer-layer-3.fade-in {
+position: absolute; 
+margin-left: auto;
+ margin-right: auto;
+left: 0;
+right: 0;
+opacity: 0;
+opacity: 1;
+transform: translateY(-7px);
+}
+
+
+.computer-layer-4-top {
+   position: absolute; 
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+opacity: 0;
+transform: translateY(50px);
+transition: all 1.4s ease-out;
+}
+
+.computer-layer-4-top.fade-in {
+position: absolute; 
+margin-left: auto;
+ margin-right: auto;
+left: 0;
+right: 0;
+opacity: 0;
+opacity: 1;
+transform: translateY(-7px);
+}
+
+@media screen and (max-width: 900px){
+.computer-layer-1 img{
+    max-width: 80%;
+  }
+} 
+
+@media screen and (max-width: 900px){
+.computer-layer-2 img{
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 900px){
+.computer-layer-3 img{
+    max-width: 80%;
+  }
+} 
+
+@media screen and (max-width: 900px){
+.computer-layer-4-top img{
+    max-width: 80%;
+  }
+}  
+
+@media screen and (max-width: 900px){
+  .computer_layer img{
+    max-width: 80%;
+  }
+} 
+
+
+@media screen and (max-width: 690px) {
+div#computer_layer_1 {
+ margin-top: 76px!important;
+}
+}
+
+
+@media screen and (max-width: 690px) {
+div#computer_layer_2 {
+  margin-top: 51px!important
+}
+}
+
+@media screen and (max-width: 690px) {
+div#computer_layer_3 {
+ margin-top: 23px!important;
+}
+}
+
+
+
+@media screen and (max-width: 560px) {
+div#computer_layer_1 {
+ margin-top: 77px!important;
+}
+}
+
+
+
+
+
+/* -SKETCHBOOK IMAGES- 
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________*/
 
 
 #sketchbook {
