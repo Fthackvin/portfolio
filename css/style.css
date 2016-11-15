@@ -1080,6 +1080,49 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________*/
 
 
+.ux-layer-2 img#ux-id {
+  opacity:0;
+  transform:translateY(-50px);
+/*  transition: all ease 1s;*/
+
+}
+
+.ux-layer-2.fade-in img#ux-id {
+  opacity: 1;
+  transform:translateX(0px);
+  transition: all ease 2s;
+
+}
+
+
+.ux-layer-11 img#ux-notes {
+  opacity:0;
+  transform:translateY(50px);
+/*  transition: all ease 1s;*/
+
+}
+
+.ux-layer-11.fade-in img#ux-notes {
+  opacity: 1;
+  transform:translateX(0px);
+  transition: all ease 1.7s;
+
+}
+
+
+.ux-layer-4 img#clipboard {
+  opacity:0;
+  transform:translateX(-100px);
+/*  transition: all ease 1s;*/
+
+}
+
+.ux-layer-4.fade-in img#clipboard  {
+  opacity: 1;
+  transform:translateX(0px);
+  transition: all ease 2s;
+
+}
 
 
 .ux-layer img {
@@ -1171,26 +1214,26 @@ padding-right: 38px;
 
 @media screen and (max-width:1030px){
 .ux-image-container img {
-    margin-left: 159px;
+    /*margin-left: 159px;*/
   }
 }
 
 @media screen and (max-width:991px){
 .ux-image-container img {
-    width: 180px;
+/*    width: 180px;*/
     margin-top: -49px!important;
     margin-left: 66px;
   }
 }
 
 
-@media screen and (max-width:951px){
+/*@media screen and (max-width:951px){
 .ux-image-container img {
     width: 180px;
     margin-top: -38px!important;
     margin-left: 114px;
   }
-}
+}*/
 
 @media screen and (max-width:871px){
 .ux-image-container img {
@@ -1229,16 +1272,15 @@ padding-right: 38px;
 
 @media screen and (max-width:701px){
 .ux-image-container img {
-    margin-left: 206px;
+    margin-left: 173px;
     margin-top: -90px!important;
-    width: 76%;
+    width: 65%;
   }
 }
 
 @media screen and (max-width:691px){
 .ux-image-container img {
     margin-left: 194px;
-    width: 81%;
 
   }
 }
@@ -1249,7 +1291,6 @@ padding-right: 38px;
 .ux-image-container img {
     margin-top: -99px!important;
     margin-left: 197px;
-    width: 88%;
   }
 }
 
@@ -1257,21 +1298,19 @@ padding-right: 38px;
 .ux-image-container img {
     margin-top: -130px!important;
     margin-left: 197px;
-    width: 88%;
   }
 }
 
 
-@media screen and (max-width:642px){
+/*@media screen and (max-width:642px){
 .ux-image-container img {
     width: 100%;
   }
-}
+}*/
 
 @media screen and (max-width:630px){
 .ux-image-container img {
     margin-top: -137px!important;
-    width: 100%;
     margin-left: 185px;
   }
 }
@@ -1280,17 +1319,16 @@ padding-right: 38px;
 @media screen and (max-width:601px){
 .ux-image-container img {
     margin-top: -137px!important;
-    width: 153px!important;
     width: 100%;
     margin-left: 128px;
   }
 }
 
-@media screen and (max-width:581px){
+/*@media screen and (max-width:581px){
 .ux-image-container img {
     width: 143px!important;
   }
-}
+}*/
 
 @media screen and (max-width:575px){
 .ux-image-container img {
@@ -1329,11 +1367,11 @@ padding-right: 38px;
   }
 }
 
-@media screen and (max-width:450px){
+/*@media screen and (max-width:450px){
 .ux-image-container img {
     width: 127px!important;
   }
-}
+}*/
 
 
 
@@ -1347,9 +1385,8 @@ padding-right: 38px;
 
 @media screen and (min-width:200px) and (max-width:409px){
 .ux-image-container img {
-       width: 100px!important;
     margin-left: 72px;
-    margin-top: -217px!important;
+    margin-top: -195px!important;
   }
 }
 
@@ -1363,53 +1400,70 @@ padding-right: 50px;
 }
 
 
+@media screen and (min-width:1200px) and (max-width:1400px){
+.ux-layer-4.fade-in img#clipboard {
+    margin-top: 46px;
+    margin-left: 112px;
+    width: 15%;
+    margin-right: -2px;
+  }
+}
 
 
 @media screen and (max-width:1199px){
-img#clipboard {
-    width: 18%;
-    margin-right: 30px;
-    margin-top: 4px!important;
+.ux-layer-4.fade-in img#clipboard {
+  margin-left: 0px;
+  width: 17%;
+  margin-right: -2px;
+  }
+}
+
+
+@media screen and (max-width:1070px){
+.ux-layer-4 img#clipboard {
+    width: 17%;
+    margin-right: -66px;
+    margin-top: -2px!important;
   }
 }
 
 @media screen and (max-width:1070px){
-img#clipboard {
-    width: 20%;
-    margin-right: 30px;
-    margin-top: 4px!important;
+.ux-layer-4.fade-in img#clipboard {
+    width: 17%;
+    margin-right: -66px;
+    margin-top: -2px!important;
   }
 }
 
 @media screen and (max-width:991px){
-img#clipboard {
-  width: 19%;
+.ux-layer-4.fade-in img#clipboard {
+  width: 15%;
     /* margin-right: 30px; */
     margin-top: -58px!important;
   }
 }
 
 @media screen and (max-width:841px){
-img#clipboard {
-    width: 21%;
-    margin-left: 149px;
+.ux-layer-4.fade-in img#clipboard {
+    width: 17%;
+    /*margin-left: 149px;*/
     margin-top: -55px!important
   }
 }
 
 
-
+/*
 @media screen and (max-width:801px){
-img#clipboard {
+.ux-layer-4.fade-in img#clipboard {
    margin-left: 93px; 
   }
-}
+}*/
  
 
 
 
 @media screen and (max-width:701px){
-img#clipboard {
+.ux-layer-4.fade-in img#clipboard {
     margin-right: 0px;
     margin-left: 127px;
     margin-top: -116px!important
@@ -1417,61 +1471,89 @@ img#clipboard {
 }
 
 @media screen and (max-width:671px){
-img#clipboard {
+.ux-layer-4.fade-in img#clipboard {
     margin-top: -136px!important;
   }
 }
 
 @media screen and (max-width:642px){
-img#clipboard {
+.ux-layer-4.fade-in img#clipboard {
       margin-top: -148px!important;
   }
 }
 
 
 @media screen and (max-width:601px){
-img#clipboard {
-      margin-top: -148px!important;
+.ux-layer-4.fade-in img#clipboard {
+    margin-left: 45px;
+    margin-top: -175px!important;
+    width: 100px!important;
   }
 }
 
 @media screen and (max-width:601px){
-img#clipboard {
-       width: 145px!important;
+.ux-layer-4 img#clipboard{
+    width: 100px!important;
+    margin-top: -170px!important;
+    margin-left: 55px;
+  }
+}
+
+@media screen and (max-width:601px){
+.ux-layer-4 img#clipboard{
+    width: 100px!important;
+    margin-top: -170px!important;
+    margin-left: 55px;
+  }
+}
+
+@media screen and (max-width:601px){
+.ux-layer-4.fade-in img#clipboard{
+    width: 100px!important;
     margin-top: -170px!important;
     margin-left: 55px;
   }
 }
 
 @media screen and (max-width:581px){
-img#clipboard {
-    width: 134px!important;
-    margin-left: 36px;
+.ux-layer-4 img#clipboard {
+    width: 90px!important;
+    margin-left: 3px;
   }
 }
 
-
+@media screen and (max-width:581px){
+.ux-layer-4.fade-in img#clipboard {
+    width: 90px!important;
+    margin-left: 3px;
+  }
+}
 
 @media screen and (max-width:554px){
-img#clipboard {
+.ux-layer-4 img#clipboard {
+    width: 112px!important;
+  }
+}
+
+@media screen and (max-width:554px){
+.ux-layer-4.fade-in img#clipboard {
     width: 112px!important;
   }
 }
 
 
 @media screen and (max-width:526px){
-img#clipboard {
+.ux-layer-4.fade-in img#clipboard {
   margin-top: -178px!important;
-    margin-left: 9px;
+  margin-left: 9px;
+  width: 83px!important;
 
   }
 }
 
 @media screen and (max-width:501px){
-img#clipboard {
-
+.ux-layer-4.fade-in img#clipboard {
     width: 101px!important;
-    width: 100px;
     margin-top: -193px!important;
     margin-left: 3px;
 
@@ -1480,10 +1562,18 @@ img#clipboard {
 
 
 @media screen and (max-width:480px){
-img#clipboard {
+.ux-layer-4 img#clipboard {
+    width: 82px!important;
+    margin-top: -193px!important;
+    margin-left: 3px;
 
-    width: 101px!important;
-    width: 100px;
+    }
+  }
+
+
+@media screen and (max-width:480px){
+.ux-layer-4.fade-in img#clipboard {
+    width: 82px!important;
     margin-top: -193px!important;
     margin-left: 3px;
 
@@ -1491,113 +1581,176 @@ img#clipboard {
   }
 
   @media screen and (max-width:470px){
-img#clipboard {
+.ux-layer-4.fade-in img#clipboard {
     margin-top: -208px!important;
     }
   }
 
 
-  @media screen and (max-width:440px){
-img#clipboard {
+ @media screen and (max-width:440px){
+.ux-layer-4 img#clipboard{
     margin-top: -215px!important;
     width: 83px!important;
     }
   }
 
-   @media screen and (max-width:410px){
-img#clipboard {
-      margin-top: -231px!important;
+  @media screen and (max-width:440px){
+.ux-layer-4.fade-in img#clipboard{
+    margin-top: -233px!important;
+    width: 83px!important;
+    }
+  }
+
+    @media screen and (max-width:399px){
+.ux-layer-4 img#clipboard {
+      margin-top: -269px!important;
+      width: 59px!important;
+    }
+  }
+
+
+   @media screen and (max-width:399px){
+.ux-layer-4.fade-in img#clipboard {
+      margin-top: -269px!important;
+      width: 59px!important;
     }
   }
 
 
 @media screen and (max-width:360px){
-img#clipboard {
- display: none;
-
+.ux-layer-4 img#clipboard {
+    width: 59px!important;
   }
 }
 
- 
+@media screen and (max-width:360px){
+.ux-layer-4.fade-in img#clipboard {
+    width: 59px!important;
+  }
+}
+
+
+
+@media screen and (min-width: 1200px) and (max-width:1400px){
+.ux-layer-11.fade-in img#ux-notes {
+    margin-top: 62px!important;
+  }
+}
 
 @media screen and (max-width:991px){
-img#ux-notes {
-    margin-top: -111px!important;
+.ux-layer-11.fade-in img#ux-notes{
+      margin-left: 61px;
+    margin-top: -126px!important;
+    width: 21%;
+  }
+}
+
+@media screen and (max-width:885px){
+.ux-layer-11.fade-in img#ux-notes{
+    margin-left: 90px;
+    margin-top: -110px!important;
+    width: 21%;
   }
 }
 
 
 @media screen and (max-width:748px){
-img#ux-notes {
-  margin-top: -135px!important
+.ux-layer-11.fade-in img#ux-notes {
+      margin-left: 102px;
+    margin-top: -141px!important;
   }
 }
 
+@media screen and (max-width:701px){
+.ux-layer-11 img#ux-notes {
+    margin-top: -192px!important;
+    margin-left: 194px;
+  }
+}
 
 @media screen and (max-width:701px){
-img#ux-notes {
+.ux-layer-11.fade-in img#ux-notes {
     margin-top: -192px!important;
-    margin-left: 252px;
-    width: 34%;
+    margin-left: 194px;
   }
 }
 
 @media screen and (max-width:691px){
-img#ux-notes {
+.ux-layer-11.fade-in img#ux-notes {
     margin-top: -198px!important;
-    margin-left: 271px;
-    width: 34%;
+    margin-left: 211px;
   }
 }
 
 
 @media screen and (max-width:671px){
-img#ux-notes {
+.ux-layer-11.fade-in img#ux-notes {
     margin-top: -224px!important;
   }
 }
 
 
 @media screen and (max-width:642px){
-img#ux-notes {
+.ux-layer-11.fade-in img#ux-notes {
     margin-top: -237px!important;
   }
 }
 
 @media screen and (max-width:630px){
-img#ux-notes {
+.ux-layer-11.fade-in img#ux-notes {
     margin-top: -246px!important;
-    margin-left: 257px;
+/*    margin-left: 257px;*/
   }
 }
 
 @media screen and (max-width:601px){
-img#ux-notes {
+.ux-layer-11 img#ux-notes {
     margin-top: -246px!important;
     margin-left: 165px;
-    width: 165px!important;
+    width: 90px!important;
+  }
+}
+
+@media screen and (max-width:601px){
+.ux-layer-11.fade-in img#ux-notes {
+    margin-top: -259px!important;
+    margin-left: 147px;
+    width: 90px!important;
   }
 }
 
 @media screen and (max-width:581px){
-img#ux-notes {
+.ux-layer-11 img#ux-notes {
      margin-top: -250px!important;
     margin-left: 169px;
-    width: 141px!important;
   }
 }
 
+@media screen and (max-width:581px){
+.ux-layer-11.fade-in img#ux-notes {
+    margin-top: -260px!important;
+    margin-left: 100px;
+  }
+}
 
 @media screen and (max-width:554px){
-img#ux-notes {
+.ux-layer-11 img#ux-notes {
    margin-top: -256px!important;
     margin-left: 169px;
     width: 120px!important;
   }
 }
 
+
+@media screen and (max-width:554px){
+.ux-layer-11.fade-in img#ux-notes {
+   margin-top: -256px!important;
+  margin-left: 115px;
+  }
+}
+
 @media screen and (max-width:526px){
-img#ux-notes {
+.ux-layer-11.fade-in img#ux-notes {
     margin-top: -273px!important;
     margin-left: 157px;
   }
@@ -1606,34 +1759,41 @@ img#ux-notes {
 
 
 @media screen and (max-width:504px){
-img#ux-notes {
+.ux-layer-11.fade-in img#ux-notes {
   width: 103px!important;
   }
 }
 
 @media screen and (max-width:501px){
-img#ux-notes {
+.ux-layer-11.fade-in img#ux-notes {
     margin-top: -280px!important;
-    margin-left: 144px;
+    margin-left: 120px;
   }
 }
 
 @media screen and (max-width:484px){
-img#ux-notes {
+.ux-layer-11 img#ux-notes {
+    width: 94px!important;
+  }
+}
+
+@media screen and (max-width:484px){
+.ux-layer-11.fade-in img#ux-notes {
     margin-top: -297px!important;
-    margin-left: 146px;
+    margin-left: 120px;
+    width: 94px!important;
   }
 }
 
 @media screen and (max-width:474px){
-img#ux-notes {
+.ux-layer-11.fade-in img#ux-notes {
     margin-top: -304px!important;
   }
 }
 
 
 @media screen and (max-width:467px){
-img#ux-notes {
+.ux-layer-11.fade-in img#ux-notes {
     margin-top: -312px!important;
   }
 }
@@ -1641,45 +1801,96 @@ img#ux-notes {
 
 
 @media screen and (max-width:450px){
-img#ux-notes {
+.ux-layer-11.fade-in img#ux-notes {
     margin-top: -317px!important;
     margin-left: 125px;
   }
 }
 
 
-@media screen and (max-width:438px){
-img#ux-notes {
+/*@media screen and (max-width:438px){
+.ux-layer-11.fade-in img#ux-notes {
     margin-top: -325px!important;
   }
 }
-
+*/
 @media screen and (max-width:428px){
-img#ux-notes {
+.ux-layer-11.fade-in img#ux-notes {
     margin-top: -339px!important;
   }
 }
 
 @media screen and (max-width:428px){
-img#ux-notes {
+.ux-layer-11.fade-in img#ux-notes {
     margin-left: 112px;
     margin-top: -337px!important;
-     width: 89px!important;
+    width: 89px!important;
   }
 }
 
 
 @media screen and (max-width:415px){
-img#ux-notes {
+.ux-layer-11.fade-in img#ux-notes {
     margin-left: 112px;
     margin-top: -337px!important;
+    width: 75px!important;
   }
 }
 
 
-@media screen and (max-width:340px){
-img#ux-notes {
+@media screen and (max-width:400px){
+.ux-layer-11 img#ux-notes {
+    margin-left: 120px;
+    margin-top: -332px!important;
+    width: 60px!important;
+  }
+}
+
+
+@media screen and (max-width:400px){
+.ux-layer-11.fade-in img#ux-notes {
+       margin-left: 120px;
+    margin-top: -332px!important;
+    width: 60px!important;
+  }
+}
+
+
+@media screen and (max-width:360px){
+.ux-layer-11.fade-in img#ux-notes {
    display: none;
+  }
+}
+
+@media screen and (max-width:541px){
+.ux-layer-2 img {
+width: 100px;
+  }
+}
+
+@media screen and (max-width:541px){
+.ux-layer-2.fade-in img {
+width: 100px;
+  }
+}
+
+@media screen and (max-width:433px){
+.ux-layer-2 img {
+width: 79px;
+  }
+}
+
+@media screen and (max-width:433px){
+.ux-layer-2.fade-in img {
+width: 73px;
+  }
+}
+
+
+@media screen and (max-width:433px){
+.ux-layer-2.fade-in img {
+width: 73px;
+margin-top: -193px!important;
   }
 }
 

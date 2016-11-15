@@ -44,7 +44,7 @@ var controller = new ScrollMagic.Controller();
 // build a scene	
 	var ourScene = new ScrollMagic.Scene ({
 		triggerElement:'#computer_layer_4_top',
-		duration: '120%',
+		duration: '110%',
     	triggerHook: 0.79
 	})
 	.setClassToggle('#computer_layer_2', 'fade-in')
@@ -67,7 +67,7 @@ var controller = new ScrollMagic.Controller();
 // build a scene	
 	var ourScene = new ScrollMagic.Scene ({
 		triggerElement: '#computer_layer_2',
-		duration: '140%',
+		duration: '110%',
     	triggerHook: 0.78
 	})
 	.setClassToggle('#computer_layer_3', 'fade-in')
@@ -90,7 +90,7 @@ var controller = new ScrollMagic.Controller();
 // build a scene	
 	var ourScene = new ScrollMagic.Scene ({
 		triggerElement: '#computer_layer_1',
-		duration: '160%',
+		duration: '120%',
     	triggerHook: 0.76
 	})
 	.setClassToggle('#computer_layer_4_top', 'fade-in')
@@ -98,6 +98,74 @@ var controller = new ScrollMagic.Controller();
 	// 	name: 'top layer',
 	// 	colorTrigger: 'pink',
 	// 	indent: 350,
+	// 	colorstart:'red'
+	// })
+	.addTo(controller);
+
+});
+
+
+$(document).ready(function(){
+
+//Init ScrollMagic
+var controller = new ScrollMagic.Controller();
+
+// build a scene	
+	var ourScene = new ScrollMagic.Scene ({
+		triggerElement: '#ux-image-trigger',
+		duration: '140%',
+    	triggerHook: 0.76
+	})
+	.setClassToggle('#ux_layer_4', 'fade-in')
+	// .addIndicators({
+	// 	name: 'clipboard layer',
+	// 	colorTrigger: 'pink',
+	// 	indent: 350,
+	// 	colorstart:'red'
+	// })
+	.addTo(controller);
+
+});
+
+$(document).ready(function(){
+
+//Init ScrollMagic
+var controller = new ScrollMagic.Controller();
+
+// build a scene	
+	var ourScene = new ScrollMagic.Scene ({
+		triggerElement: '#ux_layer_4',
+		duration: '120%',
+    	triggerHook: 0.80
+	})
+	.setClassToggle('#ux_layer_11', 'fade-in')
+	// .addIndicators({
+	// 	name: 'notes',
+	// 	colorTrigger: 'pink',
+	// 	indent: 300,
+	// 	colorstart:'red'
+	// })
+	.addTo(controller);
+
+});
+
+
+$(document).ready(function(){
+
+//Init ScrollMagic
+var controller = new ScrollMagic.Controller();
+
+// build a scene	
+	var ourScene = new ScrollMagic.Scene ({
+		triggerElement: '#ux_layer_4',
+		duration: '100%',
+    	triggerHook: 0.80
+	})
+	.setClassToggle('#ux_layer_2', 'fade-in')
+	// .addIndicators({
+	// 	name: 'user personas',
+	// 	colorTrigger: 'pink',
+	// 	indent: 300,
 	// 	colorstart:'red'
 	// })
 	.addTo(controller);
