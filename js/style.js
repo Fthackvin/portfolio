@@ -71,12 +71,12 @@ var controller = new ScrollMagic.Controller();
     	triggerHook: 0.78
 	})
 	.setClassToggle('#computer_layer_3', 'fade-in')
-	.addIndicators({
-		name: 'third layer',
-		colorTrigger: 'pink',
-		indent: 300,
-		colorstart:'red'
-	})
+	// .addIndicators({
+	// 	name: 'third layer',
+	// 	colorTrigger: 'pink',
+	// 	indent: 300,
+	// 	colorstart:'red'
+	// })
 	.addTo(controller);
 
 });
