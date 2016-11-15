@@ -114,7 +114,7 @@ var controller = new ScrollMagic.Controller();
 	var ourScene = new ScrollMagic.Scene ({
 		triggerElement: '#ux-image-trigger',
 		duration: '140%',
-    	triggerHook: 0.76
+    	triggerHook: 0.8
 	})
 	.setClassToggle('#ux_layer_4', 'fade-in')
 	// .addIndicators({
@@ -134,9 +134,9 @@ var controller = new ScrollMagic.Controller();
 
 // build a scene	
 	var ourScene = new ScrollMagic.Scene ({
-		triggerElement: '#ux_layer_4',
+		triggerElement: '#ux-image-trigger',
 		duration: '140%',
-    	triggerHook: 0.80
+    	triggerHook: 0.75
 	})
 	.setClassToggle('#ux_layer_11', 'fade-in')
 	// .addIndicators({
@@ -157,9 +157,9 @@ var controller = new ScrollMagic.Controller();
 
 // build a scene	
 	var ourScene = new ScrollMagic.Scene ({
-		triggerElement: '#ux_layer_4',
+		triggerElement: '#ux-image-trigger',
 		duration: '140%',
-    	triggerHook: 0.80
+    	triggerHook: 0.7
 	})
 	.setClassToggle('#ux_layer_2', 'fade-in')
 	// .addIndicators({
