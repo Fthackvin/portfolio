@@ -135,7 +135,7 @@ var controller = new ScrollMagic.Controller();
 // build a scene	
 	var ourScene = new ScrollMagic.Scene ({
 		triggerElement: '#ux_layer_4',
-		duration: '120%',
+		duration: '140%',
     	triggerHook: 0.80
 	})
 	.setClassToggle('#ux_layer_11', 'fade-in')
@@ -158,7 +158,7 @@ var controller = new ScrollMagic.Controller();
 // build a scene	
 	var ourScene = new ScrollMagic.Scene ({
 		triggerElement: '#ux_layer_4',
-		duration: '100%',
+		duration: '140%',
     	triggerHook: 0.80
 	})
 	.setClassToggle('#ux_layer_2', 'fade-in')
