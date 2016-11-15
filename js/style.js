@@ -25,12 +25,12 @@ var controller = new ScrollMagic.Controller();
     	triggerHook: 0.8
 	})
 	.setClassToggle('#computer_layer_1', 'fade-in')
-	.addIndicators({
-		name: 'bottom layer',
-		colorTrigger: 'pink',
-		indent: 200,
-		colorstart:'red'
-	})
+	// .addIndicators({
+	// 	name: 'bottom layer',
+	// 	colorTrigger: 'pink',
+	// 	indent: 200,
+	// 	colorstart:'red'
+	// })
 	.addTo(controller);
 
 });
@@ -48,12 +48,12 @@ var controller = new ScrollMagic.Controller();
     	triggerHook: 0.79
 	})
 	.setClassToggle('#computer_layer_2', 'fade-in')
-	.addIndicators({
-		name: 'second layer',
-		colorTrigger: 'pink',
-		indent: 250,
-		colorstart:'red'
-	})
+	// .addIndicators({
+	// 	name: 'second layer',
+	// 	colorTrigger: 'pink',
+	// 	indent: 250,
+	// 	colorstart:'red'
+	// })
 	.addTo(controller);
 
 });
@@ -94,12 +94,12 @@ var controller = new ScrollMagic.Controller();
     	triggerHook: 0.76
 	})
 	.setClassToggle('#computer_layer_4_top', 'fade-in')
-	.addIndicators({
-		name: 'top layer',
-		colorTrigger: 'pink',
-		indent: 350,
-		colorstart:'red'
-	})
+	// .addIndicators({
+	// 	name: 'top layer',
+	// 	colorTrigger: 'pink',
+	// 	indent: 350,
+	// 	colorstart:'red'
+	// })
 	.addTo(controller);
 
 });
