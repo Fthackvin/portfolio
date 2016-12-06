@@ -755,7 +755,7 @@ font-family: 'MyriadPro-Regular', Fallback, sans-serif;
   right: 0;
   left: 0;
   display: inline-block;
-  background-image: url(../falcao/img/placeholders/granola.jpeg);
+  background-image: url(./falcao/img/placeholders/granola.jpeg);
 background-repeat: no-repeat;
 background-size: contain;
 }
@@ -792,7 +792,7 @@ padding-right: 100px;
   right: 0;
   left: 0;
   display: inline-block;
-  background-image: url(../falcao/img/placeholders/community.jpeg);
+  background-image: url(./falcao/img/placeholders/community.jpeg);
 background-repeat: no-repeat;
 background-size: contain;
 }
@@ -845,7 +845,7 @@ left:0;}
     position: absolute;
     left: -56px;
     background-repeat: no-repeat;
-    background-image: url(../falcao/img/parallax/treeline1.png);
+    background-image: url(./falcao/img/parallax/treeline1.png);
     background-size: cover;
     z-index: 16;
     bottom: 116px;
