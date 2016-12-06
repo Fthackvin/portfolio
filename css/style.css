@@ -285,7 +285,7 @@ margin-left: -5px!important;
 
 
 li div#about_icon {
-background-image: url('../nav_images/about_icon.png');
+background-image: url('../nav_images/pen.png');
 background-repeat: no-repeat;
 border-style: none;
 width: 70px;
@@ -968,6 +968,9 @@ box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 backface-visibility: hidden;
 -moz-osx-font-smoothing: grayscale;
 }
+
+
+
 
 .plane_icon:hover, .plane_icon:focus, .plane_icon:active {
   background-size: contain;

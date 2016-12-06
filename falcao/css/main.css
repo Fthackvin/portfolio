@@ -1,0 +1,945 @@
+
+
+/* FONTS
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________*/
+
+
+@font-face {
+  font-family: 'NexaRustScript';
+  src: url('fonts/NexaRustScriptL-0-Free.otf'); /* IE9 Compat Modes */
+  src: url('fonts/NexaRustScriptL-0-Free.otf.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/NexaRustScriptL-0-Free.otf.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/NexaRustScriptL-0-Free.otf.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/NexaRustScriptL-0-Free.otf.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/NexaRustScriptL-0-Free.otf.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+  font-family: 'Playfairdisplay';
+  src: url('fonts/Playfairdisplay.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Playfairdisplay.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Playfairdisplay.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Playfairdisplay.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Playfairdisplay.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Playfairdisplay.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url('fonts/MyriadPro-Regular.otf'); /* IE9 Compat Modes */
+  src: url('fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/MyriadPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/MyriadPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/MyriadPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/MyriadPro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+  font-family: 'GT-Eesti-Pro-Display-Trial-Medium';
+  src: url('fonts/GT-Eesti-Pro-Display-Trial-Medium.otf'); /* IE9 Compat Modes */
+  src: url('fonts/GT-Eesti-Pro-Display-Trial-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/GT-Eesti-Pro-Display-Trial-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/GT-Eesti-Pro-Display-Trial-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/GT-Eesti-Pro-Display-Trial-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/GT-Eesti-Pro-Display-Trial-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('fonts/Gotham.tff'); /* IE9 Compat Modes */
+  src: url('fonts/Gotham.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Gotham.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Gotham.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Gotham.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Gotham.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+  font-family: 'Arial1';
+  src: url('fonts/Arial1.ttf'); /* IE9 Compat Modes */
+  src: url('fonts/Arial1.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Arial1.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Arial1.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Arial1.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Arial1.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+/* GLOBAL
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0; margin: 0;
+  overflow-x: hidden;
+}
+
+p {
+	font-family: 'MyriadPro-Regular', Fallback, serif;
+}
+
+
+h1 {
+	font-family: 'MyriadPro-Regular', Fallback, serif;
+}
+
+li {
+  list-style: none;
+  float: left;
+    font-family: 'MyriadPro-Regular', Fallback, serif;
+}
+
+ul {
+    float: left;
+}
+
+/* NAVIGATION
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________*/
+
+.nav-title {
+	display: inline-block;
+	font-size: 30px;
+	font-family: 'NexaRustScript', Fallback, italic;
+	margin-top: 20px;
+	padding-right: 60px;
+	padding-left: 20px;
+	color:#4e4d4d;
+}
+
+@media screen and (max-width: 1100px){
+  .nav-title{
+      padding-right: 40px;
+  padding-left: 10px;
+  }
+}
+
+
+@media screen and (max-width: 937px){
+  .nav-title{
+  font-size: 24px;
+  padding-right: 40px;
+  padding-left: 0px;
+  }
+}
+
+
+.nav-title  a {
+		color:#4e4d4d!important;
+}
+
+
+#text-cereal {
+    opacity: 0;
+    color: white;
+    font-size: 23px;
+    font-family: 'GT-Eesti-Pro-Display-Trial-Medium', Fallback, serif;
+    top: 134px;
+    text-align: center;
+    /* right: 0; */
+    /* left: 0; */
+    z-index: 18;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#logo-nav {
+	margin-top: 2px;
+	float: left;
+	width: 124px;
+	height: auto;
+	 -ms-transform: rotate(-10deg); /* IE 9 */
+  -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+  transform: rotate(-10deg);
+}
+
+img.show-logo {
+  opacity: 0;
+   -webkit-transition: opacity 0.7s ease-out;
+    -moz-transition: opacity 0.7s ease-out;
+    transition: opacity 0.7s ease-out;
+}
+
+img.show-logo.show {
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+hr#nav-hr { 
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    border-width: 3px;
+    border-color: #373736;
+}
+
+/* PARALLAX
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________*/
+
+
+./*background3 {
+  top: 300px;
+  height: 150%;
+}
+
+.background3.move {
+  top: 400px;
+  height: 150%;
+
+}
+*/
+
+.content-wrapper {
+	margin:  0 auto;
+	position: relative;
+}
+
+
+#sky-image {
+	background-image: url("../img/parallax/sky1.png");
+	z-index: 9;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:117%;
+	height: 1000px;
+	padding: 0;
+	margin: 0;
+  margin-left: -100px;
+}
+
+#logo {
+  top: 200px;
+  right: 0;
+  left: 0;
+  background-image: url("../img/parallax/falcaos.png");
+  z-index: 18;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 400px;
+  height: 100%;
+  padding: 0;
+  margin:  0 auto;
+}
+
+#sky-rays {
+	 left: 230px;
+    right: 0;
+    background-image: url(../img/parallax/skyrays.png);
+    z-index: 11;
+    opacity: 6.7;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 800px;
+    padding: 0;
+    margin: 0 auto;
+    top: 100px;
+}
+
+#sun-image{
+  top: 375px;
+  right: 0;
+  left: 0;
+  background-image: url("../img/parallax/sun.png");
+  z-index: 11;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:21%;
+  height: 100%;
+  padding: 0;
+  margin:  0 auto;
+}
+
+
+
+#cloud-one-left {
+    background-image: url(../img/parallax/cloudleft.png);
+    z-index: 11;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    left: 200px;
+    right: 0;
+    top: 200px;
+
+}
+
+#cloud-one-right {
+    background-image: url("../img/parallax/cloudright.png");
+    z-index: 11;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 200px;
+    right: 0;
+    left:63%;
+}
+
+#cloud-two-right {
+    background-image: url(../img/parallax/cloudright1.png);
+    z-index: 11;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 283px;
+    right: 0;
+    left: 63%;
+}
+
+
+
+#falcoa-bird-one {
+	   top: 359px;
+    margin: 0;
+    right: 0;
+    left: 62.6%;
+    background-image: url(../img/parallax/eagle.png);
+    z-index: 13;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 116px;
+    height: 116px;
+    position: absolute;
+    padding: 0;
+
+}
+
+
+
+#banner {
+	top: 419px;
+    right: 0;
+    left: 0;
+    background-image: url(../img/parallax/banner.png);
+    z-index: 12;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+#text-banner {
+	   top: 428px;
+    right: 0;
+    left: -40px;
+    background-image: url(../img/parallax/everybody.png);
+    z-index: 13;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+
+#bluehill1-image{
+    top: 400px;
+    background-image: url(../img/parallax/bluehill1left.png);
+    z-index: 12;
+    position: absolute;
+    background-repeat: no-repeat;
+     background-size: contain; 
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+    left: -200px;
+}
+
+#bluehill2-image{
+    top: 400px;
+    background-image: url(../img/parallax/bluehillright.png);
+    z-index: 11;
+    position: absolute;
+    background-repeat: no-repeat;
+     background-size: contain; 
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+    right: -200px;
+}
+
+@media screen and (){
+#bluehill2-image{
+    top: 392px;
+
+}
+}
+
+#greenfield1{
+	   top: 402px;
+    background-image: url(../img/parallax/greenhills-left.png);
+    z-index: 13;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+    left: -600px;
+
+}
+
+#greenfield2{
+    top: 468px;
+    background-image: url(../img/parallax/greenhills-left-2.png);
+    z-index: 15;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+    left: -304px;
+    background-size: contain;
+}
+
+
+
+#greenfield3{
+	 top: 501px;
+    background-image: url(../img/parallax/greenhills-middle.png);
+    z-index: 14;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+    right: 0;
+    left: 314px;
+}
+
+
+#cornfield	{
+	 top: 630px;
+    background-image: url(../img/parallax/cornfield2.png);
+    z-index: 16;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 400px;
+    padding: 0;
+    margin: 0 auto;
+    right: 0;
+    left: 200px;
+}	
+		
+#treeline_1{
+	width: 107%;
+  height: 100%;
+  position: absolute;
+  left: -55px;
+  bottom: 2px;
+  background-repeat: no-repeat;
+  background-image: url(../img/parallax/treeline1.png);
+  background-size: contain;
+  top: 750px;
+  z-index: 16;
+  right: -50px;
+}
+
+
+#treeline_2{
+    width: 102%;
+    height: 472px;
+    /* overflow-y: overlay; */
+    position: absolute;
+    bottom: 2px;
+    background-image: url(../img/parallax/treeline2.png);
+    background-size: cover;
+    top: 761px;
+    z-index: 16;
+    left: -25px;
+    background-repeat: no-repeat;
+}
+
+#made-from {
+  display: inline-block;
+  font-size: 36px;
+  font-family: 'NexaRustScript', Fallback, italic;
+  margin-top: 30px;
+  color: #F9BC2B;
+  text-align: center;
+  z-index: 18;
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  -ms-transform: rotate(-10deg); /* IE 9 */
+  -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+  transform: rotate(-10deg);
+  left: -200px;
+
+}
+
+#text-ingredients {
+    opacity: 1;
+    color: white;
+    font-size: 23px;
+    font-family: 'GT-Eesti-Pro-Display-Trial-Medium', Fallback, serif;
+    text-align: center;
+    /* right: 0; */
+    /* left: 0; */
+    z-index: 18;
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+div.icons {
+	display: inline-block;
+}
+
+
+section#distributers div.icons img  {
+	display: inline-block;
+  height: auto;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+
+img#indepedents {
+width: 150px;
+height: auto;
+}
+
+img#supermarkets {
+width: 120px;
+height: auto;
+}
+
+
+img#online {
+width: 120px;
+height: auto;
+}
+
+
+
+div#banner-background img {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom:80px;
+	width:800px;
+	height: auto; 
+}
+
+
+
+/* DISTRIBUTORS SECTION
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________*/
+
+
+p.titles {
+font-family: 'NexaRustScript', Fallback, italic;
+padding-top: 20px;
+font-size: 25px;
+
+}
+
+
+/* WAYS TO ENJOY / GOOD FOR YOU
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________*/
+
+.upsell-titles {
+
+font-size: 40px;
+font-family: 'NexaRustScript', Fallback, italic ;
+color: red;
+text-shadow: white;
+/*-ms-transform: rotate(-10deg);*/ /* IE 9 */
+/*-webkit-transform: rotate(-10deg);*/ /* Chrome, Safari, Opera */
+/*transform: rotate(-10deg);*/
+padding-bottom: 25px;
+
+}
+
+
+.box-info {
+	padding:31px 36px 48px 36px;
+	width:359px;
+	height: 517px;
+	border-style: dashed;
+	border-radius: 50px;
+	border-color: #373736;
+	display: inline-block;
+	background-color: white;
+	z-index: 10;
+  margin-bottom: 30px;
+}
+
+
+.info-titles-product {
+  font-family: 'Playfairdisplay', Fallback, italic ;
+  margin-top: 4px;
+  margin-bottom: 13px;
+}
+
+/* INGREDIENTS
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________*/
+
+
+#full-product-details {
+color: red;
+margin-top: 100PX;
+margin-top: 56PX;
+font-size: 40px;
+font-family: 'NexaRustScript', Fallback, italic ;
+/*-ms-transform: rotate(-10deg);
+-webkit-transform: rotate(-10deg); */
+}
+
+.circle {
+width: 200px;
+height: 200px;
+border-style: 1px solid black;
+background: lightgrey;
+border-radius: 100px;
+display: inline-block;
+margin: 30px;
+}
+
+@media screen and (max-width:1200px){
+.circle {
+margin: 12px;
+}
+}
+
+.circle-2 {
+width: 200px;
+height: 200px;
+border-style: 1px solid black;
+background: lightgrey;
+border-radius: 100px;
+display: inline-block;
+margin: 30px;
+}
+
+@media screen and (max-width:1200px){
+.circle-2 {
+margin: 16px;
+}
+}
+
+#ingredients-margin {
+  margin-left: -22px;
+  margin-top: 35px;
+}
+
+#ingredients-margin-2{
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 991px) {
+div#ingredients-margin {
+  margin-top: 80px;
+  }
+}
+
+.circle-big {
+width: 300px;
+height: 300px;
+border-style: 1px solid black;
+background: lightgrey;
+border-radius: 150px;
+display: inline-block;
+margin: 10px;
+}
+
+
+#nutritional-information {
+padding-left: 60px;
+padding-right: 60px;
+}
+
+#story-sub-title {
+font-family: 'MyriadPro-Regular', Fallback, sans-serif;
+}
+
+
+
+
+
+/*IMAGES*/
+
+#circle-content-1 {
+  color: black;
+  background-image: url(../img/placeholders/organic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#circle-content-2 {
+  background-image: url(../img/placeholders/pumkinseed.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#circle-content-3 {
+  background-image: url(../img/placeholders/sesame.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#circle-content-4 {
+  background-image: url(../img/placeholders/sunflowerseeds.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+#circle-content-5 {
+  background-image: url(../img/placeholders/amaranth.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+#circle-content-6 {
+   background-image: url(../img/placeholders/buckwheat.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+#circle-content-7 {
+    background-image: url(../img/placeholders/chiaseeds.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#circle-content-8 {
+  background-image: url(../img/placeholders/linseed.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#circle-content-9 {
+  right: 0;
+  left: 0;
+  display: inline-block;
+  background-image: url(../img/placeholders/granola.jpeg);
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+/* STORY
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________*/
+
+#story {
+	height: 400px;
+	padding-left: 120px;
+	padding-right: 120px;
+}
+
+#story-title {
+	font-family:'NexaRustScript', Fallback, italic ;
+}
+
+
+/* Community
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________*/
+
+
+#community-words {
+  padding-left: 100px;
+padding-right: 100px;
+}
+
+
+#circle-content-10 {
+  right: 0;
+  left: 0;
+  display: inline-block;
+  background-image: url(../img/placeholders/community.jpeg);
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+/* FOOTER
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________*/
+
+footer {
+	clear: both;
+ position: absolute;
+  right: 0;
+  left: 0;
+  padding: 0rem;
+  background-color: white;
+
+}
+
+
+#footer-image2 img {
+	   z-index: 3;
+
+}
+
+#final-footer-wrapper {
+
+ position: absolute;
+bottom: 0;
+left:0;}
+
+#final-footer {
+	width:100%;
+	height: 70px;
+	background-color: #251b1b;;
+	color: white;
+	z-index: 2;
+}
+
+.footercopyright {
+	font-size: 20px;
+	font-family: 'NexaRustScript', Fallback, italic;
+	padding-top: 23px;
+}
+
+
+#treeline_footer_2 {
+    width: 108%;
+    height: 100%;
+    position: absolute;
+    left: -56px;
+    background-repeat: no-repeat;
+    background-image: url(../img/parallax/treeline1.png);
+    background-size: cover;
+    z-index: 16;
+    bottom: 116px;
+}
+
+
+#treeline_footer {
+    width: 108%;
+    height: 100%;
+    position: absolute;
+    bottom: 60px;
+    background-image: url(../img/parallax/treeline2.png);
+    background-size: cover;
+    z-index: 16;
+    left: -29px;
+    background-repeat: no-repeat;
+}
+
+
+/* FOOTER-COPY
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________*/
+
+.footer-info-padding {
+margin-bottom: 100px;
+color: white;
+margin-top: 10px;
+}
+
+
+h1.footer-header-size {
+	font-size: 26px;
+}
+
+#footer-address {
+  padding-top: 20px;
+  margin-left: 84px;
+}
+
+#who-we-are {
+  padding-top: 20px;
+	max-width: 313px;
+    margin-right: 40px;
+    margin-left: -20px;
+}
+
+#get-in-touch {
+  padding-top: 20px;
+}
+
+/* BOOTSTRAP-
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________*/
+
+/*@import "./bootstrap/variables.less";
+
+.col-xs-push-half {
+  left: percentage((1 / @grid-columns) / 2);
+}
+.col-xs-pull-half {
+  right: percentage((1 / @grid-columns) / 2);
+}
+
+.col-sm-push-half {
+  @media (min-width: @screen-sm-min) {
+    left: percentage((1 / @grid-columns) / 2);
+  }
+}
+.col-sm-pull-half {
+  @media (min-width: @screen-sm-min) {
+    right: percentage((1 / @grid-columns) / 2);
+  }
+}
+
+.col-md-push-half {
+  @media (min-width: @screen-md-min) {
+    left: percentage((1 / @grid-columns) / 2);
+  }
+}
+.col-md-pull-half {
+  @media (min-width: @screen-md-min) {
+    right: percentage((1 / @grid-columns) / 2);
+  }
+}
+
+.col-lg-push-half {
+  @media (min-width: @screen-lg-min) {
+    left: percentage((1 / @grid-columns) / 2);
+  }
+}
+.col-lg-pull-half {
+  @media (min-width: @screen-lg-min) {
+    right: percentage((1 / @grid-columns) / 2);
+  }
+}*/
