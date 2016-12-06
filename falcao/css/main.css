@@ -8,67 +8,67 @@ ________________________________________________________________________________
 
 @font-face {
   font-family: 'NexaRustScript';
-  src: url('fonts/NexaRustScriptL-0-Free.otf'); /* IE9 Compat Modes */
-  src: url('fonts/NexaRustScriptL-0-Free.otf.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/NexaRustScriptL-0-Free.otf.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/NexaRustScriptL-0-Free.otf.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/NexaRustScriptL-0-Free.otf.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/NexaRustScriptL-0-Free.otf.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('falcao/fonts/NexaRustScriptL-0-Free.otf'); /* IE9 Compat Modes */
+  src: url('falcao/fonts/NexaRustScriptL-0-Free.otf.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('falcao/fonts/NexaRustScriptL-0-Free.otf.woff2') format('woff2'), /* Super Modern Browsers */
+       url('falcao/fonts/NexaRustScriptL-0-Free.otf.woff') format('woff'), /* Pretty Modern Browsers */
+       url('falcao/fonts/NexaRustScriptL-0-Free.otf.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('falcao/fonts/NexaRustScriptL-0-Free.otf.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 
 @font-face {
   font-family: 'Playfairdisplay';
-  src: url('fonts/Playfairdisplay.eot'); /* IE9 Compat Modes */
-  src: url('fonts/Playfairdisplay.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/Playfairdisplay.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/Playfairdisplay.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/Playfairdisplay.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/Playfairdisplay.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('flacao/fonts/Playfairdisplay.eot'); /* IE9 Compat Modes */
+  src: url('falcao/fonts/Playfairdisplay.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('falcao/fonts/Playfairdisplay.woff2') format('woff2'), /* Super Modern Browsers */
+       url('falcao/fonts/Playfairdisplay.woff') format('woff'), /* Pretty Modern Browsers */
+       url('falcao/fonts/Playfairdisplay.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('falcao/fonts/Playfairdisplay.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 
 @font-face {
   font-family: 'MyriadPro-Regular';
-  src: url('fonts/MyriadPro-Regular.otf'); /* IE9 Compat Modes */
-  src: url('fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/MyriadPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/MyriadPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/MyriadPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/MyriadPro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('falcao/fonts/MyriadPro-Regular.otf'); /* IE9 Compat Modes */
+  src: url('falcao/fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('falcao/fonts/MyriadPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('falcao/fonts/MyriadPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('falcao/fonts/MyriadPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('falcao/fonts/MyriadPro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 
 @font-face {
   font-family: 'GT-Eesti-Pro-Display-Trial-Medium';
-  src: url('fonts/GT-Eesti-Pro-Display-Trial-Medium.otf'); /* IE9 Compat Modes */
-  src: url('fonts/GT-Eesti-Pro-Display-Trial-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/GT-Eesti-Pro-Display-Trial-Medium.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/GT-Eesti-Pro-Display-Trial-Medium.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/GT-Eesti-Pro-Display-Trial-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/GT-Eesti-Pro-Display-Trial-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('falcao/fonts/GT-Eesti-Pro-Display-Trial-Medium.otf'); /* IE9 Compat Modes */
+  src: url('falcao/fonts/GT-Eesti-Pro-Display-Trial-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('falcao/fonts/GT-Eesti-Pro-Display-Trial-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('falcao/fonts/GT-Eesti-Pro-Display-Trial-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('falcao/fonts/GT-Eesti-Pro-Display-Trial-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('falcao/fonts/GT-Eesti-Pro-Display-Trial-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 
 @font-face {
   font-family: 'Gotham';
-  src: url('fonts/Gotham.tff'); /* IE9 Compat Modes */
-  src: url('fonts/Gotham.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/Gotham.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/Gotham.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/Gotham.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/Gotham.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('falcao/fonts/Gotham.tff'); /* IE9 Compat Modes */
+  src: url('falcao/fonts/Gotham.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('falcao/fonts/Gotham.woff2') format('woff2'), /* Super Modern Browsers */
+       url('falcao/fonts/Gotham.woff') format('woff'), /* Pretty Modern Browsers */
+       url('falcao/fonts/Gotham.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('falcao/fonts/Gotham.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 
 @font-face {
   font-family: 'Arial1';
-  src: url('fonts/Arial1.ttf'); /* IE9 Compat Modes */
-  src: url('fonts/Arial1.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/Arial1.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/Arial1.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/Arial1.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/Arial1.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('falcao/fonts/Arial1.ttf'); /* IE9 Compat Modes */
+  src: url('falcao/fonts/Arial1.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('falcao/fonts/Arial1.woff2') format('woff2'), /* Super Modern Browsers */
+       url('falcao/fonts/Arial1.woff') format('woff'), /* Pretty Modern Browsers */
+       url('falcao/fonts/Arial1.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('falcao/fonts/Arial1.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 
@@ -218,7 +218,7 @@ ________________________________________________________________________________
 
 
 #sky-image {
-	background-image: url("../img/parallax/sky1.png");
+	background-image: url("../falcao/img/parallax/sky1.png");
 	z-index: 9;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -233,7 +233,7 @@ ________________________________________________________________________________
   top: 200px;
   right: 0;
   left: 0;
-  background-image: url("../img/parallax/falcaos.png");
+  background-image: url("../falcao/img/parallax/falcaos.png");
   z-index: 18;
   position: absolute;
   background-repeat: no-repeat;
@@ -247,7 +247,7 @@ ________________________________________________________________________________
 #sky-rays {
 	 left: 230px;
     right: 0;
-    background-image: url(../img/parallax/skyrays.png);
+    background-image: url(../falcao/img/parallax/skyrays.png);
     z-index: 11;
     opacity: 6.7;
     position: absolute;
@@ -264,7 +264,7 @@ ________________________________________________________________________________
   top: 375px;
   right: 0;
   left: 0;
-  background-image: url("../img/parallax/sun.png");
+  background-image: url("../falcao/img/parallax/sun.png");
   z-index: 11;
   position: absolute;
   background-repeat: no-repeat;
@@ -278,7 +278,7 @@ ________________________________________________________________________________
 
 
 #cloud-one-left {
-    background-image: url(../img/parallax/cloudleft.png);
+    background-image: url(../falcao/img/parallax/cloudleft.png);
     z-index: 11;
     position: absolute;
     background-repeat: no-repeat;
@@ -291,7 +291,7 @@ ________________________________________________________________________________
 }
 
 #cloud-one-right {
-    background-image: url("../img/parallax/cloudright.png");
+    background-image: url("../falcao/img/parallax/cloudright.png");
     z-index: 11;
     position: absolute;
     background-repeat: no-repeat;
@@ -303,7 +303,7 @@ ________________________________________________________________________________
 }
 
 #cloud-two-right {
-    background-image: url(../img/parallax/cloudright1.png);
+    background-image: url(../falcao/img/parallax/cloudright1.png);
     z-index: 11;
     position: absolute;
     background-repeat: no-repeat;
@@ -321,7 +321,7 @@ ________________________________________________________________________________
     margin: 0;
     right: 0;
     left: 62.6%;
-    background-image: url(../img/parallax/eagle.png);
+    background-image: url(../falcao/img/parallax/eagle.png);
     z-index: 13;
     background-repeat: no-repeat;
     background-size: contain;
@@ -338,7 +338,7 @@ ________________________________________________________________________________
 	top: 419px;
     right: 0;
     left: 0;
-    background-image: url(../img/parallax/banner.png);
+    background-image: url(../falcao/img/parallax/banner.png);
     z-index: 12;
     position: absolute;
     background-repeat: no-repeat;
@@ -354,7 +354,7 @@ ________________________________________________________________________________
 	   top: 428px;
     right: 0;
     left: -40px;
-    background-image: url(../img/parallax/everybody.png);
+    background-image: url(../falcao/img/parallax/everybody.png);
     z-index: 13;
     position: absolute;
     background-repeat: no-repeat;
@@ -369,7 +369,7 @@ ________________________________________________________________________________
 
 #bluehill1-image{
     top: 400px;
-    background-image: url(../img/parallax/bluehill1left.png);
+    background-image: url(../falcao/img/parallax/bluehill1left.png);
     z-index: 12;
     position: absolute;
     background-repeat: no-repeat;
@@ -383,7 +383,7 @@ ________________________________________________________________________________
 
 #bluehill2-image{
     top: 400px;
-    background-image: url(../img/parallax/bluehillright.png);
+    background-image: url(../falcao/img/parallax/bluehillright.png);
     z-index: 11;
     position: absolute;
     background-repeat: no-repeat;
@@ -404,7 +404,7 @@ ________________________________________________________________________________
 
 #greenfield1{
 	   top: 402px;
-    background-image: url(../img/parallax/greenhills-left.png);
+    background-image: url(../falcao/img/parallax/greenhills-left.png);
     z-index: 13;
     position: absolute;
     background-repeat: no-repeat;
@@ -418,7 +418,7 @@ ________________________________________________________________________________
 
 #greenfield2{
     top: 468px;
-    background-image: url(../img/parallax/greenhills-left-2.png);
+    background-image: url(../falcao/img/parallax/greenhills-left-2.png);
     z-index: 15;
     position: absolute;
     background-repeat: no-repeat;
@@ -434,7 +434,7 @@ ________________________________________________________________________________
 
 #greenfield3{
 	 top: 501px;
-    background-image: url(../img/parallax/greenhills-middle.png);
+    background-image: url(../falcao/img/parallax/greenhills-middle.png);
     z-index: 14;
     position: absolute;
     background-size: contain;
@@ -450,7 +450,7 @@ ________________________________________________________________________________
 
 #cornfield	{
 	 top: 630px;
-    background-image: url(../img/parallax/cornfield2.png);
+    background-image: url(../falcao/img/parallax/cornfield2.png);
     z-index: 16;
     position: absolute;
     background-repeat: no-repeat;
@@ -470,7 +470,7 @@ ________________________________________________________________________________
   left: -55px;
   bottom: 2px;
   background-repeat: no-repeat;
-  background-image: url(../img/parallax/treeline1.png);
+  background-image: url(../falcao/img/parallax/treeline1.png);
   background-size: contain;
   top: 750px;
   z-index: 16;
@@ -484,7 +484,7 @@ ________________________________________________________________________________
     /* overflow-y: overlay; */
     position: absolute;
     bottom: 2px;
-    background-image: url(../img/parallax/treeline2.png);
+    background-image: url(../falcao/img/parallax/treeline2.png);
     background-size: cover;
     top: 761px;
     z-index: 16;
@@ -712,42 +712,42 @@ font-family: 'MyriadPro-Regular', Fallback, sans-serif;
 
 #circle-content-1 {
   color: black;
-  background-image: url(../img/placeholders/organic.png);
+  background-image: url(../falcao/img/placeholders/organic.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #circle-content-2 {
-  background-image: url(../img/placeholders/pumkinseed.jpeg);
+  background-image: url(../falcao/img/placeholders/pumkinseed.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #circle-content-3 {
-  background-image: url(../img/placeholders/sesame.jpeg);
+  background-image: url(../falcao/img/placeholders/sesame.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #circle-content-4 {
-  background-image: url(../img/placeholders/sunflowerseeds.jpeg);
+  background-image: url(../falcao/img/placeholders/sunflowerseeds.jpeg);
   background-repeat: no-repeat;
   background-size: cover; 
 }
 #circle-content-5 {
-  background-image: url(../img/placeholders/amaranth.jpeg);
+  background-image: url(../falcao/img/placeholders/amaranth.jpeg);
   background-repeat: no-repeat;
   background-size: cover;  
 }
 #circle-content-6 {
-   background-image: url(../img/placeholders/buckwheat.jpeg);
+   background-image: url(../falcao/img/placeholders/buckwheat.jpeg);
   background-repeat: no-repeat;
   background-size: cover; 
 }
 #circle-content-7 {
-    background-image: url(../img/placeholders/chiaseeds.jpeg);
+    background-image: url(../falcao/img/placeholders/chiaseeds.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #circle-content-8 {
-  background-image: url(../img/placeholders/linseed.jpeg);
+  background-image: url(../falcao/img/placeholders/linseed.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -755,7 +755,7 @@ font-family: 'MyriadPro-Regular', Fallback, sans-serif;
   right: 0;
   left: 0;
   display: inline-block;
-  background-image: url(../img/placeholders/granola.jpeg);
+  background-image: url(../falcao/img/placeholders/granola.jpeg);
 background-repeat: no-repeat;
 background-size: contain;
 }
@@ -792,7 +792,7 @@ padding-right: 100px;
   right: 0;
   left: 0;
   display: inline-block;
-  background-image: url(../img/placeholders/community.jpeg);
+  background-image: url(../falcao/img/placeholders/community.jpeg);
 background-repeat: no-repeat;
 background-size: contain;
 }
@@ -845,7 +845,7 @@ left:0;}
     position: absolute;
     left: -56px;
     background-repeat: no-repeat;
-    background-image: url(../img/parallax/treeline1.png);
+    background-image: url(../falcao/img/parallax/treeline1.png);
     background-size: cover;
     z-index: 16;
     bottom: 116px;
@@ -857,7 +857,7 @@ left:0;}
     height: 100%;
     position: absolute;
     bottom: 60px;
-    background-image: url(../img/parallax/treeline2.png);
+    background-image: url(../falcao/img/parallax/treeline2.png);
     background-size: cover;
     z-index: 16;
     left: -29px;
