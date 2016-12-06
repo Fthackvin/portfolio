@@ -857,7 +857,7 @@ left:0;}
     height: 100%;
     position: absolute;
     bottom: 60px;
-    background-image: url(../falcao/img/parallax/treeline2.png);
+    background-image: url(./falcao/img/parallax/treeline2.png);
     background-size: cover;
     z-index: 16;
     left: -29px;
