@@ -182,7 +182,7 @@ left: -85px;
 
 @media screen and (min-width: 1220px) and (max-width: 1519px){
 #greenfield3{
-top: 400px;
+top: 460px;
  left: -85px;
 }
 }
@@ -190,7 +190,7 @@ top: 400px;
 @media screen and (min-width: 991px) and (max-width: 1219px){
 #greenfield3{
 left: 0px;    
-top: 420px;
+top: 480px;
 background-size: contain;
 background-repeat: no-repeat;
 }
