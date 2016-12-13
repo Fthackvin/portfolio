@@ -175,7 +175,7 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________
 ______________________________________________________________________________________________________*/
 
-@media screen and (max-width: 1200px){
+/*@media screen and (max-width: 1200px){
 #sky-rays{
     top: -100px;
   }
@@ -184,7 +184,6 @@ ________________________________________________________________________________
 @media screen and (max-width: 1133px){
 #sky-rays{
     top: -80px;
-    margin-left: 20px;
   }
 }
 
@@ -206,7 +205,6 @@ ________________________________________________________________________________
 @media screen and (max-width: 1029px){
 #sky-rays{
     top: -40px;
-    margin-left: 10px;
   }
 }
 
@@ -308,7 +306,7 @@ width: 0;
   }
 }
 
-
+*/
 
 
 /* PARRALAX - MOBILE 
@@ -319,12 +317,12 @@ ________________________________________________________________________________
 
 @media screen and (max-width: 991px){
 #sky-image {
-background-image: url("../img/mob_falcao2.png");
-padding: 0;
-margin:0;
-position: absolute;
-width: 100%;
-background-size: contain;
+background-image: url("../img/mob_falcao2.png")!important;
+padding: 0!important;;
+margin:0!important;;
+position: absolute!important;;
+width: 100%!important;;
+background-size: contain!important;;
 
 }
 }

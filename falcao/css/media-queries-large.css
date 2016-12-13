@@ -8,67 +8,80 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________*/
 
 
-@media screen and (min-width: 2560px) and (max-width: 4200px), screen and (min-height: 1600px) and (max-height: 3200px){
+
+@media screen and (min-width: 2561px) and (max-width: 3200px) , screen and (min-height: 1441px) and (max-height: 1600px){
 #treeline_2 {
-    height: 584px;
-    top: 1300px;
-		}
+width: 100%;    
+top: 900px;
+        }
 }
 
-
-@media screen and (max-width: 2559px) and (min-width: 1280px), screen and (max-height: 1600px) and (min-height: 900px){
+@media screen and (min-width: 1900px) and (max-width: 2560px), screen and (min-height: 1380px) and (max-height: 1440px){
 #treeline_2 {
- top: 900px;
-  left: -40px;
-     width: 109%;
-	}
+width: 100%;    
+top: 800px;
+        }
 }
 
 
-@media screen and (min-width: 1116px) and (max-width: 1279px), screen and (max-height: 899px){
-#treeline_2{
-    width: 106%;
-    overflow: hidden;
-    height: 472px;
-    position: absolute;
-    bottom: 2px;
-    background-image: url(../img/parallax/treeline2.png);
-    background-size: cover;
-    top: 761px;
-    z-index: 16;
-    left: -35px;
-    background-repeat: no-repeat;
+ @media screen and (min-width: 1520px) and (max-width: 1669px){
+#treeline_2 {
+top: 790px;    
+width: 100%;
+}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1519px){
+#treeline_2 {
+top: 788px;   
+width: 100%;
+}
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px){
+#treeline_2 {
+top: 750px;    
+width: 103%;
 }
 }
 
 
-@media screen and (min-width: 2560px) and (max-width: 4200px), screen and (min-height: 1600px) and (max-height: 3200px){
+
+
+
+@media screen and (min-width: 2561px) and (max-width: 3200px) , screen and (min-height: 1441px) and (max-height: 1600px){
+#treeline_1 {
+   width: 100%;
+   top: 820px;
+    }
+}
+
+@media screen and (min-width: 1900px)(max-width: 2560px), screen and (min-height: 1380px) and (max-height: 1440px){
 #treeline_1{
-   top: 1081px;
-}}
-
-@media screen and (max-width: 2559px) and (min-width: 1280px), screen and (max-height: 1600px) and (min-height: 900px){
-#treeline_1{
-  top: 850px;
+width: 100%;  
+  top: 795px;
 }
 }
 
 
-@media screen and (min-width: 1116px) and (max-width: 1279px), screen and (max-height: 899px){
+ @media screen and (min-width: 1520px) and (max-width: 1669px){
+#treeline_1 {
+top: 790px;    
+width: 100%;
+}
+}
 
-#treeline_1{
-width: 107%;
-  overflow: hidden;
-  height: 90%;
-  position: absolute;
-  left: -55px;
-  bottom: 2px;
-  background-repeat: no-repeat;
-  background-image: url(../img/parallax/treeline1.png);
-  background-size: contain;
-  top: 750px;
-  z-index: 16;
-  right: -50px;
+@media screen and (min-width: 1200px) and (max-width: 1519px){
+#treeline_1 {
+top: 788px;   
+width: 100%;
+}
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px){
+#treeline_1 {
+top: 784px;       
+width: 100%;
 }
 }
 
@@ -76,314 +89,428 @@ width: 107%;
 
 
 
-@media screen and (min-width: 1601px) and (max-width: 3200px), screen and (min-height: 1600px) and (max-height: 3200px){
+
+
+@media screen and (min-width: 2561px) and (max-width: 3200px) , screen and (min-height: 1441px) and (max-height: 1600px){
 #cornfield {
-	top: 806px;
-    left: 41%;
+    top: 723px;    
+background-size: contain;
+max-width: 100%;
+        }
+}
+
+
+@media screen (min-width: 2561px) and (max-width: 3000px), screen and (min-height: 1441px) and (max-height: 1600px){
+#cornfield {
+background-size: contain;
+max-width: 1000px;
+        }
+}
+
+
+@media screen and (max-width: 2560px), screen and (min-height: 1380px) and (max-height: 1440px){
+#cornfield {
+left: 334px;    
+width: 1000px;
+top: 652px;
 }
 }
 
-@media screen and (max-width: 1600px) and (min-width: 1280px), screen and (max-height: 1599px) and (min-height: 900px){
-#cornfield	{
-left: 600px;
-top: 586px;
-	}
+
+@media screen and (min-width: 1520px) and (max-width: 1669px){
+#cornfield{
+left: 68px;
+}
 }
 
-@media screen and (max-width: 1279px), screen and (max-height: 899px){
-#cornfield	{
-	top: 623px;
-    background-image: url(../img/parallax/cornfield2.png);
-    z-index: 16;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-    height: 400px;
-    padding: 0;
-    margin: 0 auto;
-    right: 0;
-    left: 200px;
+@media screen and (min-width: 1271px) and (max-width: 1519px){
+#cornfield{
+top: 628px;
 }
-}	
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1270px){
+#cornfield{
+top: 605px;
+left: 146px;
+}
+}
+
+
+
+@media screen and (min-width: 991px) and (max-width: 1199px){
+#cornfield{
+top: 623px;
+width: 92%;
+background-size: contain;
+background-repeat: no-repeat;
+left: 20px;
+}
+}
 
 
 
 
 
-@media screen and (min-width: 2560px) and (max-width: 4200px), screen and (min-height: 900px) and (max-height: 3200px){
+
+
+
+
+
+
+@media screen and (min-width: 2560px) and (max-width: 3000px), screen and (min-height: 1441px) and (max-height: 1600px){
 #greenfield3 {
-    top: 540px;
-    left: 19%;
-    }
+left: -85px;
+top: 338px;
+        }
 }
 
-@media screen and (max-width: 2559px) and (min-width: 1280px), screen and (max-height: 1600px) and (min-height: 900px){
+@media screen and (max-width: 2560px), screen and (min-height: 1380px) and (max-height: 1440px){
 #greenfield3 {
-    top:445px;
-    left: 15%;
-    }}
-
-@media screen and (min-width: 1116px) and (max-width: 1279px), screen and (max-height: 899px){
-
-#greenfield3 {
-    top: 480px;
-    background-image: url(../img/parallax/greenhills-middle.png);
-    z-index: 14;
-    position: absolute;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0 auto;
-    right: 0;
-    left: 20%;
-    }
-}
-
-
-
-
-@media screen and (min-width: 2560px) and (max-width: 4200px), screen and (min-height: 900px) and (max-height: 3200px){
-#greenfield2 {
-    top: 570px;
-   left: -509px;
+   top: 373px;
+    left: -85px;
 }
 }
 
 
-@media screen and (max-width: 2559px) and (min-width: 1280px), screen and (max-height: 1600px) and (min-height: 900px){
-#greenfield2 {
-    top: 447px;
-    left: -490px;
-    }}
+@media screen and (min-width: 1520px) and (max-width: 1669px){
+#greenfield3{
+top: 427px;
+left: -85px;
+}
+}
+
+@media screen and (min-width: 1220px) and (max-width: 1519px){
+#greenfield3{
+top: 400px;
+ left: -85px;
+}
+}
+
+@media screen and (min-width: 991px) and (max-width: 1219px){
+#greenfield3{
+left: 0px;    
+top: 420px;
+background-size: contain;
+background-repeat: no-repeat;
+}
+}
 
 
-@media screen and (min-width: 1275px) and (max-width: 1279px), screen and (max-height: 899px){
+
+
+
+@media screen and (min-width: 2560px) and (max-width: 3000px), screen and (min-height: 1441px) and (max-height: 1600px){
 #greenfield2{
-    top: 468px;
-    background-image: url(../img/parallax/greenhills-left-2.png);
-    z-index: 15;
-    position: absolute;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0 auto;
-    left: -304px;
-    background-size: contain;
-	}
+   height: 78%;
+        }
 }
 
 
-@media screen and (min-width: 2560px) and (max-width: 4200px), screen and (min-height: 900px) and (max-height: 3200px){
+@media screen and (max-width: 2560px), screen and (min-height: 1380px) and (max-height: 1440px){
+#greenfield2 {
+height: 702px
+}
+}
+  
+
+
+
+
+@media screen and (min-width: 2560px) and (max-width: 3000px), screen and (min-height: 1441px) and (max-height: 1600px){
 #greenfield1 {
-    top: 501px;
-    left: -41px;
-    }}
+left: -85px;
+top: 438px;
+        }
+}
 
-@media screen and (min-width: 1260px) and (max-width: 2559px), screen and (max-height: 901px){
-    #greenfield1{
-	   top: 402px;
-    background-image: url(../img/parallax/greenhills-left.png);
-    z-index: 13;
-    position: absolute;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0 auto;
-    left: -600px;
+@media screen and (max-width: 2560px), screen and (min-height: 1380px) and (max-height: 1440px){
+#greenfield1 {
+  top: 437px;
+left: -85px;
+}
+}
 
+
+@media screen and (min-width: 1520px) and (max-width: 1669px){
+#greenfield1{
+top: 437px;
+left: -600px;
+}
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1519px){
+#greenfield1{
+top: 428px;
+left: -600px;
+background-size: contain;
+}
+}
+
+@media screen and (min-width: 991px) and (max-width: 1280px){
+#greenfield1{
+top: 450px;
 }
 }
 
 
 
-@media screen and (min-width: 4200px) and (max-width: 5000px), screen and (min-height: 3201px){
+
+
+
+
+
+
+
+@media screen and (min-width: 2560px) and (max-width: 3000px), screen and (min-height: 1441px) and (max-height: 1600px){
 #bluehill2-image {
-    top: 282px;
-    left: 39%;
+height: 900px;    
+background-size: contain;
+right: 0px;
+top: 360px;
 }
 }
 
-
-@media screen and (min-width: 2560px) and (max-width: 4200px), screen and (min-height: 1601px) and (max-height: 3200px){
+@media screen and (min-width: 1700px) and (max-width: 2560px), screen and (min-height: 1380px) and (max-height: 1440px){
 #bluehill2-image {
-    top: 290px;
-    left: 20%;
+    top: 350px;
 }
 }
 
 
-@media screen and (max-width: 2559px) and (min-width: 1280px), screen and (max-height: 1600px) and (min-height: 900px){
-#bluehill2-image {
+  
+@media screen and (min-width: 1520px) and (max-width: 1669px){
+#bluehill2-image {  
+top: 358px;
+right: -7px;
+}
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1519px){
+#bluehill2-image{
+ top: 326px;
+right: 0px;
+}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1280px){
+#bluehill2-image{
+     top: 360px;
     left: 20px;
-    top: 380px; 
-    }}
-
-
-@media screen and (min-width: 992px) and (max-width: 1279px), screen and (max-height: 901px){
-  #bluehill2-image{
-    top: 409px;
-    background-image: url(../img/parallax/bluehillright.png);
-    z-index: 11;
-    position: absolute;
-    background-repeat: no-repeat;
-     background-size: contain; 
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0 auto;
-    right: -200px;
-	}
-}
-
-
-@media screen and (min-width: 2560px) and (max-width: 4200px), screen and (min-height: 900px) and (max-height: 3200px){
-#bluehill1-image {
-    top: 300px;
-    left: -520px;
 }
 }
 
 
-@media screen and (max-width: 2559px) and (min-width: 1280px), screen and (max-height: 1600px) and (min-height: 900px){
-#bluehill1-image {
-     top: 304px;
-    left: -490px;
-    }}
+
+@media screen and (min-width: 991px) and (max-width: 1199px){
+#bluehill2-image{   
+ top: 406px;
+    left: 20px;
+}
+}
 
 
-@media screen and (min-width: 1116px) and (max-width: 1279px), screen and (max-height: 901px){
+/* BLUEHILLS
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________*/
+
+
+@media screen and (min-width: 2561px) and (max-width: 3000px), screen and (min-height: 1441px) and (max-height: 1600px){
 #bluehill1-image{
-    top: 400px;
-    background-image: url(../img/parallax/bluehill1left.png);
-    z-index: 12;
-    position: absolute;
-    background-repeat: no-repeat;
-     background-size: contain; 
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0 auto;
-    left: -200px;
+  top:306px;
+  left: -400px;
+        }
+}
+
+
+
+@media screen and (max-width: 2560px), screen and (min-height: 1380px) and (max-height: 1440px){
+#bluehill1-image {
+    top: 304px;
+    left: -400px;
+    }}
+
+
+  
+@media screen and (min-width: 1520px) and (max-width: 1669px){
+#bluehill1-image{
+    top: 347px;
+    left: -300px;
 }
 }
 
-@media screen and (min-width: 2560px) and (max-width: 4200px), screen and (min-height: 900px) and (max-height: 3200px){
+@media screen and (min-width: 1281px) and (max-width: 1519px){
+#bluehill1-image{
+top: 311px;
+left: -300px;
+}
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1280px){
+#bluehill1-image{
+top: 345px; 
+left: -300px;
+}
+}
+
+
+@media screen and (min-width: 991px) and (max-width: 1199px){
+#bluehill1-image{   
+top: 380px;
+left: -300px;
+}
+}
+
+
+
+
+
+@media screen and (min-width: 2561px) and (max-width: 3000px), screen and (min-height: 1441px) and (max-height: 1600px){
 #sun-image {
-    top: 409px;
+    top: 390px;
     width: 12%;
+}
+}
+
+
+@media screen and (max-width: 2560px), screen and (min-height: 1380px) and (max-height: 1440px){
+#sun-image{
+     top: 380px;
+    }}
+
+
+  
+@media screen and (min-width: 1520px) and (max-width: 1669px){
+#sun-image{
+    top: 370px;
+}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1519px){
+#sun-image{
+top: 330px;
+}
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px){
+#sun-image{
+   top: 400px;
+}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 2561px) and (max-width: 3000px), screen and (min-height: 1441px) and (max-height: 1600px){
+#banner {
+top: 373px;
+    width: 427px;
+    z-index: 13;
     }
 }
 
-@media screen and (max-width: 2559px) and (min-width: 1280px), screen and (max-height: 1600px) and (min-height: 900px){
-#sun-image{
-     top: 400px;
-    }}
 
 
-@media screen and (min-width: 1116px) and (max-width: 1279px), screen and (max-height: 901px){
-#sun-image{
-  top: 375px;
-  right: 0;
-  left: 0;
-  background-image: url("../img/parallax/sun.png");
-  z-index: 11;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width:21%;
-  height: 100%;
-  padding: 0;
-  margin:  0 auto;
-}}
+@media screen and (max-width: 2560px), screen and (min-height: 1380px) and (max-height: 1440px){
+#banner {
+ top: 373px;
+    width: 427px;
+    z-index: 13;
+    }
+}
 
 
+  
+@media screen and (min-width: 1520px) and (max-width: 1669px){
+#banner {
+ top: 373px;
+    width: 427px;
+    z-index: 13;
+    }
+}
 
-@media screen and (min-width: 1280px) and (max-width: 2559px), screen and (min-height: 900px) and (max-height: 1599px){
+@media screen and (min-width: 1220px) and (max-width: 1519px){
 #banner {
  top: 393px;
     width: 427px;
     z-index: 13;
-	}
+    }
 }
 
 
-
-@media screen and (min-width: 1260px) and (max-width: 2559px), screen and (max-height: 901px){
+@media screen and (min-width: 991px) and (max-width: 1219px){
 #banner {
-	top: 353px;
-    right: 0;
-    left: 40px;
-    background-image: url(../img/parallax/banner1.png);
-    z-index: 12;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 550px;
-    height: 100%;
-    padding: 0;
-    margin: 0 auto;
-	}
+    top: 373px;
+    width: 427px;
+    z-index: 13;
+    }
 }
 
 
-@media screen and (min-width: 1280px) and (max-width: 2559px), screen and (min-height: 1601px) and (max-height: 3200px){
+
+
+
+
+@media screen and (min-width: 2561px) and (max-width: 3000px), screen and (min-height: 1441px) and (max-height: 1600px){
 #text-banner {
-    top: 470px;
+   top: 429px;
     width: 200px;
     z-index: 14;
     }
 }
 
 
-@media screen and (min-width: 1280px) and (max-width: 2559px), screen and (min-height: 992px) and (max-height: 1600px){
+
+@media screen and (max-width: 2560px), screen and (min-height: 1380px) and (max-height: 1440px){
 #text-banner {
+   left: -79px;  
+ top: 429px;    
+ width: 200px;
+    z-index: 14;
+    }
+}
+
+
+  
+@media screen and (min-width: 1520px) and (max-width: 1669px){
+#text-banner {
+   top: 429px;
+    width: 200px;
+    z-index: 14;
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1519px){
+#text-banner {
+    left: -79px;
     top: 450px;
     width: 200px;
     z-index: 14;
-	}
-}
-
-
-
-@media screen and (min-width: 1260px) and (max-width: 1279px), screen and (max-height: 992px){
-#text-banner {
-	top: 428px;
-    right: 0;
-    left: -40px;
-    background-image: url(../img/parallax/everybody.png);
-    z-index: 14;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 250px;
-    height: 100%;
-    padding: 0;
-    margin: 0 auto;
-}
-}
-
-
-@media screen and (max-width: 991px){
-#text-banner {
-    top: 343px;
-    right: 0;
-    left: -54px;
-    background-image: url(../img/parallax/everybody.png);
-    z-index: 14;
-  /*  position: absolute;*/
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 232px;
-    height: 200px;
-    padding: 0;
-    margin: 0 auto;
     }
-  }
+}
+
+
+@media screen and (min-width: 991px) and (max-width: 1280px){
+#text-banner {
+      top: 447px;
+    width: 210px;
+    z-index: 14;
+    padding-left: 0px;
+    }
+}
+
+
+
+
+
+
 
 
 
@@ -396,7 +523,6 @@ top: 586px;
     left: 40px;
     background-image: url(../img/parallax/banner1.png);
     z-index: 12;
-/*    position: absolute;*/
     background-repeat: no-repeat;
     background-size: contain;
     width: 470px;
@@ -406,49 +532,6 @@ top: 586px;
     }}
 
 
-@media screen and (min-width: 2560px) and (max-width: 4200px), screen and (min-height: 1600px) and (max-height: 3200px){
-#falcao-bird-one {
-    top: 343px;
-    left: 55%;
-	}
-}
-
-
-@media screen and (min-width: 1280px) and (max-width: 2559px), screen and (min-height: 900px) and (max-height: 1599px){
-#falcao-bird-one {
-  top: 337px;
-    z-index: 14;
-    left: 56%;
-	}
-}
-
-
-@media screen and (min-width: 1116px) and (max-width: 1279px), screen and (max-height: 899px){
-#falcao-bird-one {
-	top: 359px;
-    right: 0;
-    left: 0;
-    background-image: url(../img/parallax/eagle.png);
-    z-index: 13;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 116px;
-    height: 116px;
-    position: absolute;
-    padding: 0;
-    left: 60%
-}
-}
-
-
-
-
-@media screen and (min-width: 2560px) and (max-width: 4200px), screen and (min-height: 900px) and (max-height: 3200px){
-#cloud-two-right {
-    top: 463px;
-    left: 52%;
-    }
-}
 
 
 
@@ -458,18 +541,24 @@ top: 586px;
     z-index: 11;
     position: absolute;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 300px;
     top: 283px;
     right: 0;
-    left: 63%;
 }
 }
 
-@media screen and (min-width: 2560px) and (max-width: 4200px), screen and (min-height: 900px) and (max-height: 3200px){
+@media screen and (max-width: 2560px), screen and (min-height: 1441px) and (max-height: 1600px){
+ #cloud-one-left  {
+    
+        }
+}
+
+@media screen and (max-width: 2560px), screen and (min-height: 1380px) and (max-height: 1440px){
 #cloud-one-left {
-    left: 37%;
+     left: 0px;
     top: 360px;
+}
 }
 
 @media screen and (min-width: 1260px) and (max-width: 2559px), screen and (max-height: 901px){
@@ -478,9 +567,8 @@ top: 586px;
     z-index: 11;
     position: absolute;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    left: 200px;
+    width: 300px;
+    height: 300px;
     right: 0;
     top: 200px;
 
@@ -488,77 +576,140 @@ top: 586px;
 }
 
 
-@media screen and (min-width: 2551px) and (max-width: 3000px), screen and (min-height: 1601px) and (max-height: 3200px){
-#sky-rays{
-    top: -300px;
-    margin-left: 850px;
-	}
+
+
+
+
+
+@media screen and (min-width: 2561px) and (max-width: 3000px), screen and (min-height: 1441px) and (max-height: 1600px){
+#sky-rays {
+    top: -100px;
+    width: 65%;
+}
 }
 
-@media screen and (max-width: 2500px) and (min-width: 1601px), screen and (max-height: 1601px) and (min-height: 1200px){
+@media screen and (min-width: 2021px) and (max-width: 2560px), screen and (min-height: 1380px) and (max-height: 1440px){
 #sky-rays {
-    top: -300px;
-    margin-left: 220px;
-    }}
+    top: -253px;
+    width: 74%;
+}
+}
 
-
-@media screen and (max-width: 1600px) and (min-width: 1280px), screen and (max-height: 1199px) and (min-height: 900px){
+@media screen and (min-width: 1670px )(max-width: 2020px), screen and (min-height: 1380px) and (max-height: 1440px){
 #sky-rays {
-    top: -382px;
-    margin-left: 33px;
-    }}
-
+    top: -200px;
+    width: 80%;
+}
+}
   
 
-@media screen and (min-width: 1201px) and (max-width: 1279px), screen and (max-height: 901px){
+@media screen and (min-width: 1520px) and (max-width: 1669px){
 #sky-rays{
-     left: 0;
-    right: 0;
-    background-image: url(../img/parallax/skyrays.png);
-    z-index: 11;
-    opacity: 6.7;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0 auto;
-    top: -130px;
+ top: -100px;
 }
 }
 
-@media screen and (min-width: 2560px) and (max-width: 4200px), screen and (min-height: 900px) and (max-height: 3200px){
-#sky-image {
-    height: 1155px;
-	}
+@media screen and (min-width: 1200px) and (max-width: 1519px){
+#sky-rays{
+ top: 0px;
 }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px){
+#sky-rays{
+top: 0px;
+width: 94%;
+}
+}
+
+
+
+
+
+@media screen and (min-width: 2561px) and (max-width: 3000px), screen and (min-height: 1401px) and (max-height: 1600px){
+#sky-rays {
+    top: -115px;
+    width: 65%;
+}
+}
+
+@media screen and (min-width: 2021px) and (max-width: 2360px), screen and (min-height: 1380px) and (max-height: 1400px){
+#sky-rays {
+    top: -150px;
+    width: 74%;
+}
+}
+
+@media screen and (min-width: 1670px )(max-width: 2020px), screen and (min-height: 1380px) and (max-height: 1440px){
+#sky-rays {
+    top: -120px;
+    width: 80%;
+}
+}
+  
+
+@media screen and (min-width: 1520px) and (max-width: 1669px){
+#sky-rays{
+ top: -100px;
+}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1519px){
+#sky-rays{
+top: -20px;
+}
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px){
+#sky-rays{
+top: -50px;
+width: 94%;
+}
+}
+
+
+
+
+
+
+@media screen and (min-width: 2560px) and (max-width: 3000px), screen and (min-height: 1441px) and (max-height: 1600px){
+#sky-image{
+    background-size: cover!important;
+    width: 100%;
+    margin-left: -12px;
+        }
+}
+
+
 
 @media screen and (max-width: 2559px) and (min-width: 1280px), screen and (max-height: 1600px) and (min-height: 900px){
 #sky-image {
     height: 1060px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0;
+    background-size: cover!important;
     }}
 
-@media screen and (min-width: 1116px) and (max-width: 1279px), screen and (max-height: 899px){
+@media screen and (min-width: 991px) and (max-width: 1279px), screen and (max-height: 899px){
 #sky-image {
 	background-image: url("../img/parallax/Asset6.png");
 	z-index: 9;
 	background-repeat: no-repeat;
 	background-size: cover;
-	width:117%;
+	width:100%;
 	height: 1000px;
 	padding: 0;
 	margin: 0;
-  margin-left: -100px;
 }
 }
 
 
-@media screen and (min-width: 2560px) and (max-width: 4200px), screen and (min-height: 900px) and (max-height: 3200px){
-#cloud-one-left{
-   left:30%;
-    }
-}
+
+
+
+
+
 
 @media screen and (min-width: 1231px) and (max-width: 1279px), screen and (max-height: 899px){
 #cloud-one-left {
@@ -566,20 +717,15 @@ top: 586px;
     z-index: 11;
     position: absolute;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    left: 160px;
+    width: 300px;
+    height:300px;
     right: 0;
     top: 200px;
 }
 }
 
 
-@media screen and (min-width: 2560px) and (max-width: 4200px), screen and (min-height: 900px) and (max-height: 3200px){
-#cloud-one-right{
-   left:52%;
-    }
-}
+
 
 @media screen and (min-width: 1116px) and (max-width: 1279px), screen and (max-height: 899px){
 #cloud-one-right{
@@ -587,53 +733,23 @@ top: 586px;
     z-index: 11;
     position: absolute;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 300px;
     top: 200px;
     right: 0;
-    left:63%;
 }
 }
 
-@media screen and (min-width: 2560px) and (max-width: 4200px), screen and (min-height: 900px) and (max-height: 3200px){
-#cloud-three-right{
-   display: all;
-    background-image: url(../img/parallax/cloud-three-right.png);
-    z-index: 11;
-    position: absolute;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    top: 350px;
-    left: 85%;
-    float: right;
-    }
-}
-
-@media screen and (min-width: 200px) and (max-width: 1200px), screen and (max-height: 899px){
-#cloud-three-right{
-  display: none!important;
-}
-}
-
-@media screen and (min-width: 2560px) and (max-width: 4200px), screen and (min-height: 900px) and (max-height: 3200px){
-#cloud-four-left{
-background-image: url(../img/parallax/cloud-four-left.png);
-    z-index: 11;
-    position: absolute;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    top: 283px;
-    left: 100px;
-    }
-}
 
 @media screen and (min-width: 200px) and (max-width: 1200px), screen and (max-height: 899px){
 #cloud-four-left{
   display: none!important;
 }
 }
+
+
+
+
 
 
 
@@ -683,9 +799,97 @@ section#distributers{
 }
 
 
-@media screen and (min-width: 1280px) and (max-width: 2559px), screen and (min-height: 900px) and (max-height: 3200px){
-#footer-address { 
-margin-top: 20px;
-margin-left: 40%;    }}
 
- 
+
+
+
+
+
+
+@media screen and (min-width:2561px) and (max-width: 3000px), screen and (min-height: 1441px) and (max-height: 1600px){
+#treeline_footer_2  {
+     width: 100%!important;
+        }
+}
+
+@media screen and (max-width: 2560px), screen and (min-height: 1380px) and (max-height: 1440px){
+#treeline_footer_2 {
+    left: 0px;
+    width: 100%;
+}
+}
+
+ @media screen and (min-width: 1520px) and (max-width: 1669px){
+#treeline_footer_2{
+width: 100%;
+}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1519px){
+#treeline_footer_2 {
+width: 100%;
+}
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px){
+#treeline_footer_2 {
+width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:2561px) and (max-width: 3000px), screen and (min-height: 1441px) and (max-height: 1600px){
+#treeline_footer {
+ width: 100%!important;;
+        }
+}
+    
+
+@media screen and (max-width: 2560px), screen and (min-height: 1380px) and (max-height: 1440px){
+#treeline_footer  {
+       left: 0px;
+        width: 100%;
+}
+ }
+
+ @media screen and (min-width: 1520px) and (max-width: 1669px){
+#treeline_footer {
+width: 100%;
+}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1519px){
+#treeline_footer {
+width: 100%;
+}
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px){
+#treeline_footer {
+width: 100%;
+}
+}
+
+
+@media screen and (min-width:2561px) and (max-width: 3000px), screen and (min-height: 1441px) and (max-height: 1600px){
+.content-wrapper{
+ width: 110%!important;
+        }
+}
+
+@media screen and (min-width:1200px) and (max-width: 2560px), screen and (min-height: 900px) and (max-height: 1440px){
+.content-wrapper{
+ width: 105%!important;
+        }
+}
+
+
+
+
