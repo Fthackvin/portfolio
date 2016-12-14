@@ -464,7 +464,7 @@ ________________________________________________________________________________
 
 
 #flower1{
-    background-image: url(../img/parallax/flower.png);
+    background-image: url(../img/parallax/flower.gif);
     position: absolute;
    /* top: 800px;*/
     left: 49%;
@@ -477,7 +477,7 @@ ________________________________________________________________________________
 
 
 #flower2{
-    background-image: url(../img/parallax/flower.png);
+    background-image: url(../img/parallax/flower.gif);
     position: absolute;
    /* top: 800px;*/
     left: 49%;
