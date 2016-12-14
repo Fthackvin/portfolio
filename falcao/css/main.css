@@ -344,7 +344,7 @@ ________________________________________________________________________________
 
 #bluehill1-image{
     top: 400px;
-    background-image: url(../img/parallax/bluehill1left.png);
+    background-image: url(../img/parallax/bluehill1left1.png);
     z-index: 12;
     position: absolute;
     background-repeat: no-repeat;
@@ -358,7 +358,7 @@ ________________________________________________________________________________
 
 #bluehill2-image{
     top: 400px;
-    background-image: url(../img/parallax/bluehillright.png);
+    background-image: url(../img/parallax/bluehillright1.png);
     z-index: 11;
     position: absolute;
     background-repeat: no-repeat;
@@ -374,7 +374,7 @@ ________________________________________________________________________________
 
 #greenfield1{
 	   top: 402px;
-    background-image: url(../img/parallax/greenhills-left.png);
+    background-image: url(../img/parallax/greenhills-left1.png);
     z-index: 13;
     position: absolute;
     background-repeat: no-repeat;
@@ -388,7 +388,7 @@ ________________________________________________________________________________
 
 #greenfield2{
     top: 468px;
-    background-image: url(../img/parallax/greenhills-left-2.png);
+    background-image: url(../img/parallax/greenhills-left-22.png);
     z-index: 15;
     position: absolute;
     background-repeat: no-repeat;
@@ -420,7 +420,7 @@ ________________________________________________________________________________
 
 #cornfield	{
 	 top: 630px;
-    background-image: url(../img/parallax/cornfield2.png);
+    background-image: url(../img/parallax/cornfield22.png);
     z-index: 16;
     position: absolute;
     background-repeat: no-repeat;
@@ -440,7 +440,7 @@ ________________________________________________________________________________
   left: -35px;
   bottom: 2px;
   background-repeat: no-repeat;
-  background-image: url(../img/parallax/treeline1.png);
+  background-image: url(../img/parallax/treeline11.png);
   background-size: contain;
   top: 750px;
   z-index: 16;
@@ -454,7 +454,7 @@ ________________________________________________________________________________
     /* overflow-y: overlay; */
     position: absolute;
     bottom: 2px;
-    background-image: url(../img/parallax/treeline2.jpg);
+    background-image: url(../img/parallax/treeline2.png);
     background-size: cover;
     top: 761px;
     z-index: 16;
@@ -830,7 +830,7 @@ left:0;}
     position: absolute;
     left: -56px;
     background-repeat: no-repeat;
-    background-image: url(../img/parallax/treeline1.png);
+    background-image: url(../img/parallax/treeline11.png);
     background-size: cover;
     z-index: 16;
     bottom: 116px;
@@ -842,7 +842,7 @@ left:0;}
     height: 100%;
     position: absolute;
     bottom: 60px;
-    background-image: url(../img/parallax/treeline2.jpg);
+    background-image: url(../img/parallax/treeline2.png);
     background-size: cover;
     z-index: 16;
     left: -29px;
