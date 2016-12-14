@@ -676,11 +676,15 @@ width: 94%;
 
 
   @media screen and (max-width: 991px) and (min-width: 1089px){
-#treeline_1 {
+#sky-rays {
     top: -11px;
     width: 97%;
   }
   }  
+
+
+
+
 
 
 
@@ -788,6 +792,9 @@ section#distributers{
 }
 
 
+
+
+
 @media screen and (min-width: 2560px) and (max-width: 4200px), screen and (min-height: 900px) and (max-height: 3200px){
 .ingredients-margin{
    margin-top: 300px;
@@ -815,6 +822,11 @@ section#distributers{
 
 
 
+  @media screen and (max-width: 991px) and (min-width: 1279px){
+#text-ingredients {
+  margin-top:-46px;
+  }
+  }  
 
 
 
