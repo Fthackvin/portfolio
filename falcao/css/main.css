@@ -450,8 +450,6 @@ ________________________________________________________________________________
 #treeline_2{
     width: 100%;
     overflow: hidden;
-    height: 480px;
-    /* overflow-y: overlay; */
     position: absolute;
     bottom: 2px;
     background-image: url(../img/parallax/treeline2.png);

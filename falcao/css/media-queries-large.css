@@ -53,9 +53,9 @@ width: 100%;
   } 
 
 
-  @media screen and (min-width: 991px) and (max-width: 1063px){
+@media screen and (min-width: 991px) and (max-width: 1063px){
 #treeline_2 {
-top: 642px;
+top: 662px;
   }
   }     
 
@@ -108,7 +108,7 @@ width: 100%;
 
   @media screen and (min-width: 991px) and (max-width: 1063px){
 #treeline_1 {
-    top: 620px;
+    top: 720px;
     width: 100%;
   }
   }  
