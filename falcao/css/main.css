@@ -454,7 +454,7 @@ ________________________________________________________________________________
     /* overflow-y: overlay; */
     position: absolute;
     bottom: 2px;
-    background-image: url(../img/parallax/treeline2.png);
+    background-image: url(../img/parallax/treeline2.jpeg);
     background-size: cover;
     top: 761px;
     z-index: 16;
@@ -842,7 +842,7 @@ left:0;}
     height: 100%;
     position: absolute;
     bottom: 60px;
-    background-image: url(../img/parallax/treeline2.png);
+    background-image: url(../img/parallax/treeline2.jpg);
     background-size: cover;
     z-index: 16;
     left: -29px;
