@@ -317,7 +317,7 @@ ________________________________________________________________________________
 
 @media screen and (max-width: 991px){
 #sky-image {
-background-image: url("../img/mob_falcao3.png")!important;
+background-image: url("../img/mob_falcao3.jpg")!important;
 padding: 0!important;;
 margin:0!important;;
 position: absolute!important;;
@@ -329,7 +329,7 @@ background-size: contain!important;;
 
 @media screen and (max-width: 873px){
 #sky-image {
-background-image: url("../img/mob_falcao3.png");
+background-image: url("../img/mob_falcao3.jpg");
 padding: 0;
 margin:0;
 position: absolute;
