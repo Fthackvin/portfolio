@@ -437,7 +437,7 @@ ________________________________________________________________________________
   overflow: hidden;
   height: 100%;
   position: absolute;
-  left: -35px;
+/*  left: -35px;*/
   bottom: 2px;
   background-repeat: no-repeat;
   background-image: url(../img/parallax/treeline11.png);
@@ -458,7 +458,7 @@ ________________________________________________________________________________
     background-size: cover;
     top: 761px;
     z-index: 16;
-    left: -30px;
+    left: 0px;
     background-repeat: no-repeat;
 }
 
