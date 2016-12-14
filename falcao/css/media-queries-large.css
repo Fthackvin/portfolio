@@ -746,6 +746,12 @@ width: 94%;
 }
 
 
+  @media screen and (min-width: 991px) and (max-width: 1063px){
+#sky-image{
+  height: 800px;
+  }
+  }  
+ 
 
 
 
