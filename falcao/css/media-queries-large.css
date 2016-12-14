@@ -94,7 +94,7 @@ width: 100%;
 
 @media screen and (max-width: 991px) and (min-width: 1121px){
 #treeline_1 {
-    top: 740px;
+    top: 640px;
     width: 100%;
   }
   }  
@@ -139,7 +139,7 @@ top: 677px;
 
 @media screen and (min-width: 1271px) and (max-width: 1519px){
 #cornfield{
-top: 628px;
+top: 619px;
 }
 }
 
@@ -818,11 +818,15 @@ section#distributers{
 }
 
 
-  @media screen and (max-width: 991px) and (min-width: 1279px){
+  @media screen and (max-width: 1100px) and (min-width: 1279px){
 #text-ingredients {
   margin-top:-46px!important;
   }
   }  
+
+
+
+
 
 
 
