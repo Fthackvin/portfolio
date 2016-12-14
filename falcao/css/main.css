@@ -433,7 +433,7 @@ ________________________________________________________________________________
 }	
 		
 #treeline_1{
-	width: 107%;
+	width: 100%;
   overflow: hidden;
   height: 100%;
   position: absolute;
@@ -448,7 +448,7 @@ ________________________________________________________________________________
 
 
 #treeline_2{
-    width: 102%;
+    width: 100%;
     overflow: hidden;
     height: 480px;
     /* overflow-y: overlay; */
