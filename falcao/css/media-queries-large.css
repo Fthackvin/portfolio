@@ -45,7 +45,7 @@ width: 103%;
 }
 }
 
-@media screen and (max-width: 911px) and (min-width: 1121px){
+@media screen and (max-width: 991px) and (min-width: 1121px){
 #treeline_2 {
 top: 672px;
 width: 100%;
@@ -92,12 +92,13 @@ width: 100%;
 }
 }
 
-@media screen and (max-width: 911px) and (min-width: 1121px){
+@media screen and (max-width: 991px) and (min-width: 1121px){
 #treeline_1 {
     top: 740px;
     width: 100%;
   }
   }  
+
 
 
 
@@ -666,12 +667,20 @@ top: -20px;
 }
 }
 
-@media screen and (min-width: 991px) and (max-width: 1199px){
+@media screen and (min-width: 1090px) and (max-width: 1199px){
 #sky-rays{
 top: -50px;
 width: 94%;
 }
 }
+
+
+  @media screen and (max-width: 991px) and (min-width: 1089px){
+#treeline_1 {
+    top: -11px;
+    width: 97%;
+  }
+  }  
 
 
 
