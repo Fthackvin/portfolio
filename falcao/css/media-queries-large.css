@@ -38,12 +38,19 @@ width: 100%;
 }
 }
 
-@media screen and (min-width: 991px) and (max-width: 1199px){
+@media screen and (min-width: 1120px) and (max-width: 1199px){
 #treeline_2 {
 top: 750px;    
 width: 103%;
 }
 }
+
+@media screen and (max-width: 911px) and (min-width: 1121px){
+#treeline_2 {
+top: 672px;
+width: 100%;
+  }
+  }  
 
 
 
@@ -78,13 +85,19 @@ width: 100%;
 }
 }
 
-@media screen and (min-width: 991px) and (max-width: 1199px){
+@media screen and (min-width: 1122px) and (max-width: 1199px){
 #treeline_1 {
 top: 776px;       
 width: 100%;
 }
 }
 
+@media screen and (max-width: 911px) and (min-width: 1121px){
+#treeline_1 {
+    top: 740px;
+    width: 100%;
+  }
+  }  
 
 
 
@@ -139,12 +152,11 @@ top: 616px;
 
 
 @media screen and (min-width: 991px) and (max-width: 1199px){
-#cornfield{
-top: 623px;
+#cornfield{    
+top: 598px;
 width: 92%;
 background-size: contain;
 background-repeat: no-repeat;
-left: 20px;
 }
 }
 
