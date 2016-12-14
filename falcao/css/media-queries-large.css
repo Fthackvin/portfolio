@@ -152,7 +152,7 @@ top: 616px;
 
 
 
-@media screen and (min-width: 991px) and (max-width: 1199px){
+@media screen and (min-width: 1120px) and (max-width: 1199px){
 #cornfield{    
 top: 598px;
 width: 92%;
@@ -160,6 +160,12 @@ background-size: contain;
 background-repeat: no-repeat;
 }
 }
+
+@media screen and (max-width: 991px) and (min-width: 1121px){
+#cornfield{
+top: 590px;
+  }
+  }  
 
 
 
