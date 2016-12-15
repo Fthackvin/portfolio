@@ -447,7 +447,7 @@ width: 0;
 
 
 
-@media screen and (min-width: 1063px) {
+@media screen and (max-width: 1063px) {
 #text-ingredients
 {
      margin-top: 100px!important;
