@@ -219,7 +219,7 @@ ________________________________________________________________________________
 }
 
 #sky-rays {
-	 left: 0;
+	   left: 0;
     right: 0;
     background-image: url(../img/parallax/skyrays1.png);
     z-index: 11;
@@ -227,11 +227,11 @@ ________________________________________________________________________________
     position: absolute;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 100%;
+    width: 1000px;
     height: 100%;
     padding: 0;
     margin: 0 auto;
-    top: -100px;
+    top: 0px;
 }
 
 #sun-image{
@@ -256,38 +256,37 @@ ________________________________________________________________________________
     z-index: 11;
     position: absolute;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 199px;
     top: 200px;
-    right: 0;
+    left: 12%;
     padding: 0;
     margin:  0 auto;
 
 }
 
-.background3 {
-    left: 15%;
-}
+/*.background3 {
+    left: 100rem;
+}*/
 
 #cloud-one-right {
     background-image: url("../img/parallax/cloudcenter1.png");
     z-index: 11;
     position: absolute;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+    width: 200px;
+    height: 100px;
     top: 190px;
-    right: 0;
-    left: 47%;
+    left: 50%;
     padding: 0;
     margin:  0 auto;
 }
 
 
-.background4 {
-      left: 47%;
+/*.background4 {
+      left: 150rem;
 }
-
+*/
 
 
 #cloud-two-right {
@@ -295,19 +294,20 @@ ________________________________________________________________________________
     z-index: 11;
     position: absolute;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+    width: 400px;
+    height: 199px;
     top: 283px;
-    right: 0;
-    left: 62%;
+    left: 63%;
     padding: 0;
     margin:  0 auto;
 }
 
-.background5 {
-  left: 62%;
+/*.background5 {
+  left: 100rem;
+  display: inline;
+  overflow-wrap: inherit;
 }
-
+*/
 
 
 #falcao-bird-one {
