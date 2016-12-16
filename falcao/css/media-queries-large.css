@@ -262,7 +262,7 @@ width: 1200px;
 
 @media screen and (min-width: 991px) and (max-width: 1100px), (min-height: 600px) and (max-height: 900px){
 #text-ingredients{
-  margin-top: -130px!important;
+  margin-top: -140px!important;
 }
 }
 
