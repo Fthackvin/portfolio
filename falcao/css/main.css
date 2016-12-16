@@ -146,8 +146,6 @@ ________________________________________________________________________________
     font-family: 'GT-Eesti-Pro-Display-Trial-Medium', Fallback, serif;
     top: 134px;
     text-align: center;
-    /* right: 0; */
-    /* left: 0; */
     z-index: 18;
     position: absolute;
     width: 100%;
@@ -203,7 +201,6 @@ ________________________________________________________________________________
 	height: 1000px;
 	padding: 0;
 	margin: 0;
-  margin-left: -100px;
 }
 
 #logo {
@@ -238,7 +235,7 @@ ________________________________________________________________________________
 }
 
 #sun-image{
-  top: 375px;
+  top: 350px;
   right: 0;
   left: 0;
   background-image: url("../img/parallax/sun.png");
@@ -261,7 +258,6 @@ ________________________________________________________________________________
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-/*    left: 200px;*/
     right: 0;
     top: 200px;
 
@@ -310,7 +306,7 @@ ________________________________________________________________________________
 
 
 #banner {
-	top: 419px;
+	top: 380px;
     right: 0;
     left: 0;
     background-image: url(../img/parallax/banner1.png);
@@ -372,22 +368,10 @@ ________________________________________________________________________________
 
 
 
-/*#greenfield1{
-	   top: 402px;
-    background-image: url(../img/parallax/greenhills-left1.png);
-    z-index: 13;
-    position: absolute;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0 auto;
-    left: -600px;
-
-}*/
 
 #greenfield2{
-    top: 457px;
+   /* top: 457px;*/
+    top: 463px;
     background-image: url(../img/parallax/greenhills-left-22.png);
     z-index: 15;
     position: absolute;
@@ -403,7 +387,8 @@ ________________________________________________________________________________
 
 
 #greenfield3{
-	 top: 501px;
+/*	 top: 501px;*/
+    top: 412px;
     background-image: url(../img/parallax/greenhills-middle.png);
     z-index: 14;
     position: absolute;
@@ -824,10 +809,9 @@ left:0;}
 
 
 #treeline_footer_2 {
-    width: 111%;
+    width: 100%;
     height: 100%;
     position: absolute;
-    left: -56px;
     background-repeat: no-repeat;
     background-image: url(../img/parallax/treeline11.png);
     background-size: cover;
@@ -837,14 +821,13 @@ left:0;}
 
 
 #treeline_footer {
-    width: 108%;
+    width: 100%;
     height: 100%;
     position: absolute;
     bottom: 60px;
     background-image: url(../img/parallax/treeline2.png);
     background-size: cover;
     z-index: 16;
-    left: -29px;
     background-repeat: no-repeat;
 }
 
