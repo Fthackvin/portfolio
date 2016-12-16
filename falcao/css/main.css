@@ -362,7 +362,7 @@ ________________________________________________________________________________
 }
 
 #bluehill2-image{
-    top: 410px;
+    top: 400px;
     background-image: url(../img/parallax/bluehillright11.png);
     z-index: 11;
     position: absolute;
@@ -396,7 +396,6 @@ ________________________________________________________________________________
 
 
 #greenfield3{
-/*	 top: 501px;*/
     top: 415px;
     background-image: url(../img/parallax/greenhills-middle.png);
     z-index: 14;
@@ -413,7 +412,7 @@ ________________________________________________________________________________
 
 
 #cornfield	{
-	 top: 630px;
+	 top: 600px;
     background-image: url(../img/parallax/cornfield3.png);
     z-index: 16;
     position: absolute;
