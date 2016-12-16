@@ -65,7 +65,7 @@ right:0px;
 }
 }
 
-@media screen and (min-width: 20128px) and (max-width: 2400px), (min-height: 600px) and (max-height: 900px){
+@media screen and (min-width: 2128px) and (max-width: 2400px), (min-height: 600px) and (max-height: 900px){
 #cornfield{
 top: 760px;
 width: 1400px;
