@@ -322,7 +322,7 @@ duration: "140%"
 // colorstart:'purple'
 // 	})
 
-.setTween(TweenMax.to(".background14", 2, {y:"-35%", x:"5%", rotation:5, ease:Power4.easeNone}))
+.setTween(TweenMax.to(".background14", 2, {y:"-20%", x:"2%", rotation:5, ease:Power4.easeNone}))
 .addTo(controller);
 
 });
@@ -376,7 +376,7 @@ duration: "100%"
 // colorstart:'blue'
 // 	})
 
-.setTween(TweenMax.to(".background16", 3, {y:"-40%", ease:Power4.easeNone}))
+.setTween(TweenMax.to(".background16", 3, {y:"-20%", ease:Power4.easeNone}))
 .addTo(controller);
 
 });

@@ -221,7 +221,7 @@ ________________________________________________________________________________
 #sky-rays {
 	 left: 0;
     right: 0;
-    background-image: url(../img/parallax/skyrays.png);
+    background-image: url(../img/parallax/skyrays1.png);
     z-index: 11;
     opacity: 6.7;
     position: absolute;
@@ -231,11 +231,11 @@ ________________________________________________________________________________
     height: 100%;
     padding: 0;
     margin: 0 auto;
-    top: -130px;
+    top: -100px;
 }
 
 #sun-image{
-  top: 350px;
+  top: 320px;
   right: 0;
   left: 0;
   background-image: url("../img/parallax/sun.png");
@@ -243,7 +243,7 @@ ________________________________________________________________________________
   position: absolute;
   background-repeat: no-repeat;
   background-size: contain;
-  width:21%;
+  width:23%;
   height: 100%;
   padding: 0;
   margin:  0 auto;
@@ -258,8 +258,11 @@ ________________________________________________________________________________
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    right: 0;
     top: 200px;
+    right: 0;
+    left: 0;
+    padding: 0;
+    margin:  0 auto;
 
 }
 
@@ -271,6 +274,10 @@ ________________________________________________________________________________
     width: 100%;
     height: auto;
     top: 220px;
+     right: 0;
+    left: 0;
+    padding: 0;
+    margin:  0 auto;
 
 }
 
@@ -283,7 +290,9 @@ ________________________________________________________________________________
     height: 100%;
     top: 283px;
     right: 0;
-
+    left: 0;
+    padding: 0;
+    margin:  0 auto;
 }
 
 
@@ -340,7 +349,7 @@ ________________________________________________________________________________
 
 #bluehill1-image{
     top: 400px;
-    background-image: url(../img/parallax/bluehill1left1.png);
+    background-image: url(../img/parallax/bluehill1left11.png);
     z-index: 12;
     position: absolute;
     background-repeat: no-repeat;
@@ -353,8 +362,8 @@ ________________________________________________________________________________
 }
 
 #bluehill2-image{
-    top: 400px;
-    background-image: url(../img/parallax/bluehillright1.png);
+    top: 410px;
+    background-image: url(../img/parallax/bluehillright11.png);
     z-index: 11;
     position: absolute;
     background-repeat: no-repeat;
@@ -371,7 +380,7 @@ ________________________________________________________________________________
 
 #greenfield2{
    /* top: 457px;*/
-    top: 463px;
+    top: 490px;
     background-image: url(../img/parallax/greenhills-left-22.png);
     z-index: 15;
     position: absolute;
@@ -388,7 +397,7 @@ ________________________________________________________________________________
 
 #greenfield3{
 /*	 top: 501px;*/
-    top: 412px;
+    top: 415px;
     background-image: url(../img/parallax/greenhills-middle.png);
     z-index: 14;
     position: absolute;
@@ -405,13 +414,13 @@ ________________________________________________________________________________
 
 #cornfield	{
 	 top: 630px;
-    background-image: url(../img/parallax/cornfield22.png);
+    background-image: url(../img/parallax/cornfield3.png);
     z-index: 16;
     position: absolute;
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
-    height: 400px;
+    height: 100%;
     padding: 0;
     margin: 0 auto;
     right: 0;
@@ -422,12 +431,11 @@ ________________________________________________________________________________
   overflow: hidden;
   height: 100%;
   position: absolute;
-/*  left: -35px;*/
   bottom: 2px;
   background-repeat: no-repeat;
   background-image: url(../img/parallax/treeline11.png);
   background-size: contain;
-  top: 750px;
+  top: 810px;
   z-index: 16;
 }
 
@@ -435,12 +443,12 @@ ________________________________________________________________________________
 #treeline_2{
     width: 100%;
     overflow: hidden;
-    height: 480px;
+    height: 100%;
     position: absolute;
     bottom: 2px;
-    background-image: url(../img/parallax/treeline2.png);
-    background-size: cover;
-    top: 761px;
+    background-image: url(../img/parallax/treeline3.png);
+/*    background-size: cover;*/
+    top: 800px;
     z-index: 16;
     left: 0px;
     background-repeat: no-repeat;
@@ -538,15 +546,14 @@ height: auto;
 }
 
 
-
-div#banner-background img {
+/*div#banner-background img {
 	text-align: center;
 	margin-top: 40px;
 	margin-bottom:80px;
 	width:800px;
 	height: auto; 
 }
-
+*/
 
 
 /* DISTRIBUTORS SECTION
