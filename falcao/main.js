@@ -23,17 +23,17 @@ var controller = new ScrollMagic.Controller();
 
 
 var slideParallaxScene = new ScrollMagic.Scene({
-triggerElement: ".background7",
-triggerHook: 0.29,
+triggerElement: ".background8",
+triggerHook: 0.1,
 duration: "2000%"
 })
 .setClassToggle('.show-logo', 'show')
-// .addIndicators({
-// name: 'cloud layer LEFT',
-// colorTrigger: 'pink',
-// indent: 750,
-// colorstart:'red'
-// 	})
+.addIndicators({
+name: 'cloud layer LEFT',
+colorTrigger: 'pink',
+indent: 750,
+colorstart:'red'
+	})
 
 .setTween(TweenMax.to(".show", 1, {y:"-10%", ease:Power4.easeNone}))
 .addTo(controller);
@@ -322,7 +322,7 @@ duration: "140%"
 // colorstart:'purple'
 // 	})
 
-.setTween(TweenMax.to(".background14", 2, {y:"-20%", x:"2%", rotation:5, ease:Power4.easeNone}))
+.setTween(TweenMax.to(".background14", 2, {y:"-10%", x:"2%", rotation:5, ease:Power4.easeNone}))
 .addTo(controller);
 
 });

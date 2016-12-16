@@ -235,7 +235,7 @@ ________________________________________________________________________________
 }
 
 #sun-image{
-  top: 320px;
+  top: 330px;
   right: 0;
   left: 0;
   background-image: url("../img/parallax/sun.png");
@@ -260,26 +260,35 @@ ________________________________________________________________________________
     height: 100%;
     top: 200px;
     right: 0;
-    left: 0;
     padding: 0;
     margin:  0 auto;
 
 }
 
+.background3 {
+    left: 15%;
+}
+
 #cloud-one-right {
-    background-image: url("../img/parallax/cloudright.png");
+    background-image: url("../img/parallax/cloudcenter1.png");
     z-index: 11;
     position: absolute;
     background-repeat: no-repeat;
     width: 100%;
-    height: auto;
-    top: 220px;
-     right: 0;
-    left: 0;
+    height: 100%;
+    top: 190px;
+    right: 0;
+    left: 47%;
     padding: 0;
     margin:  0 auto;
-
 }
+
+
+.background4 {
+      left: 47%;
+}
+
+
 
 #cloud-two-right {
     background-image: url(../img/parallax/cloudright1.png);
@@ -290,9 +299,13 @@ ________________________________________________________________________________
     height: 100%;
     top: 283px;
     right: 0;
-    left: 0;
+    left: 62%;
     padding: 0;
     margin:  0 auto;
+}
+
+.background5 {
+  left: 62%;
 }
 
 
@@ -318,28 +331,12 @@ ________________________________________________________________________________
 	top: 380px;
     right: 0;
     left: 0;
-    background-image: url(../img/parallax/banner1.png);
+    background-image: url(../img/parallax/banner.png);
     z-index: 12;
     position: absolute;
     background-repeat: no-repeat;
     background-size: contain;
     width: 400px;
-    height: 100%;
-    padding: 0;
-    margin: 0 auto;
-}
-
-
-#text-banner {
-	   top: 428px;
-    right: 0;
-    left: -40px;
-    background-image: url(../img/parallax/everybody.png);
-    z-index: 13;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 250px;
     height: 100%;
     padding: 0;
     margin: 0 auto;
