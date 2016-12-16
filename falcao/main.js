@@ -25,7 +25,7 @@ var controller = new ScrollMagic.Controller();
 var slideParallaxScene = new ScrollMagic.Scene({
 triggerElement: ".background8",
 triggerHook: 0.1,
-duration: "2000%"
+duration: "300%"
 })
 .setClassToggle('.show-logo', 'show')
 .addIndicators({
@@ -322,7 +322,7 @@ duration: "140%"
 // colorstart:'purple'
 // 	})
 
-.setTween(TweenMax.to(".background14", 2, {y:"-10%", x:"2%", rotation:5, ease:Power4.easeNone}))
+.setTween(TweenMax.to(".background14", 2, {y:"-15%", x:"2%", rotation:5, ease:Power4.easeNone}))
 .addTo(controller);
 
 });
