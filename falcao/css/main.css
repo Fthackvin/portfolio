@@ -464,7 +464,6 @@ ________________________________________________________________________________
 #flower2{
     background-image: url(../img/parallax/flower.gif);
     position: absolute;
-   /* top: 800px;*/
     left: 49%;
     right: 0;
     z-index: 100;

@@ -1,3 +1,562 @@
+@media screen and (max-width: 991px){
+#sky-image {
+    background-image: url(../img/falcaos_ipad_8wide2.png);
+    padding: 0!important;
+    margin: 0!important;
+    position: relative;
+    width: 100%;
+    height: 768px;
+    background-size: contain;
+}
+ .ingredients-margin{
+  margin-top: 57px!important;
+  }
+  #text-cereal {
+  top: 120px!important;
+   font-size: 18px;
+    }
+  section#distributers{
+   margin-top: 100px;
+  }
+  #logo {
+    top: 200px;
+      width: 250px;
+    height: 250px;
+  }    
+
+  #made-from {
+    font-size: 24px;
+    left: -100px;
+  }
+
+ #text-ingredients{
+  margin-top: 100px;
+  font-size: 14px;
+  padding-right: 15px;
+  padding-left: 15px;
+  }
+  #flower1 {
+  width: 14px;
+  height: 14px;
+  margin-top: -100px!important;
+  }
+  #flower2{
+ width: 14px;
+  height: 14px;
+  }  
+  #mobile-distributors-margin {
+      margin-top: 20px!important; 
+    }
+
+}
+
+
+
+
+
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+ #sky-image { 
+     background-image: url(../img/falcaos_ipad_8.png);
+   }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+     #sky-image { 
+     background-image: url(../img/falcaos_ipad_8.png);
+   }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+     #sky-image { 
+     background-image: url(../img/falcaos_ipad_8.png);
+    height: 800px;
+   }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+
+
+/* ----------- Galaxy Tab 10.1 ----------- */
+
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) {
+
+}
+
+/* Portrait */
+@media 
+  (max-device-width: 800px) 
+  and (orientation: portrait) { 
+  
+}
+
+/* Landscape */
+@media 
+  (max-device-width: 1280px) 
+  and (orientation: landscape) { 
+
+}
+
+
+
+
+
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #sky-image { 
+    background-image: url(../img/falcaos_mobile_88.png)!important;
+    height: 700px;
+   }
+
+   .ingredients-margin{
+   margin-top: 0px!important;
+  }
+  #text-cereal {
+  top: 90px!important;
+   font-size: 14px;
+    }
+  section#distributers{
+   margin-top: 100px;
+  }
+  #logo {
+    top: 120px;
+      width: 170px;
+    height: 170px;
+  }    
+
+  #made-from {
+    font-size: 24px;
+    left: -100px;
+  }
+
+ #text-ingredients{
+  margin-top: 0px;
+  font-size: 14px;
+  padding-right: 15px;
+  padding-left: 15px;
+  }
+  #flower1 {
+  width: 14px;
+  height: 14px;
+  margin-top: -130px!important;
+  }
+  #flower2{
+ width: 14px;
+  height: 14px;
+  }  
+  #mobile-distributors-margin {
+      margin-top: 20px!important; 
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    #sky-image { 
+    background-image: url(../img/falcaos_mobile_8.png)!important;
+    height: 900px;
+   }
+
+   .ingredients-margin{
+   margin-top: -130px!important;
+  }
+  #text-cereal {
+  top: 100px!important;
+   font-size: 20px;
+    }
+  section#distributers{
+   margin-top: 100px;
+  }
+  #logo {
+    top: 160px;
+      width: 250px;
+    height: 250px;
+  }    
+
+  #made-from {
+    font-size: 26px;
+  }
+
+ #text-ingredients{
+   font-size: 18px;
+  }
+  #flower1 {
+  width: 14px;
+  height: 14px;
+  }
+  #flower2{
+ width: 14px;
+  height: 14px;
+  }
+
+}
+
+
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+   }
+
+/* Landscape */
+@media only screen 
+    and (min-device-width : 414px) 
+    and (max-device-width : 736px) 
+    and (orientation : landscape) 
+    and (-webkit-min-device-pixel-ratio : 3) { 
+    #sky-image { 
+    background-image: url(../img/falcaos_mobile_sixplus_landscape.png)!important;
+    height: 495px;
+   }
+
+   .ingredients-margin{
+   margin-top: -80px!important;
+  }
+  #text-cereal {
+  top: 97px!important;
+   font-size: 15px;
+    }
+  section#distributers{
+   margin-top: 50px;
+  }
+  #logo {
+    top: 130px;
+    width: 140px;
+    height: 140px;
+  }    
+
+  #made-from {
+    font-size: 22px;
+    margin-top: -15px!important;
+  }
+
+ #text-ingredients{
+   font-size: 15px;
+  }
+  #flower1 {
+    margin-top: -80px!important;  
+  width: 14px;
+  height: 14px;
+  }
+  #flower2{
+ width: 14px;
+  height: 14px;
+  }
+  #mobile-distributors-margin {
+     margin-top: 181px!important; 
+    }
+   
+}
+
+/* Portrait */
+@media only screen 
+    and (min-device-width : 414px) 
+    and (max-device-width : 736px)
+    and (device-width : 414px)
+    and (device-height : 736px)
+    and (orientation : portrait) 
+    and (-webkit-min-device-pixel-ratio : 3) 
+    and (-webkit-device-pixel-ratio : 3)
+{
+   #sky-image { 
+    background-image: url(../img/falcaos_mobile_sixplus_portrait.png)!important;
+    height: 700px;
+   }
+
+   .ingredients-margin{
+   margin-top: 0px!important;
+  }
+  #text-cereal {
+  top: 130px!important;
+   font-size: 16px;
+    }
+  section#distributers{
+   margin-top: 70px;
+  }
+  #logo {
+    top: 200px;
+      width: 200px;
+    height: 200px;
+  }    
+
+  #made-from {
+    margin-top: -147px!important;
+    font-size: 24px;
+    left: -100px;
+  }
+
+ #text-ingredients{
+  margin-top: -108px!important;
+  font-size: 14px;
+  padding-right: 15px;
+  padding-left: 15px;
+  }
+
+
+  #flower1 {
+  width: 14px;
+  height: 14px;
+  margin-top: -100px!important;
+  }
+  #flower2{
+ width: 14px;
+  height: 14px;
+  }  
+  #mobile-distributors-margin {
+      margin-top: 20px!important; 
+    }
+
+}
+
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+
+
+
 /* NAVIGATION
 ______________________________________________________________________________________________________
 ______________________________________________________________________________________________________
@@ -5,6 +564,7 @@ ________________________________________________________________________________
 
 @media screen and (max-width: 728px){
 nav {
+    position: relative;
     height: 76px!important;
     }
   }
@@ -175,66 +735,9 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________
 ______________________________________________________________________________________________________*/
 
-/*@media screen and (max-width: 1200px){
-#sky-rays{
-    top: -100px;
-  }
-}
-
-@media screen and (max-width: 1133px){
-#sky-rays{
-    top: -80px;
-  }
-}
-
-@media screen and (max-width: 1111px){
-#sky-rays{
-    top: -70px;
-    margin-left: 5px;
-  }
-}
 
 
-@media screen and (max-width: 1065px){
-#sky-rays{
-    top: -60px;
-    margin-left: 0px;
-  }
-}
-
-@media screen and (max-width: 1029px){
-#sky-rays{
-    top: -40px;
-  }
-}
-
-
-
-@media screen and (max-width: 1230px){
-#cloud-one-left {
-  left: 140px;
-}
-}
-
-@media screen and (max-width: 1171px){
-#cloud-one-left {
-  left: 100px;
-}
-}
-
-@media screen and (max-width: 1086px){
-#cloud-one-left {
-  left: 50px;
-}
-}
-
-@media screen and (max-width: 1004px){
-#cloud-one-left {
-  left: 20px;
-}
-}
-
-
+/*
 @media screen and (max-width: 1210px){
   #greenfield2{
       top: 470px!important;
@@ -283,123 +786,21 @@ left: -210px!important;
 left: -210px!important;
       }
     }
-
-
-@media screen and (max-width: 1054px){
-#cornfield{
-top: 600px!important;
-  }
-}    
-
-@media screen and (max-width: 991px){
-#cornfield{
-display: none;
-height: 0;
-width: 0;
-  }
-}
-
-@media screen and (max-width: 1023px){
-#treeline_1{
-    height: 80%!important;
-    width: 110%!important;
-  }
-}
-
 */
 
+  
 
-/* PARRALAX - MOBILE 
+
+
+
+
+/* PARRALAX - TURN OFF
 ______________________________________________________________________________________________________
 ______________________________________________________________________________________________________
 ______________________________________________________________________________________________________*/
 
 
-@media screen and (max-width: 991px){
-#sky-image {
-background-image: url("../img/mob_falcao3.jpg")!important;
-padding: 0!important;;
-margin:0!important;;
-position: absolute!important;;
-width: 100%!important;;
-background-size: contain!important;;
 
-}
-}
-
-@media screen and (max-width: 873px){
-#sky-image {
-background-image: url("../img/mob_falcao3.jpg");
-padding: 0;
-margin:0;
-position: absolute;
-width: 100%;
-background-size: contain;
-z-index: 1;
-}
-}
-
-
-@media screen and (max-width: 991px){
-section#distributers{
-   margin-top: 1200px;
-  }
-}
-
-@media screen and (max-width: 925px){
-section#distributers{
-   margin-top: 750px;
-  }
-  }
-
-@media screen and (max-width: 860px){
-section#distributers{
-   margin-top: 700px;
-  }
-  }
-
-@media screen and (max-width: 816px){
-section#distributers{
-   margin-top: 650px;
-  }
-  }
-
-
-@media screen and (max-width: 771px){
-section#distributers{
-   margin-top: 600px;
-  }
-  }
-
-  @media screen and (max-width: 712px){
-section#distributers{
-   margin-top: 500px;
-  }
-  }
-
-    @media screen and (max-width: 625px){
-section#distributers{
-   margin-top: 400px;
-  }
-  }
-
-    @media screen and (max-width: 548px){
-section#distributers{
-   margin-top: 350px;
-  }
-  }
-
-     @media screen and (max-width: 470px){
-section#distributers{
-   margin-top: 300px;
-  }
-  }
-
-       @media screen and (max-width: 430px){
-section#distributers{
-   margin-top: 250px;
-  }
-  }
 
 
 @media screen and (max-width: 991px){
@@ -446,286 +847,14 @@ width: 0;
 
 
 
-
-
-/*
-@media screen and (max-width: 991px){
-#text-ingredients
-{
-  margin-top: 790px!important;
-  }
-}
-
-@media screen and (max-width: 991px){
-#made-from
-{
-  margin-top: 740px!important;
-  }
-}
-
-
-@media screen and (max-width: 958px){
-#text-ingredients
-{
-  margin-top: 770px!important;
-  }
-}
-
-@media screen and (max-width: 991px){
-#made-from
-{
-  margin-top: 730px!important;
-  }
-}
-
-
-@media screen and (max-width: 930px){
-#text-ingredients
-{
-  margin-top: 750px!important;
-  }
-}
-
-@media screen and (max-width: 930px){
-#made-from
-{
-  margin-top: 710px!important;
-  }
-}
-
-@media screen and (max-width: 915px){
-#text-ingredients
-{
-  margin-top: 730px!important;
-  }
-}
-
-@media screen and (max-width: 930px){
-#made-from
-{
-  margin-top: 690px!important;
-  }
-}
-
-
-@media screen and (max-width: 885px){
-#text-ingredients
-{font-size: 20px;
-  margin-top: 710px!important;
-  }
-}
-
-@media screen and (max-width: 885px){
-#made-from
-{ font-size: 24px;
-  margin-top: 670px!important;
-  }
-}
-
-
-@media screen and (max-width: 858px){
-#text-ingredients
-{font-size: 20px;
-  margin-top: 680px!important;
-  }
-}
-
-@media screen and (max-width: 858px){
-#made-from
-{ font-size: 24px;
-  margin-top: 640px!important;
-  }
-}
-
-@media screen and (max-width: 828px){
-#text-ingredients
-{font-size: 18px;
-
-  }
-}
-
-@media screen and (max-width: 828px){
-#made-from
-{ font-size: 22px;
-  }
-}
-
-@media screen and (max-width: 819px){
-#text-ingredients
-{font-size: 18px;
-margin-top: 650px!important;
-  }
-}
-
-@media screen and (max-width: 819px){
-#made-from
-{ font-size: 22px;
-    margin-top: 630px!important;
-  }
-}
-
-
-
-@media screen and (max-width: 776px){
-#text-ingredients
-{font-size: 18px;
-margin-top: 620px!important;
-  }
-}
-
-@media screen and (max-width: 776px){
-#made-from
-{ font-size: 22px;
-    margin-top: 600px!important;
-  }
-}
-
-
-@media screen and (max-width: 752px){
-#text-ingredients
-{font-size: 18px;
-margin-top: 600px!important;
-  }
-}
-
-@media screen and (max-width: 752px){
-#made-from
-{ font-size: 22px;
-    margin-top: 580px!important;
-  }
-}
-
-@media screen and (max-width: 730px){
-#text-ingredients
-{font-size: 18px;
-margin-top: 570px!important;
-  }
-}
-
-@media screen and (max-width: 730px){
-#made-from
-{ font-size: 22px;
-    margin-top: 550px!important;
-  }
-}
-
-
-@media screen and (max-width: 730px){
-#text-ingredients
-{font-size: 18px;
-margin-top: 570px!important;
-  }
-}
-
-@media screen and (max-width: 730px){
-#made-from
-{ font-size: 22px;
-    margin-top: 550px!important;
-  }
-}
-
-
-@media screen and (max-width: 692px){
-#text-ingredients
-{font-size: 19px;
-margin-top: 540px!important;
-  }
-}
-
-@media screen and (max-width: 692px){
-#made-from
-{ font-size: 21px;
-    margin-top: 520px!important;
-  }
-}
-
-
-
-@media screen and (max-width: 674px){
-#text-ingredients
-{font-size: 19px;
-margin-top: 520px!important;
-  }
-}
-
-@media screen and (max-width: 674px){
-#made-from
-{ font-size: 21px;
-  margin-top: 490px!important;
-  }
-}
-
-*/
-
 @media screen and (max-width: 991px){
 #banner {
-    z-index: 999;
-    width: 100%;
-    top: 281px;
-    right: 0;
-    left: 40px;
-    background-image: url(../img/parallax/banner1.png);
-    z-index: 12;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 470px;
-    height: 200px;
-    padding: 0;
-    margin: 0 auto;
+display: none;
+height: 0;
+width: 0;
     }}
 
 
-@media screen and (max-width: 991px){
-#text-banner {
-    top: 343px;
-    right: 0;
-    left: -54px;
-    background-image: url(../img/parallax/everybody.png);
-    z-index: 14;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 232px;
-    height: 200px;
-    padding: 0;
-    margin: 0 auto;
-    }
-  }
-
-@media screen and (max-width: 991px){
-#logo {
-    top: 200px;
-    right: 0;
-    left: 0;
-    background-image: url(../img/parallax/falcaos.png);
-    z-index: 18;
-/*    position: absolute;*/
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 200px;
-    height: 200px;
-    padding: 0;
-    margin: 0 auto;
-    }
-  }      
-
-@media screen and (max-width: 991px){
-#text-cereal {
-    opacity: 0;
-    color: white;
-    font-size: 18px;
-    font-family: 'GT-Eesti-Pro-Display-Trial-Medium', Fallback, serif;
-    top: 124px;
-    text-align: center;
-    z-index: 18;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0 auto;
-    }
-  }
 
 
 @media screen and (max-width: 991px){
@@ -1259,16 +1388,6 @@ ________________________________________________________________________________
 
 
 
-/*
-@media screen and (max-width:420px){
-#falcao-bird {
-  padding-bottom: 0!important;
-  margin-bottom: -20px;
-}
-}
-*/
-
-
 
 /* FOOTER COPY
 ______________________________________________________________________________________________________
@@ -1376,7 +1495,7 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________
 ______________________________________________________________________________________________________*/
 
-
+/*
 
 @media screen and (max-width:1084px) {
 #footer-address {
@@ -1440,7 +1559,7 @@ ________________________________________________________________________________
     margin-top: 40px;
 }
 }
-
+*/
 
 
 
