@@ -303,7 +303,7 @@
   and (orientation: landscape) {
     #sky-image { 
     background-image: url(../img/falcaos_mobile_six_landscape.jpg)!important;
-    height: 1200px;
+    height: 900px;
    }
 
    .ingredients-margin{
