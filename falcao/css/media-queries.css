@@ -365,11 +365,11 @@
     and (-webkit-min-device-pixel-ratio : 3) { 
     #sky-image { 
     background-image: url(../img/falcaos_mobile_sixplus_landscape.jpg)!important;
-    height: 495px;
+    height: 666px;
    }
 
    .ingredients-margin{
-   margin-top: -80px!important;
+   margin-top: -120px!important;
   }
   #text-cereal {
   top: 97px!important;
