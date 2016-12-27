@@ -1,4 +1,4 @@
-@media screen and (max-width: 991px){
+/*@media screen and (max-width: 991px){
 #sky-image {
     background-image: url(../img/falcaos_ipad_8wide2.png);
     padding: 0!important;
@@ -49,7 +49,7 @@
     }
 
 }
-
+*/
 
 
 
@@ -70,9 +70,9 @@
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
- #sky-image { 
+ /*#sky-image { 
      background-image: url(../img/falcaos_ipad_8.png);
-   }
+   }*/
 }
 
 /* Landscape */
@@ -811,7 +811,7 @@ ________________________________________________________________________________
 
 
 
-@media screen and (max-width: 991px){
+/*@media screen and (max-width: 991px){
 #sky-rays{
 display: none;
 height: 0;
@@ -930,7 +930,7 @@ display: none;
 height: 0;
 width: 0;
   }
-}
+}*/
 
 
 /* DISTRIBUTORS
