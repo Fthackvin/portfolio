@@ -246,7 +246,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     #sky-image { 
-    background-image: url(../img/falcaos_mobile_88.png)!important;
+    background-image: url(../img/falcaos_mobile_88.jpg)!important;
     height: 666px;
    }
 
