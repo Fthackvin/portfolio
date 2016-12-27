@@ -304,6 +304,7 @@
     #sky-image { 
     background-image: url(../img/falcaos_mobile_six_landscape.jpg)!important;
     height: 900px;
+    width: 100%;
    }
 
    .ingredients-margin{
