@@ -302,7 +302,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     #sky-image { 
-    background-image: url(../img/falcaos_mobile_8.png)!important;
+    background-image: url(../img/falcaos_mobile_six_landscape.jpg)!important;
     height: 1200px;
    }
 
@@ -363,7 +363,7 @@
     and (orientation : landscape) 
     and (-webkit-min-device-pixel-ratio : 3) { 
     #sky-image { 
-    background-image: url(../img/falcaos_mobile_sixplus_landscape.png)!important;
+    background-image: url(../img/falcaos_mobile_sixplus_landscape.jpg)!important;
     height: 495px;
    }
 
