@@ -395,6 +395,52 @@
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    #sky-image { 
+    background-image: url(../img/falcaos_mobile_five_portrait.jpg)!important;
+    height: 620px;
+   }
+    .ingredients-margin{
+   margin-top: -60px!important;
+  }
+  #text-cereal {
+  top: 90px!important;
+   font-size: 14px;
+    }
+
+  #logo {
+    top: 130px;
+      width: 170px;
+    height: 170px;
+  } 
+
+     #made-from {
+    font-size: 20px;
+    left: -100px;
+  }
+
+ #text-ingredients{
+  margin-top: 100px;
+  font-size: 12px;
+  padding-right: 10px;
+  padding-left: 10px;
+  }
+
+    #flower1 {
+  width: 10px;
+  height: 10px;
+  margin-top: -80px!important;
+  }
+  #flower2{
+ width: 10px;
+  height: 10px;
+  }
+.nav-title {
+    padding-right: 4px!important;
+    padding-left: 4px!important;
+        font-size: 15px!important;
+    margin-top: 28px!important;
+}
+
 }
 
 /* Landscape */
@@ -403,6 +449,10 @@
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+      #sky-image { 
+    background-image: url(../img/falcaos_mobile_five_landscape.jpg)!important;
+  height: 1000px;
+   }
 
 }
 
@@ -424,12 +474,13 @@
   and (orientation: portrait) {
     #sky-image { 
     background-image: url(../img/falcaos_mobile_six_portrait.jpg)!important;
-    height: 666px;
+    height: 691px;
    }
 
    .ingredients-margin{
-   margin-top: 0px!important;
+   margin-top: 10px!important;
   }
+
   #text-cereal {
   top: 90px!important;
    font-size: 14px;
@@ -451,7 +502,7 @@
  #text-ingredients{
   margin-top: 0px;
   font-size: 14px;
-  padding-right: 15px;
+  padding-right: 20px;
   padding-left: 15px;
   }
   #flower1 {
@@ -480,7 +531,7 @@
   and (orientation: landscape) {
     #sky-image { 
     background-image: url(../img/falcaos_mobile_six_landscape.jpg)!important;
-    height: 900px;
+    height: 869px;
     width: 100%;
    }
 
@@ -488,14 +539,14 @@
    margin-top: -0px!important;
   }
   #text-cereal {
-  top: 100px!important;
-   font-size: 20px;
+  top: 90px!important;
+   font-size: 18px;
     }
   section#distributers{
    margin-top: 100px;
   }
   #logo {
-    top: 160px;
+    top: 140px;
       width: 250px;
     height: 250px;
   }    
