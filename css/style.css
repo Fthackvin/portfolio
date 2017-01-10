@@ -285,25 +285,27 @@ margin-left: -5px!important;
 
 
 li div#about_icon {
-background-image: url('../nav_images/pen.png');
-background-repeat: no-repeat;
-border-style: none;
-width: 70px;
-height: 70px;
-z-index: 0;
-display: block;
+    background-image: url(../nav_images/pen.png);
+    background-repeat: no-repeat;
+    border-style: none;
+    transform: rotate(-5deg);
+    width: 70px;
+    height: 61px;
+    z-index: 0;
+    display: block;
+    background-size: 71px;
 }
 
 @media screen and (max-width: 802px){
 li div#about_icon{
-    background-size: 58px;
-        margin-top: 10px;
+    background-size: 65px;
+    margin-top: 12px;
 }
 }
 
 @media screen and (max-width: 583px){
 li div#about_icon{
-    background-size: 46px;
+    background-size: 69px;
     margin-top: 12px;
 }
 }
