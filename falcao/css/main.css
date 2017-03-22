@@ -436,7 +436,7 @@ ________________________________________________________________________________
     position: absolute;
     bottom: 2px;
     background-image: url(../img/parallax/asset1.png);
-/*    background-size: cover;*/
+    background-size: cover;
     top: 860px;
     z-index: 16;
     left: 0px;
