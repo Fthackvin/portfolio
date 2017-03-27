@@ -430,7 +430,7 @@ ________________________________________________________________________________
   background-repeat: no-repeat;
   background-image: url(../img/parallax/kfalcaos-1136px_hedge-2.png);
   background-size: contain;
-  top: 160px;
+  top: 90px;
    /*    left: 840px; 600 to 440*/
   z-index: 16;
 }
@@ -444,7 +444,7 @@ ________________________________________________________________________________
     bottom: 2px;
     background-image: url(../img/parallax/kfalcaos-1136px_hedge-1.png);
     background-size: contain;
-    top: 180px;
+    top: 130px;
     z-index: 16;
     left: 0px;
     background-repeat: no-repeat;
