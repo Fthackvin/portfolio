@@ -194,7 +194,7 @@ ________________________________________________________________________________
 }
 
 #sky-image {
-	background-image: url("../img/parallax/falcaos-1136px_sky.png");
+	background-image: url("../img/parallax/kfalcaos-1136px_sky.png");
 	z-index: 9;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -240,7 +240,7 @@ ________________________________________________________________________________
   top: 60px;
   right: 0;
   left: 0;
-  background-image: url("../img/parallax/falcaos-1136px_sun.png");
+  background-image: url("../img/parallax/kfalcaos-1136px_sun.png");
   z-index: 11;
   position: absolute;
   background-repeat: no-repeat;
@@ -251,7 +251,7 @@ ________________________________________________________________________________
   margin:  0 auto;
 }
 
-
+/*
 
 #cloud-one-left {
     background-image: url(../img/parallax/cloudleft.png);
@@ -271,7 +271,7 @@ ________________________________________________________________________________
     left: 100rem;
 }*/
 
-#cloud-one-right {
+/*#cloud-one-right {
     background-image: url("../img/parallax/cloudcenter1.png");
     z-index: 11;
     position: absolute;
@@ -283,7 +283,7 @@ ________________________________________________________________________________
     padding: 0;
     margin:  0 auto;
 }
-
+*/
 
 /*.background4 {
       left: 150rem;
@@ -291,7 +291,7 @@ ________________________________________________________________________________
 */
 
 
-#cloud-two-right {
+/*#cloud-two-right {
     background-image: url(../img/parallax/cloudright1.png);
     z-index: 11;
     position: absolute;
@@ -304,7 +304,7 @@ ________________________________________________________________________________
     margin:  0 auto;
 }
 
-
+*/
 
 
 #falcao-bird-one {
@@ -329,7 +329,7 @@ ________________________________________________________________________________
 	top: 170px;
     right: 0;
     left: 0;
-    background-image: url(../img/parallax/falcaos-1136px_birdribbon.png);
+    background-image: url(../img/parallax/kfalcaos-1136px_birdribbon.png);
     z-index: 12;
     position: absolute;
     background-repeat: no-repeat;
@@ -345,7 +345,7 @@ ________________________________________________________________________________
 
 #bluehill1-image{
     top: 30px;
-    background-image: url(../img/parallax/falcaos-1136px_mountains-1.png);
+    background-image: url(../img/parallax/kfalcaos-1136px_mountains-1.png);
     z-index: 12;
     position: absolute;
     background-repeat: no-repeat;
@@ -359,7 +359,7 @@ ________________________________________________________________________________
 
 #bluehill2-image{
     top: 40px;
-    background-image: url(../img/parallax/falcaos-1136px_mountains-2.png);
+    background-image: url(../img/parallax/kfalcaos-1136px_mountains-2.png);
     z-index: 11;
     position: absolute;
     background-repeat: no-repeat;
@@ -376,7 +376,7 @@ ________________________________________________________________________________
 
 #greenfield2{
     top: 86px;
-    background-image: url(../img/parallax/falcaos-1136px_hills-1.png);
+    background-image: url(../img/parallax/kfalcaos-1136px_hills-1.png);
     z-index: 15;
     position: absolute;
     background-repeat: no-repeat;
@@ -393,7 +393,7 @@ ________________________________________________________________________________
 
 #greenfield3{
     top: 65px;
-    background-image: url(../img/parallax/falcaos-1136px_hills-2.png);
+    background-image: url(../img/parallax/kfalcaos-1136px_hills-2.png);
     z-index: 14;
     position: absolute;
     background-size: contain;
@@ -410,7 +410,7 @@ ________________________________________________________________________________
 #cornfield	{
 	 top: 100px;
    width: 100%;
-    background-image: url(../img/parallax/falcaos-1136px_field.png);
+    background-image: url(../img/parallax/kfalcaos-1136px_field.png);
     z-index: 16;
     position: absolute;
     background-repeat: no-repeat;
@@ -428,7 +428,7 @@ ________________________________________________________________________________
   position: absolute;
   bottom: 2px;
   background-repeat: no-repeat;
-  background-image: url(../img/parallax/falcaos-1136px_hedge-2.png);
+  background-image: url(../img/parallax/kfalcaos-1136px_hedge-2.png);
   background-size: contain;
   top: 280px;
    /*    left: 840px; 600 to 440*/
@@ -442,7 +442,7 @@ ________________________________________________________________________________
     height: 100%;
     position: absolute;
     bottom: 2px;
-    background-image: url(../img/parallax/falcaos-1136px_hedge-1.png);
+    background-image: url(../img/parallax/kfalcaos-1136px_hedge-1.png);
     /*background-size: contain;*/
     top: 300px;
     z-index: 16;
