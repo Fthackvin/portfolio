@@ -169,7 +169,7 @@ duration: "100%"
 // colorstart:'yellow'
 // 	})
 
-.setTween(TweenMax.to(".background9", 3, {y:"9%", rotation:10, transformOrigin:"left 10%"}))
+.setTween(TweenMax.to(".background9", 3, {y:"9%",}))
 // .setTween(TweenMax.to(".background2", 1, {z:"-10%", ease:Circ.easeNone}))
 .addTo(controller);
 

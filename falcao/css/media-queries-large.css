@@ -14,7 +14,7 @@
 @media screen and (min-width: 2128px) and (max-width: 2400px), (min-height: 600px) and (max-height: 900px){
 #cornfield{
 top: 700px;
-width: 1300px;
+/*width: 1300px;*/
 right:0px;
 overflow: hidden;
 }
@@ -23,7 +23,7 @@ overflow: hidden;
 @media screen and (min-width: 2028px) and (max-width: 2127px), (min-height: 600px) and (max-height: 900px){
 #cornfield{
 top: 740px;
-width: 1500px;
+/*width: 1500px;*/
 right:0px;
 }
 }
@@ -31,7 +31,7 @@ right:0px;
 @media screen and (min-width: 1932px) and (max-width: 2027px), (min-height: 600px) and (max-height: 900px){
 #cornfield{
 top: 720px;
-width: 1500px;
+/*width: 1500px;*/
 right:0px;
 }
 }
@@ -39,7 +39,7 @@ right:0px;
 @media screen and (min-width: 1801px) and (max-width: 1931px), (min-height: 600px) and (max-height: 900px){
 #cornfield{
 top: 700px;
-width: 1500px;
+/*width: 1500px;*/
 right:0px;
 }
 }
@@ -47,7 +47,7 @@ right:0px;
 @media screen and (min-width: 1701px) and (max-width: 1800px), (min-height: 600px) and (max-height: 900px){
 #cornfield{
 top: 690px;
-width: 1500px;
+/*width: 1500px;*/
 right:0px;
 }
 }
@@ -56,7 +56,7 @@ right:0px;
 @media screen and (min-width: 1511px) and (max-width: 1700px), (min-height: 600px) and (max-height: 900px){
 #cornfield{
 top: 668px;
-width: 1500px;
+/*width: 1500px;*/
 right:0px;
 }
 }
@@ -75,8 +75,9 @@ top: 640px;
 
 @media screen and (min-width: 1131px) and (max-width: 1180px), (min-height: 600px) and (max-height: 900px){
 #cornfield{
-top: 610px;
-width: 1400px;
+top: 100px; 
+/*width: 1400px;*/
+/*610*/
 }
 }
 
@@ -84,8 +85,8 @@ width: 1400px;
 
 @media screen and (min-width: 990px) and (max-width: 1130px), (min-height: 600px) and (max-height: 900px){
 #cornfield{
-top: 610px;
-width: 1200px;
+top: 100px;
+
 }
 }
 
@@ -177,13 +178,13 @@ top: 720px;
 
 @media screen and (min-width: 991px) and (max-width: 999px), (min-height: 600px) and (max-height: 900px){
 #treeline_1{
-  top: 720px;
+  top: 260px;
 }
 }
 
 @media screen and (min-width: 991px) and (max-width: 999px), (min-height: 600px) and (max-height: 900px){
 #treeline_2{
-  top: 700px;
+    top: 280px;
 }
 }
 
@@ -194,11 +195,11 @@ top: 720px;
 -------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------*/
 
-@media screen and (min-width: 991px) and (max-width: 999px), (min-height: 600px) and (max-height: 900px){
+/*@media screen and (min-width: 991px) and (max-width: 999px), (min-height: 600px) and (max-height: 900px){
 #greenfield2{
-  top: 498px;
+  top: 198px;
 }
-
+*/
 
 /*-------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------

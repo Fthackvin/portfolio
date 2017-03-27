@@ -194,7 +194,7 @@ ________________________________________________________________________________
 }
 
 #sky-image {
-	background-image: url("../img/parallax/Asset6.png");
+	background-image: url("../img/parallax/falcaos-1136px_sky.png");
 	z-index: 9;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -202,6 +202,7 @@ ________________________________________________________________________________
 	height: 949px;
 	padding: 0;
 	margin: 0;
+  top: -30px;
 }
 
 #logo {
@@ -213,7 +214,7 @@ ________________________________________________________________________________
   position: absolute;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 400px;
+  width: 300px;
   height: 100%;
   padding: 0;
   margin:  0 auto;
@@ -236,16 +237,16 @@ ________________________________________________________________________________
 }
 
 #sun-image{
-  top: 356px;
+  top: 60px;
   right: 0;
   left: 0;
-  background-image: url("../img/parallax/sun.png");
+  background-image: url("../img/parallax/falcaos-1136px_sun.png");
   z-index: 11;
   position: absolute;
   background-repeat: no-repeat;
   background-size: contain;
-  width:23%;
   height: 100%;
+  width: 100%;
   padding: 0;
   margin:  0 auto;
 }
@@ -307,7 +308,7 @@ ________________________________________________________________________________
 
 
 #falcao-bird-one {
-	 top: 359px;
+	 top: 159px;
     margin: 0;
     right: 0;
     left: 0;
@@ -320,14 +321,15 @@ ________________________________________________________________________________
     position: absolute;
     padding: 0;
 }
+/*359 to 159*/
 
 
 
 #banner {
-	top: 370px;
+	top: 170px;
     right: 0;
     left: 0;
-    background-image: url(../img/parallax/banner.png);
+    background-image: url(../img/parallax/falcaos-1136px_birdribbon.png);
     z-index: 12;
     position: absolute;
     background-repeat: no-repeat;
@@ -336,13 +338,14 @@ ________________________________________________________________________________
     height: 100%;
     padding: 0;
     margin: 0 auto;
+    /*370 to 170*/
 }
 
 
 
 #bluehill1-image{
-    top: 400px;
-    background-image: url(../img/parallax/bluehillleft.png);
+    top: 30px;
+    background-image: url(../img/parallax/falcaos-1136px_mountains-1.png);
     z-index: 12;
     position: absolute;
     background-repeat: no-repeat;
@@ -351,12 +354,12 @@ ________________________________________________________________________________
     height: 100%;
     padding: 0;
     margin: 0 auto;
-    left: -200px;
+/*    left: -200px; 400 to 80*/
 }
 
 #bluehill2-image{
-    top: 400px;
-    background-image: url(../img/parallax/bluehillright.png);
+    top: 40px;
+    background-image: url(../img/parallax/falcaos-1136px_mountains-2.png);
     z-index: 11;
     position: absolute;
     background-repeat: no-repeat;
@@ -365,15 +368,15 @@ ________________________________________________________________________________
     height: 100%;
     padding: 0;
     margin: 0 auto;
-/*  left: 200px;*/
+/*  left: 200px; 400 to 80*/
 }
 
 
 
 
 #greenfield2{
-    top: 490px;
-    background-image: url(../img/parallax/greenhills-left-22.png);
+    top: 86px;
+    background-image: url(../img/parallax/falcaos-1136px_hills-1.png);
     z-index: 15;
     position: absolute;
     background-repeat: no-repeat;
@@ -381,15 +384,16 @@ ________________________________________________________________________________
     height: 100%;
     padding: 0;
     margin: 0 auto;
-    left: -300px;
+  /*  left: -300px;*/
     background-size: contain;
+    /*490 to 190*/*/
 }
 
 
 
 #greenfield3{
-    top: 434px;
-    background-image: url(../img/parallax/greenhills-middle1.png);
+    top: 65px;
+    background-image: url(../img/parallax/falcaos-1136px_hills-2.png);
     z-index: 14;
     position: absolute;
     background-size: contain;
@@ -399,20 +403,22 @@ ________________________________________________________________________________
     padding: 0;
     margin: 0 auto;
     right: 0;
-/*    left: 300px;*/
+/*    left: 300px; 434 to 134*/
 }
 
 
 #cornfield	{
-	 top: 600px;
-    background-image: url(../img/parallax/cornfield3.png);
+	 top: 100px;
+   width: 100%;
+    background-image: url(../img/parallax/falcaos-1136px_field.png);
     z-index: 16;
     position: absolute;
     background-repeat: no-repeat;
-/*  background-size: contain;*/
+  background-size: contain;
     width: 100%;
     height: 100%;
-    right: 1px;
+    right: 0px;
+    /*    left: 300px; 600 to 300*/
 }	
 		
 #treeline_1{
@@ -422,9 +428,10 @@ ________________________________________________________________________________
   position: absolute;
   bottom: 2px;
   background-repeat: no-repeat;
-  background-image: url(../img/parallax/treeline01.png);
- /* background-size: contain;*/
-  top: 840px;
+  background-image: url(../img/parallax/falcaos-1136px_hedge-2.png);
+  background-size: contain;
+  top: 280px;
+   /*    left: 840px; 600 to 440*/
   z-index: 16;
 }
 
@@ -435,12 +442,13 @@ ________________________________________________________________________________
     height: 100%;
     position: absolute;
     bottom: 2px;
-    background-image: url(../img/parallax/treeline3.png);
-/*    background-size: cover;*/
-    top: 860px;
+    background-image: url(../img/parallax/falcaos-1136px_hedge-1.png);
+    /*background-size: contain;*/
+    top: 300px;
     z-index: 16;
     left: 0px;
     background-repeat: no-repeat;
+    /*    left: 860px; 600 to 460*/
 }
 
 
