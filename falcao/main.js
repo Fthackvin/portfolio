@@ -169,7 +169,7 @@ duration: "100%"
 // colorstart:'yellow'
 // 	})
 
-.setTween(TweenMax.to(".background9", 3, {y:"9%",}))
+.setTween(TweenMax.to(".background9", 3, {y:"9%", }))
 // .setTween(TweenMax.to(".background2", 1, {z:"-10%", ease:Circ.easeNone}))
 .addTo(controller);
 
@@ -340,7 +340,7 @@ var controller = new ScrollMagic.Controller();
 
 var slideParallaxScene = new ScrollMagic.Scene({
 triggerElement: ".background14",
-triggerHook: 0.95,
+triggerHook: 0.1,
 duration: "100%"
 })
 .setClassToggle('.background15', 'move')
@@ -351,7 +351,7 @@ duration: "100%"
 // colorstart:'blue'
 // 	})
 
-.setTween(TweenMax.to(".background15", 3, {y:"-22%", ease:Power4.easeNone}))
+.setTween(TweenMax.to(".background15", 2, {y:"-25%", ease:Power4.easeNone}))
 .addTo(controller);
 
 });
@@ -365,7 +365,7 @@ var controller = new ScrollMagic.Controller();
 
 var slideParallaxScene = new ScrollMagic.Scene({
 triggerElement: ".background14",
-triggerHook: 0.8,
+triggerHook: 0.2,
 duration: "100%"
 })
 .setClassToggle('.background16', 'move')
@@ -376,7 +376,7 @@ duration: "100%"
 // colorstart:'blue'
 // 	})
 
-.setTween(TweenMax.to(".background16", 3, {y:"-20%", ease:Power4.easeNone}))
+.setTween(TweenMax.to(".background16", 2, {y:"-22%", ease:Power4.easeNone}))
 .addTo(controller);
 
 });

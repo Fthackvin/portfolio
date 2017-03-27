@@ -75,7 +75,7 @@ top: 640px;
 
 @media screen and (min-width: 1131px) and (max-width: 1180px), (min-height: 600px) and (max-height: 900px){
 #cornfield{
-top: 100px; 
+top: 50px; 
 /*width: 1400px;*/
 /*610*/
 }
@@ -85,7 +85,7 @@ top: 100px;
 
 @media screen and (min-width: 990px) and (max-width: 1130px), (min-height: 600px) and (max-height: 900px){
 #cornfield{
-top: 100px;
+top: 50px;
 
 }
 }
@@ -178,13 +178,13 @@ top: 720px;
 
 @media screen and (min-width: 991px) and (max-width: 999px), (min-height: 600px) and (max-height: 900px){
 #treeline_1{
-  top: 260px;
+  top: 140px;
 }
 }
 
 @media screen and (min-width: 991px) and (max-width: 999px), (min-height: 600px) and (max-height: 900px){
 #treeline_2{
-    top: 280px;
+    top: 160px;
 }
 }
 
