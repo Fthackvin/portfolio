@@ -11,67 +11,6 @@
 
 
 
-@media screen and (min-width: 2128px) and (max-width: 2400px), (min-height: 600px) and (max-height: 900px){
-#cornfield{
-top: 700px;
-/*width: 1300px;*/
-right:0px;
-overflow: hidden;
-}
-}
-
-@media screen and (min-width: 2028px) and (max-width: 2127px), (min-height: 600px) and (max-height: 900px){
-#cornfield{
-top: 740px;
-/*width: 1500px;*/
-right:0px;
-}
-}
-
-@media screen and (min-width: 1932px) and (max-width: 2027px), (min-height: 600px) and (max-height: 900px){
-#cornfield{
-top: 720px;
-/*width: 1500px;*/
-right:0px;
-}
-}
-
-@media screen and (min-width: 1801px) and (max-width: 1931px), (min-height: 600px) and (max-height: 900px){
-#cornfield{
-top: 700px;
-/*width: 1500px;*/
-right:0px;
-}
-}
-
-@media screen and (min-width: 1701px) and (max-width: 1800px), (min-height: 600px) and (max-height: 900px){
-#cornfield{
-top: 690px;
-/*width: 1500px;*/
-right:0px;
-}
-}
-
-
-@media screen and (min-width: 1511px) and (max-width: 1700px), (min-height: 600px) and (max-height: 900px){
-#cornfield{
-top: 668px;
-/*width: 1500px;*/
-right:0px;
-}
-}
-
-@media screen and (min-width: 1381px) and (max-width: 1510px), (min-height: 600px) and (max-height: 900px){
-#cornfield{
-top: 660px;
-}
-}
-
-@media screen and (min-width: 1181px) and (max-width: 1380px), (min-height: 600px) and (max-height: 900px){
-#cornfield{
-top: 640px;
-}
-}
 
 @media screen and (min-width: 1131px) and (max-width: 1180px), (min-height: 600px) and (max-height: 900px){
 #cornfield{
@@ -98,7 +37,7 @@ top: 50px;
 
 
 
-
+/*
 
 @media screen and (min-width: 1900px) and (max-width: 2200px), (min-height: 600px) and (max-height: 900px){
 #treeline_1{
@@ -174,7 +113,7 @@ top: 720px;
 #treeline_2{
   top: 730px;
 }
-}
+}*/
 
 @media screen and (min-width: 991px) and (max-width: 999px), (min-height: 600px) and (max-height: 900px){
 #treeline_1{
@@ -206,7 +145,7 @@ top: 720px;
 -------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------*/
 
-
+/*
 
 @media (min-width:1920px) {
   .ingredients-margin {
@@ -280,7 +219,7 @@ top: 720px;
 #made-from{
   margin-top: -173px!important;
 }
-}
+}*/
 
 
 
