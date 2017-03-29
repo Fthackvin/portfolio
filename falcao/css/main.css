@@ -632,7 +632,7 @@ font-family: 'NexaRustScript', Fallback, italic ;
 }
 
 
-.circle-big {
+/*.circle-big {
 width: 300px;
 height: 300px;
 border-style: 1px solid black;
@@ -640,7 +640,8 @@ background: lightgrey;
 border-radius: 150px;
 display: inline-block;
 margin: 10px;
-}
+}*/
+
 .circle {
 width: 200px;
 height: 200px;
