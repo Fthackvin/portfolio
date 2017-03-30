@@ -112,18 +112,36 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________
 ______________________________________________________________________________________________________*/
 
+nav#navigation_container {
+   margin: 0 auto;
+   width: 960px;
+}
+
+.rectangle {
+   background: white;
+   height: 62px;
+   position: relative;
+   -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+   box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   z-index: 500; /* the stack order: foreground */
+   margin: 1em 0;
+}
+
 .nav-title {
 	display: inline-block;
-	font-size: 30px;
-	font-family: 'NexaRustScript', Fallback, italic;
+	font-size: 20px;
+	font-family: 'GT-Eesti-Pro-Display-Trial-Medium', Fallback, serif;
 	margin-top: 20px;
 	padding-right: 60px;
 	padding-left: 20px;
-	color:#4e4d4d;
+	color:#E52D2D;
 }
 
 .nav-title  a {
-		color:#4e4d4d!important;
+		color:#E52D2D!important;
 }
 
 #logo-nav {
