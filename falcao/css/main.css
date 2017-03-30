@@ -120,7 +120,7 @@ nav#navigation_container {
 .rectangle {
    background: white;
    height: 62px;
-   position: relative;
+   position: absolute;
    -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
    box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
    -webkit-border-radius: 3px;
@@ -130,13 +130,20 @@ nav#navigation_container {
    margin: 1em 0;
 }
 
+.header-social-icons li  {
+  float: right;
+  margin: 4.5px;
+  margin-top: 18px;
+  color: #E52D2D;
+  
+}
 .nav-title {
 	display: inline-block;
 	font-size: 20px;
 	font-family: 'GT-Eesti-Pro-Display-Trial-Medium', Fallback, serif;
 	margin-top: 20px;
-	padding-right: 60px;
-	padding-left: 20px;
+	padding-right: 35px;
+  padding-left: 25px;
 	color:#E52D2D;
 }
 
@@ -144,10 +151,16 @@ nav#navigation_container {
 		color:#E52D2D!important;
 }
 
+.header-social-icons li  {
+  float: right;
+  display: inline-block;
+  
+}
+
 #logo-nav {
-  margin-top: 2px;
+  opacity: 1;
   float: left;
-  width: 124px;
+  width: 104px;
   height: auto;
    -ms-transform: rotate(-10deg); /* IE 9 */
   -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
@@ -368,11 +381,11 @@ ________________________________________________________________________________
 #treeline_2{
     width: 100%;
     overflow: hidden;
-    height: 100%;
+    height: 1200px;
     position: absolute;
 /*    bottom: 2px;*/
-    background-image: url(../img/backgrounds/GreenBGmin.png);
-    background-size: cover;
+    background-image: url(../img/backgrounds/GreenBGmincut.png);
+    background-size: contain;
     top:600px;
     z-index: 16;
     left: 0px;
@@ -577,38 +590,6 @@ font-size: 24px;
 
 }
 
-/* WAYS TO ENJOY / GOOD FOR YOU
-______________________________________________________________________________________________________
-______________________________________________________________________________________________________
-______________________________________________________________________________________________________*/
-
-.upsell-titles {
-
-font-size: 40px;
-font-family: 'NexaRustScript', Fallback, italic ;
-color: red;
-text-shadow: white;
-padding-bottom: 25px;
-}
-
-.box-info {
-	padding:31px 36px 48px 36px;
-	width:359px;
-	height: 517px;
-	border-style: dashed;
-	border-radius: 50px;
-	border-color: #373736;
-	display: inline-block;
-	background-color: white;
-	z-index: 10;
-  margin-bottom: 30px;
-}
-
-.info-titles-product {
-  font-family: 'Playfairdisplay', Fallback, italic ;
-  margin-top: 4px;
-  margin-bottom: 13px;
-}
 
 /* INGREDIENTS TEXT
 ______________________________________________________________________________________________________
@@ -616,15 +597,15 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________*/
 
 #bluebackground-ingredients {
-position: absolute;
-z-index: 1;
-height: auto;
-width: 100%;
-height: 1350px;
-background-repeat: no-repeat;
-right: 0;
-left: 0;
-}
+    position: absolute;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    right: 0;
+    left: 0;
+    margin-top: -30px;
+  }
 
 #ingredients-margin-2{
   margin-top: 200px;
@@ -649,35 +630,24 @@ font-family: 'NexaRustScript', Fallback, italic ;
   /*margin-top: 35px;*/
 }
 
-
-/*.circle-big {
-width: 300px;
-height: 300px;
-border-style: 1px solid black;
-background: lightgrey;
-border-radius: 150px;
-display: inline-block;
-margin: 10px;
-}*/
-
 .circle {
-width: 200px;
-height: 200px;
+width: 180px;
+height: 180px;
 border-style: 1px solid black;
 background: lightgrey;
 border-radius: 100px;
 display: inline-block;
-margin: 30px;
+margin: 20px;
 }
 
 .circle-2 {
-width: 200px;
-height: 200px;
+width: 180px;
+height: 180px;
 border-style: 1px solid black;
 background: lightgrey;
 border-radius: 100px;
 display: inline-block;
-margin: 30px;
+margin: 20px;
 }
 
 
@@ -746,6 +716,75 @@ background-repeat: no-repeat;
 background-size: contain;
 }
 
+
+/* WAYS TO ENJOY / GOOD FOR YOU
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________
+______________________________________________________________________________________________________*/
+
+#ways-to-enjoy {
+  padding: 0;
+  width: 100%!important;
+}
+
+#yellowbackground-ingredients {
+    position: absolute;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    right: 0;
+    left: 0;
+
+}
+
+.upsell-titles {
+
+font-size: 40px;
+font-family: 'NexaRustScript', Fallback, italic ;
+color: red;
+text-shadow: white;
+padding-bottom: 25px;
+}
+
+.box-info {
+  padding:31px 36px 48px 36px;
+  width:359px;
+  height: 517px;
+  border-style: dashed;
+  border-radius: 50px;
+  border-color: #373736;
+  display: inline-block;
+  background-color: white;
+  z-index: 10;
+  margin-bottom: 30px;
+}
+
+.info-titles-product {
+  font-family: 'Playfairdisplay', Fallback, italic ;
+  margin-top: 4px;
+  margin-bottom: 13px;
+}
+
+
+.cloud-bubble {
+  background-image: url(../img/backgrounds/BubbleBG2copy.png);
+  background-size: contain;
+  width: 100%;
+  height: 180px;
+  z-index: 30;
+  background-repeat: no-repeat
+}
+
+
+#ways-to-enjoy {
+  margin-top: 200px;
+  z-index: 10;
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
 
 /* COMMUNITY

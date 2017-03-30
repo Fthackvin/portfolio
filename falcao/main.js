@@ -17,28 +17,28 @@ $(document).ready(function(){
 
 // LOGO
 
-$(document).ready(function(){
-	// Init Scrollmagic
-var controller = new ScrollMagic.Controller();
+// $(document).ready(function(){
+// 	// Init Scrollmagic
+// var controller = new ScrollMagic.Controller();
 
 
-var slideParallaxScene = new ScrollMagic.Scene({
-triggerElement: ".background8",
-triggerHook: 0.1,
-duration: "300%"
-})
-.setClassToggle('.show-logo', 'show')
-// .addIndicators({
-// name: 'cloud layer LEFT',
-// colorTrigger: 'pink',
-// indent: 750,
-// colorstart:'red'
-// 	})
+// var slideParallaxScene = new ScrollMagic.Scene({
+// triggerElement: ".background8",
+// triggerHook: 0.1,
+// duration: "300%"
+// })
+// .setClassToggle('.show-logo', 'show')
+// // .addIndicators({
+// // name: 'cloud layer LEFT',
+// // colorTrigger: 'pink',
+// // indent: 750,
+// // colorstart:'red'
+// // 	})
 
-.setTween(TweenMax.to(".show", 1, {y:"-10%", ease:Power4.easeNone}))
-.addTo(controller);
+// .setTween(TweenMax.to(".show", 1, {y:"-10%", ease:Power4.easeNone}))
+// .addTo(controller);
 
-});
+// });
 
 
 // CLOUDS
