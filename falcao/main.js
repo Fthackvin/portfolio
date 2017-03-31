@@ -376,7 +376,7 @@ duration: "100%"
 // colorstart:'blue'
 // 	})
 
-.setTween(TweenMax.to(".background16", 3, {y:"-22%", ease:Power4.easeNone}))
+.setTween(TweenMax.to(".background16", 2, {y:"-24%", ease:Power4.easeNone}))
 .addTo(controller);
 
 });

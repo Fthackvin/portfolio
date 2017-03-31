@@ -84,6 +84,8 @@ ________________________________________________________________________________
 body {
   margin: 0; margin: 0;
   overflow-x: hidden;
+   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 p {
@@ -98,9 +100,7 @@ h1 {
 
 li {
   list-style: none;
-  float: left;
-    font-family: 'MyriadPro-Regular', Fallback, serif;
-    color: white;
+  color: white;
 }
 
 ul {
@@ -129,6 +129,7 @@ nav#navigation_container {
    border-radius: 3px;
    z-index: 500; /* the stack order: foreground */
    margin: 1em 0;
+  width: 960px;
 
 }
 
@@ -199,15 +200,6 @@ img.show-logo.show {
     transition: opacity 1s ease-in-out;
 }
 
-hr#nav-hr { 
-    display: block;
-    margin-top: 0em;
-    margin-bottom: 0em;
-    margin-left: 0;
-    margin-right: 0;
-    border-width: 3px;
-    border-color: #373736;
-}
 
 /* PARALLAX
 ______________________________________________________________________________________________________
@@ -423,19 +415,21 @@ ________________________________________________________________________________
     background-size: contain;
     height: 16px;
     transform: rotate(180deg);
+     background-position:center;
 }
 
 
 #flower3{
+ text-align: center;
     background-image: url(../img/parallax/flower.gif);
     position: absolute;
     z-index: 100;
     width: 14px;
     background-size: contain;
     height: 14px;
-      text-align: center;
-      right: 0;
-      left: 0;
+    margin-top: -20px;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
 }
 
 
@@ -448,6 +442,8 @@ ________________________________________________________________________________
     background-size: contain;
     height: 14px;
     transform: rotate(180deg);
+    margin-top: 20px;
+     background-repeat: no-repeat;
 }
 
 
@@ -716,6 +712,11 @@ ________________________________________________________________________________
     background-repeat: no-repeat;
     right: 0;
     left: 0;
+    background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-size:100%;
+background-position:center;
 
 }
 
@@ -749,19 +750,27 @@ padding-bottom: 25px;
 
 
 .cloud-bubble {
-     background-image: url(../img/backgrounds/BubbleBG2copy.png);
-    background-size: contain;
+    background-image: url(../img/backgrounds/BubbleBG2copy.png);
+    background-size: cover;
     overflow: hidden;
-    position: relative;
-    width: 90%;
-    height: 151px;
+    position: absolute;
+    width: 100%;
+    height: 190px;
+    padding-top: 29px;
+    padding-left: 22px;
+    padding-right: 22px;
     z-index: 30;
-    background-repeat: no-repeat;
-    margin-left: auto;
-    margin-right: auto;
-    float: right;
 }
 
+.invisible-cloud-bubble{
+   background-size: contain;
+    overflow: hidden;
+    position:relative;
+    width: 100%;
+    height: 250px;
+    z-index: 30;
+    background-repeat: no-repeat;
+}
 
 #ways-to-enjoy-bubbles {
   margin-top: 20px;
@@ -771,29 +780,47 @@ padding-bottom: 25px;
 
 
 #ways-to-enjoy-title {
-      color: white;
+    color: white;
     text-align: center;
     font-family: 'GT-Eesti-Pro-Display-Trial-Regular', Fallback, serif;
     position: relative;
     z-index: 30;
-    right: 40px;
-    margin-left: 40px;
     width: 100%;
     background-size: contain;
     font-size: 19px;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 300px;
+    padding-right: 300px;
     margin-top: 48px;
+    position: absolute;
   }
+
 .text-ways-to-enjoy {
   z-index: 30;
   color: white;
-   text-align: center;
-    font-family: 'GT-Eesti-Pro-Display-Trial-Regular', Fallback, serif;
-        font-size: 19px;
-        position: relative;
-          padding-left: 160px;
-    padding-right: 160px;
+  text-align: center;
+  font-family: 'GT-Eesti-Pro-Display-Trial-Regular', Fallback, serif;
+  font-size: 16px;
+  position: absolute;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+ #section-vertical-line{
+ border-right: thick solid #E52D2D;
+ height:  90%;
+
+border-top--radius: 125px;
+
+ }
+
+.text-ways-to-enjoy-title {
+  z-index: 30;
+  color: white;
+  text-align: center;
+  font-family: 'GT-Eesti-Pro-Display-Trial-Regular', Fallback, serif;
+  font-size: 19px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 
@@ -816,8 +843,9 @@ ________________________________________________________________________________
 position: relative;
 z-index: 20;
 height: auto;
-width: 88%;
+width: 65%;
 background-repeat: no-repeat;
+padding-bottom: 80px;
 
 }
 
@@ -833,88 +861,237 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________*/
 
 
-footer {
-	clear: both;
- position: absolute;
-  right: 0;
-  left: 0;
-  padding: 0rem;
-  background-color: white;
-
-}
-
-#footer-image2 img {
-	   z-index: 3;
-}
-
-#final-footer-wrapper {
-
- position: absolute;
-bottom: 0;
-left:0;}
-
-#final-footer {
-	width:100%;
-	height: 70px;
-	background-color: #251b1b;;
-	color: white;
-	z-index: 2;
-}
-
-.footercopyright {
-	font-size: 20px;
-	font-family: 'NexaRustScript', Fallback, italic;
-	padding-top: 23px;
-}
-
-#treeline_footer_2 {
+/*#treeline_1_footer {
     width: 100%;
-    height: 100%;
+    height:100%;
     position: absolute;
     background-repeat: no-repeat;
     background-image: url(../img/parallax/kfalcaos-1136px_hedge-1.png);
     background-size: cover;
-    z-index: 16;
+    z-index: 10;
+    margin: 0;
 }
 
-#treeline_footer {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-   /* bottom: 60px;*/
-    background-image: url(../img/parallax/kfalcaos-1136px_hedge-2.png);
+#treeline_2_footer {
+  width: 100%;
+  height:100%;
+  position: absolute;
+   background-image: url(../img/parallax/kfalcaos-1136px_hedge-2.png);
     background-size: cover;
-    z-index: 16;
+    z-index: 10;
     background-repeat: no-repeat;
-}
+       margin: 0;
+}*/
 
 /* FOOTER-COPY
 ______________________________________________________________________________________________________
 ______________________________________________________________________________________________________
 ______________________________________________________________________________________________________*/
 
-.footer-info-padding {
-margin-bottom: 100px;
-color: white;
-/*margin-top: 10px;*/
+#footer-hr-line {
+  height: 100px;
+    position: relative;
+    height: 3px !important;
+    width: 100%;
+    border-top: 1.9px solid #5D8D4E;
+    text-align: center;
+    right: 20px;
+    left: 20px;
 }
 
-h1.footer-header-size {
-	font-size: 26px;
+#section-vertical-line-footer-1 {
+border-right: thin solid #5D8D4E;
+border-left: thin solid #5D8D4E;
+ height:  84%;
+border-top--radius: 125px;
+margin-top: 10px;
 }
 
-#footer-address {
-  padding-top: 30px;
-  margin-left: 30%;
+#section-vertical-line-footer {
+border-right: thin solid #5D8D4E;
+ height:  84%;
+border-top--radius: 125px;
+margin-top: 10px;
 }
 
-#who-we-are {
-  padding-top: 20px;
-	max-width: 313px;
-    margin-right: 40px;
-    margin-left: -20px;
+ul {
+  list-style: none
+}
+a {
+  text-decoration: none
 }
 
-#get-in-touch {
-  padding-top: 20px;
+
+.flex-rw {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+footer {
+  background: rgb(55,55,55);
+  margin-top: auto;
+  width: 100%
+}
+
+.footer-list-top > li {
+  text-align: left;
+  padding-top: 10px;
+  /*padding-bottom: 10px*/
+}
+.footer-list-header {
+  padding: 0px 0 5px 0;
+  color: #fff;
+  font: 2.0vw 'GT-Eesti-Pro-Display-Trial-Regular', Fallback, serif;
+}
+.footer-list-anchor {
+  font: 1.1em 'GT-Eesti-Pro-Display-Trial-Regular', Fallback, serif;
+    color: #5D8D4E!important;
+}
+.footer-social-section {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 5px;
+}
+.footer-social-section::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 10px;
+  border-top: 1px solid $primary-line-color;
+  width: calc(100% - 20px)
+}
+.footer-social-overlap {
+  position: relative;
+  z-index: 2;
+  background: rgb(55,55,55);
+  padding: 0 20px
+}
+.footer-social-connect {
+  display: flex;
+  align-items: center;
+  font: 3.5em 'GT-Eesti-Pro-Display-Trial-Regular', Fallback, serif;
+  color: #fff
+}
+.footer-social-small {
+  font-size: 0.6em;
+  padding: 0px 20px
+   margin-bottom:20px;
+}
+.footer-social-overlap > a {
+  font-size: 3em
+}
+.footer-social-overlap > a:not(:first-child) {
+  margin-left: 0.38em
+}
+.footer-bottom-section {
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid $primary-line-color;
+  margin-top: 10px
+}
+/*.footer-bottom-section > div:first-child {
+  margin-right: auto
+}*/
+.footer-bottom-wrapper {
+  font: 1.5em 'GT-Eesti-Pro-Display-Trial-Regular', Fallback, serif;
+  color: #fff;
+  margin: 0;
+   right: 0;
+    position: absolute;
+    left: 0;
+}
+.footer-address {
+  display: inline;
+  font-style: normal
+}
+@media only screen and (max-width: 768px) {
+  .footer-list-header {
+    font-size: 2em
+  }
+  .footer-list-anchor {
+    font-size: 1.1em
+  }
+  .footer-social-connect {
+    font-size: 2.5em
+  }
+  .footer-social-overlap > a {
+    font-size: 2.24em
+  }
+  .footer-bottom-wrapper {
+    font-size: 1.3em
+  }
+}
+@media only screen and (max-width: 568px) {
+  main {
+    font-size: 5em
+  }
+  .footer-list-top {
+    width: 100%
+  }
+  .footer-list-header {
+    font-size: 3em;
+  }
+  .footer-list-anchor {
+    font-size: 1.5em
+  }
+  .footer-social-section {
+    justify-content: center
+  }
+  .footer-social-section::after {
+    top: 25%
+  }
+  .footer-social-connect {
+    margin-bottom: 10px;
+    padding: 0 10px
+  }
+  .footer-social-overlap {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-social-icons-wrapper {
+    width: 100%;
+    padding: 0
+  }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 20px;
+  }
+  .footer-bottom-section {
+    padding: 0 5px 10px 5px
+  }
+  .footer-bottom-wrapper {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer-social-overlap > a {
+    margin: auto
+  }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 0;
+  }
+  .footer-bottom-rights {
+    display: block
+  }
+}
+@media only screen and (max-width: 320px) {
+  .footer-list-header {
+    font-size: 2.2em
+  }
+  .footer-list-anchor {
+    font-size: 1.2em
+  }
+  .footer-social-connect {
+    font-size: 2.4em
+  }
+  .footer-social-overlap > a {
+    font-size: 2.24em
+  }
+  .footer-bottom-wrapper {
+    font-size: 1.3em
+  }
 }
