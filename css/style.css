@@ -50,12 +50,12 @@ ________________________________________________________________________________
 
 li {
   display: inline-block;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 37px;
-  font-family: "Josefin Sans",sans-serif;
-  font-size: 20px;
-  z-index: 0;
+padding-left: 27px;
+padding-right: 27px;
+padding-top: 32px;
+font-family: "Josefin Sans",sans-serif;
+font-size: 20px;
+z-index: 0;
 font-weight: 100;
 }
 
@@ -200,7 +200,7 @@ ________________________________________________________________________________
 .panels {
   min-height: 100%;
   min-width: 100%;
-  background-color: #86E8D2;
+  background-color: #20DEB3;
   background-size: 100%;
   top: 0;
   bottom: 100%;
@@ -865,7 +865,7 @@ ________________________________________________________________________________
 #fun {
   min-height: 100%;
   min-width: 100%;
-  background-color: #ffee58;
+  background-color: #f02f18;
   opacity: 0.71;
   background-size: 100%;
   position: relative;
@@ -1942,7 +1942,7 @@ h1#developer_title{
 
 @media screen and (min-width:1199px){
 h1#developer_title{
-    padding-top: 0px!important;
+    padding-top: 20px!important;
   }
 }
 
